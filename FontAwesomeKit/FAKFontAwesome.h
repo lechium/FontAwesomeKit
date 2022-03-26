@@ -2,9 +2,6 @@
 
 @interface FAKFontAwesome : FAKIcon
 
-- (void)setImageColor:(UIColor *)color;
-- (UIImage *)easyImageRepWithColor:(UIColor *)color;
-
 // Generated Code
 + (instancetype)fivehundredpxIconWithSize:(CGFloat)size;
 + (instancetype)abacusIconWithSize:(CGFloat)size;

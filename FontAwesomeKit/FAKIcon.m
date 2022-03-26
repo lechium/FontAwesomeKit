@@ -134,6 +134,15 @@
 
 #pragma mark - Image Drawing
 
+- (UIImage *)easyImageRepWithColor:(UIColor *)color {
+    [self setImageColor:color];
+    return [self imageWithSize:CGSizeMake(self.iconFontSize, self.iconFontSize)];
+}
+
+- (void)setImageColor:(UIColor *)color {
+    [self addAttribute:NSForegroundColorAttributeName value:color];
+}
+
 - (UIImage *)imageWithSize:(CGSize)imageSize
 {
     UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0.0);

@@ -62,14 +62,6 @@
     return font;
 }
 
-- (UIImage *)easyImageRepWithColor:(UIColor *)color {
-    [self setImageColor:color];
-    return [self imageWithSize:CGSizeMake(self.iconFontSize, self.iconFontSize)];
-}
-
-- (void)setImageColor:(UIColor *)color {
-    [self addAttribute:NSForegroundColorAttributeName value:color];
-}
 // Generated Code
 + (instancetype)fivehundredpxIconWithSize:(CGFloat)size { return [self iconWithCode:@"\uf26e" size:size]; }
 + (instancetype)abacusIconWithSize:(CGFloat)size { return [self iconWithCode:@"\uf640" size:size]; }
