@@ -9,7 +9,7 @@ File.read("_variables.scss").each_line do |line|
   name = parts[0]
   if name && name.start_with?('$fa-var-')
     name = name['$fa-var-'.length..(name.length) -2]
-    iconNames.push "fa-#{name}"
+
     if name === '500px'
       name = 'fivehundredpx'
     end
@@ -24,11 +24,15 @@ File.read("_variables.scss").each_line do |line|
     end
 
     name = nameParts.join
-    names.push name
+    
   
     code = parts[1]
-    code = code[2..5]
-    codes.push "\\u#{code}"
+    code = code[1..4]
+    if !code.end_with?(';') 
+    	iconNames.push "fa-#{name}"
+    	names.push name
+    	codes.push "\\u#{code}"
+    end
   end
 end
 
