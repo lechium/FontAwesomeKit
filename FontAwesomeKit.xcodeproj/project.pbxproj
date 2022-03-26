@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C9BA8BC27EE823E008F1A70 /* Font Awesome 5 Free.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9BA8BB27EE823D008F1A70 /* Font Awesome 5 Free.otf */; };
+		4C9BA8C627EEF689008F1A70 /* FAKFontRegistryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C9BA8C727EEF689008F1A70 /* FAKFontRegistryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */; };
 		AD6F202F1D6896B800DEF1F0 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6F204A1D68970600DEF1F0 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6F20351D68970600DEF1F0 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6F204B1D68970600DEF1F0 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6F20361D68970600DEF1F0 /* FAKFontAwesome.m */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		4C9BA8BB27EE823D008F1A70 /* Font Awesome 5 Free.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free.otf"; sourceTree = "<group>"; };
+		4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAKFontRegistryManager.h; sourceTree = "<group>"; };
+		4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAKFontRegistryManager.m; sourceTree = "<group>"; };
 		AD6F202A1D6896B700DEF1F0 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
 		AD6F20351D68970600DEF1F0 /* FAKFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesome.h; sourceTree = "<group>"; };
@@ -87,23 +91,25 @@
 			isa = PBXGroup;
 			children = (
 				AD6F20351D68970600DEF1F0 /* FAKFontAwesome.h */,
-				AD6F20371D68970600DEF1F0 /* FAKFoundationIcons.h */,
-				AD6F20391D68970600DEF1F0 /* FAKIcon.h */,
-				AD6F203B1D68970600DEF1F0 /* FAKIonIcons.h */,
-				AD6F203D1D68970600DEF1F0 /* FAKMaterialIcons.h */,
-				AD6F203F1D68970600DEF1F0 /* FAKOcticons.h */,
-				AD6F20411D68970600DEF1F0 /* FAKZocial.h */,
-				AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */,
 				AD6F20361D68970600DEF1F0 /* FAKFontAwesome.m */,
+				4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */,
+				4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */,
+				AD6F20371D68970600DEF1F0 /* FAKFoundationIcons.h */,
 				AD6F20381D68970600DEF1F0 /* FAKFoundationIcons.m */,
+				AD6F20391D68970600DEF1F0 /* FAKIcon.h */,
 				AD6F203A1D68970600DEF1F0 /* FAKIcon.m */,
+				AD6F203B1D68970600DEF1F0 /* FAKIonIcons.h */,
 				AD6F203C1D68970600DEF1F0 /* FAKIonIcons.m */,
+				AD6F203D1D68970600DEF1F0 /* FAKMaterialIcons.h */,
 				AD6F203E1D68970600DEF1F0 /* FAKMaterialIcons.m */,
+				AD6F203F1D68970600DEF1F0 /* FAKOcticons.h */,
 				AD6F20401D68970600DEF1F0 /* FAKOcticons.m */,
+				AD6F20411D68970600DEF1F0 /* FAKZocial.h */,
 				AD6F20421D68970600DEF1F0 /* FAKZocial.m */,
 				4C9BA8BB27EE823D008F1A70 /* Font Awesome 5 Free.otf */,
-				AD6F20451D68970600DEF1F0 /* Info.plist */,
+				AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */,
 				AD6F20441D68970600DEF1F0 /* foundation-icons.ttf */,
+				AD6F20451D68970600DEF1F0 /* Info.plist */,
 				AD6F20461D68970600DEF1F0 /* ionicons.ttf */,
 				AD6F20471D68970600DEF1F0 /* Material-Design-Iconic-Font.ttf */,
 				AD6F20481D68970600DEF1F0 /* octicons.ttf */,
@@ -120,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD6F20501D68970600DEF1F0 /* FAKIonIcons.h in Headers */,
+				4C9BA8C627EEF689008F1A70 /* FAKFontRegistryManager.h in Headers */,
 				AD6F20541D68970600DEF1F0 /* FAKOcticons.h in Headers */,
 				AD6F204A1D68970600DEF1F0 /* FAKFontAwesome.h in Headers */,
 				AD6F204C1D68970600DEF1F0 /* FAKFoundationIcons.h in Headers */,
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9BA8C727EEF689008F1A70 /* FAKFontRegistryManager.m in Sources */,
 				AD6F20511D68970600DEF1F0 /* FAKIonIcons.m in Sources */,
 				AD6F20531D68970600DEF1F0 /* FAKMaterialIcons.m in Sources */,
 				AD6F20571D68970600DEF1F0 /* FAKZocial.m in Sources */,

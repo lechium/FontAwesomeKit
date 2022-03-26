@@ -1,20 +1,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "FAKFontAwesome.h"
+#import "FAKFontRegistryManager.h"
 
 @implementation FAKFontAwesome
 
-/*
- [[files filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, NSDictionary<NSString *,id> * _Nullable bindings) {
-     if ([[evaluatedObject pathExtension] isEqualToString:@"pkg"]){
-         return true;
-     }
-     return false;
- }]] lastObject]
- */
-
 + (NSString *)fontAwesomeFontName {
-    NSString *returnObject = nil;
+    
+    NSString *returnObject = [[FAKFontRegistryManager sharedManager] fontNameFromClass:FAKFontAwesome.class];
+    if (returnObject) {
+        return returnObject;
+    }
     NSPredicate *proPredicate = [NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, NSDictionary<NSString *,id> * _Nullable bindings) {
         return ([evaluatedObject containsString:@"Pro"]);
     }];
@@ -38,19 +34,30 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         NSFileManager *man = [NSFileManager defaultManager];
+        NSString *proName = nil;
+        NSString *freeName = nil;
         NSURL *fontAwesomePro = [[NSBundle bundleForClass:[FAKFontAwesome class]] URLForResource:@"FontAwesomePro" withExtension:@"otf"];
         if ([man fileExistsAtPath:fontAwesomePro.path]){
-            [self registerIconFontWithURL:fontAwesomePro];
+            proName = [self registerIconFontWithURL:fontAwesomePro];
         } else {
             fontAwesomePro = [[NSBundle mainBundle] URLForResource:@"FontAwesomePro" withExtension:@"otf"];
-            [self registerIconFontWithURL:fontAwesomePro];
+            proName =  [self registerIconFontWithURL:fontAwesomePro];
         }
-        [self registerIconFontWithURL:[[NSBundle bundleForClass:[FAKFontAwesome class]] URLForResource:@"Font Awesome 5 Free" withExtension:@"otf"]];
+        freeName = [self registerIconFontWithURL:[[NSBundle bundleForClass:[FAKFontAwesome class]] URLForResource:@"Font Awesome 5 Free" withExtension:@"otf"]];
+        if (proName){
+            [[FAKFontRegistryManager sharedManager] registerName:proName forClass:FAKFontAwesome.class];
+        } else if (freeName){
+            [[FAKFontRegistryManager sharedManager] registerName:freeName forClass:FAKFontAwesome.class];
+        }
     });
 #endif
     NSString *fontAwesomeName = [FAKFontAwesome fontAwesomeFontName];
     //DLog(@"font awesome name: %@", fontAwesomeName);
     UIFont *font = [UIFont fontWithName:fontAwesomeName size:size];
+    if (!font) {
+        UIFontDescriptor *desc = [UIFontDescriptor fontDescriptorWithName:fontAwesomeName size:size];
+        font = [UIFont fontWithDescriptor:desc size:size];
+    }
     NSAssert(font, @"UIFont object should not be nil, check if the font file is added to the application bundle and you're using the correct font name.");
     return font;
 }

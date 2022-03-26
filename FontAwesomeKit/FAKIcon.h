@@ -27,8 +27,10 @@
  *  Register a icon font with it's file url.
  *
  *  @param url The file url for the font, file must exists.
+ *
+ *  @returns an NSString of the fontName associated with the new registered font
  */
-+ (void)registerIconFontWithURL:(NSURL *)url;
++ (NSString *)registerIconFontWithURL:(NSURL *)url;
 
 /**
  *  Returns an dictionary of icons available for this icon font.

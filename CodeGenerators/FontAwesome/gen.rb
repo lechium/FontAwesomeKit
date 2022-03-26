@@ -13,6 +13,10 @@ File.read("_variables.scss").each_line do |line|
     if name === '500px'
       name = 'fivehundredpx'
     end
+    
+    if name === '42-group'
+        name = 'fortytwo-group'
+    end
 
     nameParts = name.split('-')
     nameParts = nameParts.each_with_index.map do |p, i|

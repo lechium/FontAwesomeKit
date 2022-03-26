@@ -1,8 +1,6 @@
 #import "FAKIcon.h"
 #import <CoreText/CoreText.h>
 
-
-
 @interface FAKIcon ()
 
 @property (strong, nonatomic) NSMutableAttributedString *mutableAttributedString;
@@ -11,7 +9,7 @@
 
 @implementation FAKIcon
 
-+ (void)registerIconFontWithURL:(NSURL *)url
++ (NSString *)registerIconFontWithURL:(NSURL *)url
 {
     NSAssert([[NSFileManager defaultManager] fileExistsAtPath:[url path]], @"Font file doesn't exist");
     CGDataProviderRef fontDataProvider = CGDataProviderCreateWithURL((__bridge CFURLRef)url);
@@ -20,10 +18,12 @@
     CFErrorRef error = NULL;
     CTFontManagerRegisterGraphicsFont(newFont, &error);
     CGFontRelease(newFont);
-    
+    NSString *fontName = (__bridge NSString *)CGFontCopyFullName(newFont);
+    //DLog(@"registered font name: %@", fontName);
     if (error) {
         CFRelease(error);
     }
+    return fontName;
 }
 
 + (NSDictionary *)allIcons

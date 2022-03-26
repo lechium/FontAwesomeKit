@@ -9,5 +9,5 @@
 #import "FAKIonIcons.h"
 #import "FAKOcticons.h"
 #import "FAKMaterialIcons.h"
-
+#import "FAKFontRegistryManager.h"
 #endif
