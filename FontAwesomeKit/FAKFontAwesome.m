@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "FAKFontAwesome.h"
 #import "FAKFontRegistryManager.h"
+#import "FAKFontAwesome.h"
 
 @implementation FAKFontAwesome
 
