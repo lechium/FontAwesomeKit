@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "FAKFontRegistryManager.h"
 
 #define DLog(format, ...) CFShow((__bridge CFStringRef)[NSString stringWithFormat:format, ## __VA_ARGS__]);
 
@@ -148,6 +149,14 @@
  *  @return The icon font of the icon.
  */
 - (UIFont *)iconFont;
+
+/**
+ * Returns the registered font name if applicable
+ *
+ * @return the registered font name
+ */
+
++ (NSString *)fontName;
 
 /**
  *  Draws the icon on an image. The icon will be centered horizontally and vertically by default. You can set the drawingPostionAdjustment property to adjust drawing offset.

@@ -9,6 +9,15 @@
 
 @implementation FAKIcon
 
++ (NSString *)fontName {
+    DLog(@"class: %@", self.class);
+    NSString *returnObject = [[FAKFontRegistryManager sharedManager] fontNameFromClass:self.class];
+    if (returnObject) {
+        return returnObject;
+    }
+    return nil;
+}
+
 + (NSString *)registerIconFontWithURL:(NSURL *)url
 {
     NSAssert([[NSFileManager defaultManager] fileExistsAtPath:[url path]], @"Font file doesn't exist");

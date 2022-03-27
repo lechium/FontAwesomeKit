@@ -7,12 +7,12 @@ Icon font library for iOS. Currently supports Font-Awesome, Foundation icons, Zo
 
 Currently FontAwesomeKit supports **6** different icon fonts.
 
-- [FontAwesome 4.7](http://fontawesome.io) Our old friend, contains **675** icons
+- [FontAwesome 5.15.4](http://fontawesome.io) Our old friend, contains **675** icons
 - [Foundation icons](http://zurb.com/playground/foundation-icon-fonts-3) Contains **283** icons.
-- [Zocial](http://zocial.smcllns.com/) Contains **99** social icons.
-- [ionicons 2.0.0](http://ionicons.com/) Contains **733** icons, lots of iOS 7 style outlined icons.
+- [Zocial 1.4](http://zocial.smcllns.com/) Contains **117** social icons.
+- [ionicons 5.2.1](http://ionicons.com/) Contains **1,226** icons, lots of iOS 7 style outlined icons.
 - [Octicons 2.4.1](https://octicons.github.com/) Contains **206** icons, built with love by [Github](https://github.com/).
-- [Material 2.0.0](https://google.github.io/material-design-icons/) Contains **743** icons, built by Google for Material design.
+- [Material 4.0.0](https://google.github.io/material-design-icons/) Contains **2,171** icons, built by Google for Material design.
 
 ### API Reforged, Take Advantage of NSAttributedString
 Thanks to `NSAttributedString` the API is more clean and object oriented. All hail `NSAttributedString`!

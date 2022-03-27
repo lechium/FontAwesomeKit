@@ -1,13 +1,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "FAKFontRegistryManager.h"
 #import "FAKFontAwesome.h"
 
 @implementation FAKFontAwesome
 
-+ (NSString *)fontAwesomeFontName {
++ (NSString *)fontName {
     
-    NSString *returnObject = [[FAKFontRegistryManager sharedManager] fontNameFromClass:FAKFontAwesome.class];
+    NSString *returnObject = [super fontName];
     if (returnObject) {
         return returnObject;
     }
@@ -51,7 +50,7 @@
         }
     });
 #endif
-    NSString *fontAwesomeName = [FAKFontAwesome fontAwesomeFontName];
+    NSString *fontAwesomeName = [FAKFontAwesome fontName];
     //DLog(@"font awesome name: %@", fontAwesomeName);
     UIFont *font = [UIFont fontWithName:fontAwesomeName size:size];
     if (!font) {

@@ -6,8 +6,8 @@ iconNames = [];
 
 File.read("ionicons.css").each_line do |line| 
   name = '' 
-  line.gsub(/(?<=ion-).*(?=:before)/i) { |match| name = match }
-  iconNames.push "ion-#{name}"
+  line.gsub(/(?<=icon-).*(?=:before)/i) { |match| name = match }
+  iconNames.push "icon-#{name}"
   nameParts = name.split('-')
   nameParts = nameParts.each_with_index.map do |p, i|
     if i < 1
