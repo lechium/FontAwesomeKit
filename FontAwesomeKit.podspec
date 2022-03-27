@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'UIKit', 'CoreText'
   s.tvos.deployment_target = '9.0'
   s.tvos.frameworks = 'UIKit', 'CoreText'
-  s.source_files = 'FontAwesomeKit/FontAwesomeKit.h'
+  s.source_files = 'FontAwesomeKit/FontAwesomeKit.h', 'FontAwesomeKit/FAKFontRegistryManager.{h,m}'
   s.requires_arc = true
 
   s.subspec 'Core' do |ss|

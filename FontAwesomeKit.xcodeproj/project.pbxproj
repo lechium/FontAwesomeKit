@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C9BA8BC27EE823E008F1A70 /* Font Awesome 5 Free.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9BA8BB27EE823D008F1A70 /* Font Awesome 5 Free.otf */; };
+		4C9BA8BC27EE823E008F1A70 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */; };
 		4C9BA8C627EEF689008F1A70 /* FAKFontRegistryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9BA8C727EEF689008F1A70 /* FAKFontRegistryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */; };
 		AD6F202F1D6896B800DEF1F0 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C9BA8BB27EE823D008F1A70 /* Font Awesome 5 Free.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free.otf"; sourceTree = "<group>"; };
+		4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAKFontRegistryManager.h; sourceTree = "<group>"; };
 		4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAKFontRegistryManager.m; sourceTree = "<group>"; };
 		AD6F202A1D6896B700DEF1F0 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +106,7 @@
 				AD6F20401D68970600DEF1F0 /* FAKOcticons.m */,
 				AD6F20411D68970600DEF1F0 /* FAKZocial.h */,
 				AD6F20421D68970600DEF1F0 /* FAKZocial.m */,
-				4C9BA8BB27EE823D008F1A70 /* Font Awesome 5 Free.otf */,
+				4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */,
 				AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */,
 				AD6F20441D68970600DEF1F0 /* foundation-icons.ttf */,
 				AD6F20451D68970600DEF1F0 /* Info.plist */,
@@ -202,7 +202,7 @@
 				AD6F205E1D68970600DEF1F0 /* zocial-regular-webfont.ttf in Resources */,
 				AD6F205D1D68970600DEF1F0 /* octicons.ttf in Resources */,
 				AD6F205C1D68970600DEF1F0 /* Material-Design-Iconic-Font.ttf in Resources */,
-				4C9BA8BC27EE823E008F1A70 /* Font Awesome 5 Free.otf in Resources */,
+				4C9BA8BC27EE823E008F1A70 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
