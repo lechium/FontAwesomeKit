@@ -10,7 +10,6 @@
 @implementation FAKIcon
 
 + (NSString *)fontName {
-    DLog(@"class: %@", self.class);
     NSString *returnObject = [[FAKFontRegistryManager sharedManager] fontNameFromClass:self.class];
     if (returnObject) {
         return returnObject;
