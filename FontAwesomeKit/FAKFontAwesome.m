@@ -42,7 +42,7 @@
             fontAwesomePro = [[NSBundle mainBundle] URLForResource:@"FontAwesomePro" withExtension:@"otf"];
             proName =  [self registerIconFontWithURL:fontAwesomePro];
         }
-        freeName = [self registerIconFontWithURL:[[NSBundle bundleForClass:[FAKFontAwesome class]] URLForResource:@"Font Awesome 5 Free" withExtension:@"otf"]];
+        freeName = [self registerIconFontWithURL:[[NSBundle bundleForClass:[FAKFontAwesome class]] URLForResource:@"FontAwesome" withExtension:@"otf"]];
         if (proName){
             [[FAKFontRegistryManager sharedManager] registerName:proName forClass:FAKFontAwesome.class];
         } else if (freeName){
