@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FontAwesomeKit"
-  s.version      = "2.2.1"
+  s.version      = "2.5"
   s.summary      = "Icon font library for iOS. Currently supports Font-Awesome, Foundation icons, Zocial, and ionicons"
   s.homepage     = "https://github.com/PrideChung/FontAwesomeKit"
   s.screenshots  = "http://i.minus.com/i3vNn0fTwcJeI.png", "http://i.minus.com/ivKqhOLJLVvmJ.png"
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'FontAwesome' do |ss|
     ss.dependency 'FontAwesomeKit/Core'
-    ss.source_files = 'FontAwesomeKit/FAKFontAwesome.{h,m}', 'FontAwesomeKit/FAKFontAwesomeBrands.{h,m}' , 'FontAwesomeKit/FAKFontAwesomeBrands6.{h,m}', 'FontAwesomeKit/FAKFontAwesomeFree.{h,m}'
+    ss.source_files = 'FontAwesomeKit/FAKFontAwesome.{h,m}', 'FontAwesomeKit/FAKFontAwesomeBrands.{h,m}' , 'FontAwesomeKit/FAKFontAwesomeBrands6.{h,m}', 'FontAwesomeKit/FAKFontAwesomeFree.{h,m}', 'FontAwesomeKit/NSDictionary+keyForObject.{h,m}'
     ss.resource  = 'FontAwesomeKit/FontAwesome.otf', 'FontAwesomeKit/FontAwesomeBrands.otf' , 'FontAwesomeKit/FontAwesomeBrands6.otf'
   end
 
