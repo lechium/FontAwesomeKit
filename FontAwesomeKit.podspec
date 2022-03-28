@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'FontAwesome' do |ss|
     ss.dependency 'FontAwesomeKit/Core'
-    ss.source_files = 'FontAwesomeKit/FAKFontAwesome.{h,m}', 'FontAwesomeKit/FAKFontAwesomeBrands.{h,m}' , 'FontAwesomeKit/FAKFontAwesomeBrands6.{h,m}', 'FontAwesomeKit/FAKFontAwesomeFree.{h,m}', 'FontAwesomeKit/NSDictionary+keyForObject.{h,m}'
+    ss.source_files = 'FontAwesomeKit/FAKFontAwesome.{h,m}', 'FontAwesomeKit/FAKFontAwesomeBrands.{h,m}' , 'FontAwesomeKit/FAKFontAwesomeBrands6.{h,m}', 'FontAwesomeKit/FAKFontAwesomeFree.{h,m}', 'FontAwesomeKit/NSDictionary+keyForObject.{h,m}', 'FontAwesomeKit/FAKFontAwesomeSix.{h,m}'
     ss.resource  = 'FontAwesomeKit/FontAwesome.otf', 'FontAwesomeKit/FontAwesomeBrands.otf' , 'FontAwesomeKit/FontAwesomeBrands6.otf'
   end
 
