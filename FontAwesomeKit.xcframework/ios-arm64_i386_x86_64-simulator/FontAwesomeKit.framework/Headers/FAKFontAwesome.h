@@ -12,16 +12,12 @@
 + (instancetype)addressBookIconWithSize:(CGFloat)size;
 + (instancetype)addressCardIconWithSize:(CGFloat)size;
 + (instancetype)adjustIconWithSize:(CGFloat)size;
-+ (instancetype)adobeIconWithSize:(CGFloat)size;
-+ (instancetype)airConditionerIconWithSize:(CGFloat)size;
 + (instancetype)airFreshenerIconWithSize:(CGFloat)size;
 + (instancetype)alarmClockIconWithSize:(CGFloat)size;
 + (instancetype)alarmExclamationIconWithSize:(CGFloat)size;
 + (instancetype)alarmPlusIconWithSize:(CGFloat)size;
 + (instancetype)alarmSnoozeIconWithSize:(CGFloat)size;
 + (instancetype)alicornIconWithSize:(CGFloat)size;
-+ (instancetype)alienIconWithSize:(CGFloat)size;
-+ (instancetype)alienMonsterIconWithSize:(CGFloat)size;
 + (instancetype)alignCenterIconWithSize:(CGFloat)size;
 + (instancetype)alignJustifyIconWithSize:(CGFloat)size;
 + (instancetype)alignLeftIconWithSize:(CGFloat)size;
@@ -110,8 +106,6 @@
 + (instancetype)backspaceIconWithSize:(CGFloat)size;
 + (instancetype)backwardIconWithSize:(CGFloat)size;
 + (instancetype)baconIconWithSize:(CGFloat)size;
-+ (instancetype)bacteriaIconWithSize:(CGFloat)size;
-+ (instancetype)bacteriumIconWithSize:(CGFloat)size;
 + (instancetype)badgeIconWithSize:(CGFloat)size;
 + (instancetype)badgeCheckIconWithSize:(CGFloat)size;
 + (instancetype)badgeDollarIconWithSize:(CGFloat)size;
@@ -146,13 +140,9 @@
 + (instancetype)batterySlashIconWithSize:(CGFloat)size;
 + (instancetype)batteryThreeQuartersIconWithSize:(CGFloat)size;
 + (instancetype)bedIconWithSize:(CGFloat)size;
-+ (instancetype)bedAltIconWithSize:(CGFloat)size;
-+ (instancetype)bedBunkIconWithSize:(CGFloat)size;
-+ (instancetype)bedEmptyIconWithSize:(CGFloat)size;
 + (instancetype)beerIconWithSize:(CGFloat)size;
 + (instancetype)bellIconWithSize:(CGFloat)size;
 + (instancetype)bellExclamationIconWithSize:(CGFloat)size;
-+ (instancetype)bellOnIconWithSize:(CGFloat)size;
 + (instancetype)bellPlusIconWithSize:(CGFloat)size;
 + (instancetype)bellSchoolIconWithSize:(CGFloat)size;
 + (instancetype)bellSchoolSlashIconWithSize:(CGFloat)size;
@@ -169,10 +159,6 @@
 + (instancetype)blanketIconWithSize:(CGFloat)size;
 + (instancetype)blenderIconWithSize:(CGFloat)size;
 + (instancetype)blenderPhoneIconWithSize:(CGFloat)size;
-+ (instancetype)blindIconWithSize:(CGFloat)size;
-+ (instancetype)blindsIconWithSize:(CGFloat)size;
-+ (instancetype)blindsOpenIconWithSize:(CGFloat)size;
-+ (instancetype)blindsRaisedIconWithSize:(CGFloat)size;
 + (instancetype)blogIconWithSize:(CGFloat)size;
 + (instancetype)boldIconWithSize:(CGFloat)size;
 + (instancetype)boltIconWithSize:(CGFloat)size;
@@ -265,7 +251,6 @@
 + (instancetype)calendarWeekIconWithSize:(CGFloat)size;
 + (instancetype)cameraIconWithSize:(CGFloat)size;
 + (instancetype)cameraAltIconWithSize:(CGFloat)size;
-+ (instancetype)cameraHomeIconWithSize:(CGFloat)size;
 + (instancetype)cameraRetroIconWithSize:(CGFloat)size;
 + (instancetype)campfireIconWithSize:(CGFloat)size;
 + (instancetype)campgroundIconWithSize:(CGFloat)size;
@@ -305,7 +290,6 @@
 + (instancetype)cartPlusIconWithSize:(CGFloat)size;
 + (instancetype)cashRegisterIconWithSize:(CGFloat)size;
 + (instancetype)catIconWithSize:(CGFloat)size;
-+ (instancetype)catSpaceIconWithSize:(CGFloat)size;
 + (instancetype)cauldronIconWithSize:(CGFloat)size;
 + (instancetype)certificateIconWithSize:(CGFloat)size;
 + (instancetype)chairIconWithSize:(CGFloat)size;
@@ -406,16 +390,13 @@
 + (instancetype)codeCommitIconWithSize:(CGFloat)size;
 + (instancetype)codeMergeIconWithSize:(CGFloat)size;
 + (instancetype)coffeeIconWithSize:(CGFloat)size;
-+ (instancetype)coffeePotIconWithSize:(CGFloat)size;
 + (instancetype)coffeeTogoIconWithSize:(CGFloat)size;
 + (instancetype)coffinIconWithSize:(CGFloat)size;
-+ (instancetype)coffinCrossIconWithSize:(CGFloat)size;
 + (instancetype)cogIconWithSize:(CGFloat)size;
 + (instancetype)cogsIconWithSize:(CGFloat)size;
 + (instancetype)coinIconWithSize:(CGFloat)size;
 + (instancetype)coinsIconWithSize:(CGFloat)size;
 + (instancetype)columnsIconWithSize:(CGFloat)size;
-+ (instancetype)cometIconWithSize:(CGFloat)size;
 + (instancetype)commentIconWithSize:(CGFloat)size;
 + (instancetype)commentAltIconWithSize:(CGFloat)size;
 + (instancetype)commentAltCheckIconWithSize:(CGFloat)size;
@@ -483,7 +464,6 @@
 + (instancetype)curlingIconWithSize:(CGFloat)size;
 + (instancetype)cutIconWithSize:(CGFloat)size;
 + (instancetype)daggerIconWithSize:(CGFloat)size;
-+ (instancetype)dailymotionIconWithSize:(CGFloat)size;
 + (instancetype)databaseIconWithSize:(CGFloat)size;
 + (instancetype)deafIconWithSize:(CGFloat)size;
 + (instancetype)debugIconWithSize:(CGFloat)size;
@@ -595,12 +575,9 @@
 + (instancetype)eyeEvilIconWithSize:(CGFloat)size;
 + (instancetype)eyeSlashIconWithSize:(CGFloat)size;
 + (instancetype)fanIconWithSize:(CGFloat)size;
-+ (instancetype)fanTableIconWithSize:(CGFloat)size;
 + (instancetype)farmIconWithSize:(CGFloat)size;
 + (instancetype)fastBackwardIconWithSize:(CGFloat)size;
 + (instancetype)fastForwardIconWithSize:(CGFloat)size;
-+ (instancetype)faucetIconWithSize:(CGFloat)size;
-+ (instancetype)faucetDripIconWithSize:(CGFloat)size;
 + (instancetype)faxIconWithSize:(CGFloat)size;
 + (instancetype)featherIconWithSize:(CGFloat)size;
 + (instancetype)featherAltIconWithSize:(CGFloat)size;
@@ -654,7 +631,6 @@
 + (instancetype)fireAltIconWithSize:(CGFloat)size;
 + (instancetype)fireExtinguisherIconWithSize:(CGFloat)size;
 + (instancetype)fireSmokeIconWithSize:(CGFloat)size;
-+ (instancetype)firefoxBrowserIconWithSize:(CGFloat)size;
 + (instancetype)fireplaceIconWithSize:(CGFloat)size;
 + (instancetype)firstAidIconWithSize:(CGFloat)size;
 + (instancetype)fishIconWithSize:(CGFloat)size;
@@ -677,13 +653,11 @@
 + (instancetype)fluxCapacitorIconWithSize:(CGFloat)size;
 + (instancetype)fogIconWithSize:(CGFloat)size;
 + (instancetype)folderIconWithSize:(CGFloat)size;
-+ (instancetype)folderDownloadIconWithSize:(CGFloat)size;
 + (instancetype)folderMinusIconWithSize:(CGFloat)size;
 + (instancetype)folderOpenIconWithSize:(CGFloat)size;
 + (instancetype)folderPlusIconWithSize:(CGFloat)size;
 + (instancetype)folderTimesIconWithSize:(CGFloat)size;
 + (instancetype)folderTreeIconWithSize:(CGFloat)size;
-+ (instancetype)folderUploadIconWithSize:(CGFloat)size;
 + (instancetype)foldersIconWithSize:(CGFloat)size;
 + (instancetype)fontIconWithSize:(CGFloat)size;
 + (instancetype)fontAwesomeLogoFullIconWithSize:(CGFloat)size;
@@ -701,15 +675,9 @@
 + (instancetype)functionIconWithSize:(CGFloat)size;
 + (instancetype)funnelDollarIconWithSize:(CGFloat)size;
 + (instancetype)futbolIconWithSize:(CGFloat)size;
-+ (instancetype)galaxyIconWithSize:(CGFloat)size;
 + (instancetype)gameBoardIconWithSize:(CGFloat)size;
 + (instancetype)gameBoardAltIconWithSize:(CGFloat)size;
-+ (instancetype)gameConsoleHandheldIconWithSize:(CGFloat)size;
 + (instancetype)gamepadIconWithSize:(CGFloat)size;
-+ (instancetype)gamepadAltIconWithSize:(CGFloat)size;
-+ (instancetype)garageIconWithSize:(CGFloat)size;
-+ (instancetype)garageCarIconWithSize:(CGFloat)size;
-+ (instancetype)garageOpenIconWithSize:(CGFloat)size;
 + (instancetype)gasPumpIconWithSize:(CGFloat)size;
 + (instancetype)gasPumpSlashIconWithSize:(CGFloat)size;
 + (instancetype)gavelIconWithSize:(CGFloat)size;
@@ -742,7 +710,6 @@
 + (instancetype)golfClubIconWithSize:(CGFloat)size;
 + (instancetype)gopuramIconWithSize:(CGFloat)size;
 + (instancetype)graduationCapIconWithSize:(CGFloat)size;
-+ (instancetype)gramophoneIconWithSize:(CGFloat)size;
 + (instancetype)greaterThanIconWithSize:(CGFloat)size;
 + (instancetype)greaterThanEqualIconWithSize:(CGFloat)size;
 + (instancetype)grimaceIconWithSize:(CGFloat)size;
@@ -806,7 +773,6 @@
 + (instancetype)hardHatIconWithSize:(CGFloat)size;
 + (instancetype)hashtagIconWithSize:(CGFloat)size;
 + (instancetype)hatChefIconWithSize:(CGFloat)size;
-+ (instancetype)hatCowboyIconWithSize:(CGFloat)size;
 + (instancetype)hatSantaIconWithSize:(CGFloat)size;
 + (instancetype)hatWinterIconWithSize:(CGFloat)size;
 + (instancetype)hatWitchIconWithSize:(CGFloat)size;
@@ -826,7 +792,6 @@
 + (instancetype)heartRateIconWithSize:(CGFloat)size;
 + (instancetype)heartSquareIconWithSize:(CGFloat)size;
 + (instancetype)heartbeatIconWithSize:(CGFloat)size;
-+ (instancetype)heatIconWithSize:(CGFloat)size;
 + (instancetype)helicopterIconWithSize:(CGFloat)size;
 + (instancetype)helmetBattleIconWithSize:(CGFloat)size;
 + (instancetype)hexagonIconWithSize:(CGFloat)size;
@@ -859,14 +824,8 @@
 + (instancetype)hourglassEndIconWithSize:(CGFloat)size;
 + (instancetype)hourglassHalfIconWithSize:(CGFloat)size;
 + (instancetype)hourglassStartIconWithSize:(CGFloat)size;
-+ (instancetype)houseIconWithSize:(CGFloat)size;
 + (instancetype)houseDamageIconWithSize:(CGFloat)size;
-+ (instancetype)houseDayIconWithSize:(CGFloat)size;
 + (instancetype)houseFloodIconWithSize:(CGFloat)size;
-+ (instancetype)houseLeaveIconWithSize:(CGFloat)size;
-+ (instancetype)houseNightIconWithSize:(CGFloat)size;
-+ (instancetype)houseReturnIconWithSize:(CGFloat)size;
-+ (instancetype)houseSignalIconWithSize:(CGFloat)size;
 + (instancetype)hryvniaIconWithSize:(CGFloat)size;
 + (instancetype)humidityIconWithSize:(CGFloat)size;
 + (instancetype)hurricaneIconWithSize:(CGFloat)size;
@@ -879,7 +838,6 @@
 + (instancetype)idBadgeIconWithSize:(CGFloat)size;
 + (instancetype)idCardIconWithSize:(CGFloat)size;
 + (instancetype)idCardAltIconWithSize:(CGFloat)size;
-+ (instancetype)idealIconWithSize:(CGFloat)size;
 + (instancetype)iglooIconWithSize:(CGFloat)size;
 + (instancetype)imageIconWithSize:(CGFloat)size;
 + (instancetype)imagesIconWithSize:(CGFloat)size;
@@ -894,7 +852,6 @@
 + (instancetype)infoCircleIconWithSize:(CGFloat)size;
 + (instancetype)infoSquareIconWithSize:(CGFloat)size;
 + (instancetype)inhalerIconWithSize:(CGFloat)size;
-+ (instancetype)instagramSquareIconWithSize:(CGFloat)size;
 + (instancetype)integralIconWithSize:(CGFloat)size;
 + (instancetype)intersectionIconWithSize:(CGFloat)size;
 + (instancetype)inventoryIconWithSize:(CGFloat)size;
@@ -920,8 +877,6 @@
 + (instancetype)knifeKitchenIconWithSize:(CGFloat)size;
 + (instancetype)lambdaIconWithSize:(CGFloat)size;
 + (instancetype)lampIconWithSize:(CGFloat)size;
-+ (instancetype)lampDeskIconWithSize:(CGFloat)size;
-+ (instancetype)lampFloorIconWithSize:(CGFloat)size;
 + (instancetype)landmarkIconWithSize:(CGFloat)size;
 + (instancetype)landmarkAltIconWithSize:(CGFloat)size;
 + (instancetype)languageIconWithSize:(CGFloat)size;
@@ -947,10 +902,6 @@
 + (instancetype)levelUpIconWithSize:(CGFloat)size;
 + (instancetype)levelUpAltIconWithSize:(CGFloat)size;
 + (instancetype)lifeRingIconWithSize:(CGFloat)size;
-+ (instancetype)lightCeilingIconWithSize:(CGFloat)size;
-+ (instancetype)lightSwitchIconWithSize:(CGFloat)size;
-+ (instancetype)lightSwitchOffIconWithSize:(CGFloat)size;
-+ (instancetype)lightSwitchOnIconWithSize:(CGFloat)size;
 + (instancetype)lightbulbIconWithSize:(CGFloat)size;
 + (instancetype)lightbulbDollarIconWithSize:(CGFloat)size;
 + (instancetype)lightbulbExclamationIconWithSize:(CGFloat)size;
@@ -1029,14 +980,12 @@
 + (instancetype)menorahIconWithSize:(CGFloat)size;
 + (instancetype)mercuryIconWithSize:(CGFloat)size;
 + (instancetype)meteorIconWithSize:(CGFloat)size;
-+ (instancetype)microblogIconWithSize:(CGFloat)size;
 + (instancetype)microchipIconWithSize:(CGFloat)size;
 + (instancetype)microphoneIconWithSize:(CGFloat)size;
 + (instancetype)microphoneAltIconWithSize:(CGFloat)size;
 + (instancetype)microphoneAltSlashIconWithSize:(CGFloat)size;
 + (instancetype)microphoneSlashIconWithSize:(CGFloat)size;
 + (instancetype)microscopeIconWithSize:(CGFloat)size;
-+ (instancetype)microwaveIconWithSize:(CGFloat)size;
 + (instancetype)mindShareIconWithSize:(CGFloat)size;
 + (instancetype)minusIconWithSize:(CGFloat)size;
 + (instancetype)minusCircleIconWithSize:(CGFloat)size;
@@ -1045,7 +994,6 @@
 + (instancetype)minusSquareIconWithSize:(CGFloat)size;
 + (instancetype)mistletoeIconWithSize:(CGFloat)size;
 + (instancetype)mittenIconWithSize:(CGFloat)size;
-+ (instancetype)mixerIconWithSize:(CGFloat)size;
 + (instancetype)mobileIconWithSize:(CGFloat)size;
 + (instancetype)mobileAltIconWithSize:(CGFloat)size;
 + (instancetype)mobileAndroidIconWithSize:(CGFloat)size;
@@ -1091,8 +1039,6 @@
 + (instancetype)ornamentIconWithSize:(CGFloat)size;
 + (instancetype)otterIconWithSize:(CGFloat)size;
 + (instancetype)outdentIconWithSize:(CGFloat)size;
-+ (instancetype)outletIconWithSize:(CGFloat)size;
-+ (instancetype)ovenIconWithSize:(CGFloat)size;
 + (instancetype)overlineIconWithSize:(CGFloat)size;
 + (instancetype)pageBreakIconWithSize:(CGFloat)size;
 + (instancetype)pagerIconWithSize:(CGFloat)size;
@@ -1152,7 +1098,6 @@
 + (instancetype)photoVideoIconWithSize:(CGFloat)size;
 + (instancetype)piIconWithSize:(CGFloat)size;
 + (instancetype)pieIconWithSize:(CGFloat)size;
-+ (instancetype)piedPiperSquareIconWithSize:(CGFloat)size;
 + (instancetype)pigIconWithSize:(CGFloat)size;
 + (instancetype)piggyBankIconWithSize:(CGFloat)size;
 + (instancetype)pillsIconWithSize:(CGFloat)size;
@@ -1163,8 +1108,6 @@
 + (instancetype)planeAltIconWithSize:(CGFloat)size;
 + (instancetype)planeArrivalIconWithSize:(CGFloat)size;
 + (instancetype)planeDepartureIconWithSize:(CGFloat)size;
-+ (instancetype)planetMoonIconWithSize:(CGFloat)size;
-+ (instancetype)planetRingedIconWithSize:(CGFloat)size;
 + (instancetype)playIconWithSize:(CGFloat)size;
 + (instancetype)playCircleIconWithSize:(CGFloat)size;
 + (instancetype)plugIconWithSize:(CGFloat)size;
@@ -1176,7 +1119,6 @@
 + (instancetype)podcastIconWithSize:(CGFloat)size;
 + (instancetype)podiumIconWithSize:(CGFloat)size;
 + (instancetype)podiumStarIconWithSize:(CGFloat)size;
-+ (instancetype)policeBoxIconWithSize:(CGFloat)size;
 + (instancetype)pollIconWithSize:(CGFloat)size;
 + (instancetype)pollHIconWithSize:(CGFloat)size;
 + (instancetype)pollPeopleIconWithSize:(CGFloat)size;
@@ -1184,8 +1126,6 @@
 + (instancetype)pooStormIconWithSize:(CGFloat)size;
 + (instancetype)poopIconWithSize:(CGFloat)size;
 + (instancetype)popcornIconWithSize:(CGFloat)size;
-+ (instancetype)portalEnterIconWithSize:(CGFloat)size;
-+ (instancetype)portalExitIconWithSize:(CGFloat)size;
 + (instancetype)portraitIconWithSize:(CGFloat)size;
 + (instancetype)poundSignIconWithSize:(CGFloat)size;
 + (instancetype)powerOffIconWithSize:(CGFloat)size;
@@ -1213,7 +1153,6 @@
 + (instancetype)rabbitIconWithSize:(CGFloat)size;
 + (instancetype)rabbitFastIconWithSize:(CGFloat)size;
 + (instancetype)racquetIconWithSize:(CGFloat)size;
-+ (instancetype)radarIconWithSize:(CGFloat)size;
 + (instancetype)radiationIconWithSize:(CGFloat)size;
 + (instancetype)radiationAltIconWithSize:(CGFloat)size;
 + (instancetype)rainbowIconWithSize:(CGFloat)size;
@@ -1221,7 +1160,6 @@
 + (instancetype)ramIconWithSize:(CGFloat)size;
 + (instancetype)rampLoadingIconWithSize:(CGFloat)size;
 + (instancetype)randomIconWithSize:(CGFloat)size;
-+ (instancetype)raygunIconWithSize:(CGFloat)size;
 + (instancetype)receiptIconWithSize:(CGFloat)size;
 + (instancetype)rectangleLandscapeIconWithSize:(CGFloat)size;
 + (instancetype)rectanglePortraitIconWithSize:(CGFloat)size;
@@ -1229,7 +1167,6 @@
 + (instancetype)recycleIconWithSize:(CGFloat)size;
 + (instancetype)redoIconWithSize:(CGFloat)size;
 + (instancetype)redoAltIconWithSize:(CGFloat)size;
-+ (instancetype)refrigeratorIconWithSize:(CGFloat)size;
 + (instancetype)registeredIconWithSize:(CGFloat)size;
 + (instancetype)removeFormatIconWithSize:(CGFloat)size;
 + (instancetype)repeatIconWithSize:(CGFloat)size;
@@ -1248,7 +1185,6 @@
 + (instancetype)roadIconWithSize:(CGFloat)size;
 + (instancetype)robotIconWithSize:(CGFloat)size;
 + (instancetype)rocketIconWithSize:(CGFloat)size;
-+ (instancetype)rocketLaunchIconWithSize:(CGFloat)size;
 + (instancetype)routeIconWithSize:(CGFloat)size;
 + (instancetype)routeHighwayIconWithSize:(CGFloat)size;
 + (instancetype)routeInterstateIconWithSize:(CGFloat)size;
@@ -1276,7 +1212,6 @@
 + (instancetype)scalpelIconWithSize:(CGFloat)size;
 + (instancetype)scalpelPathIconWithSize:(CGFloat)size;
 + (instancetype)scannerIconWithSize:(CGFloat)size;
-+ (instancetype)scannerImageIconWithSize:(CGFloat)size;
 + (instancetype)scannerKeyboardIconWithSize:(CGFloat)size;
 + (instancetype)scannerTouchscreenIconWithSize:(CGFloat)size;
 + (instancetype)scarecrowIconWithSize:(CGFloat)size;
@@ -1296,11 +1231,6 @@
 + (instancetype)seedlingIconWithSize:(CGFloat)size;
 + (instancetype)sendBackIconWithSize:(CGFloat)size;
 + (instancetype)sendBackwardIconWithSize:(CGFloat)size;
-+ (instancetype)sensorIconWithSize:(CGFloat)size;
-+ (instancetype)sensorAlertIconWithSize:(CGFloat)size;
-+ (instancetype)sensorFireIconWithSize:(CGFloat)size;
-+ (instancetype)sensorOnIconWithSize:(CGFloat)size;
-+ (instancetype)sensorSmokeIconWithSize:(CGFloat)size;
 + (instancetype)serverIconWithSize:(CGFloat)size;
 + (instancetype)shapesIconWithSize:(CGFloat)size;
 + (instancetype)shareIconWithSize:(CGFloat)size;
@@ -1319,7 +1249,6 @@
 + (instancetype)shippingTimedIconWithSize:(CGFloat)size;
 + (instancetype)shishKebabIconWithSize:(CGFloat)size;
 + (instancetype)shoePrintsIconWithSize:(CGFloat)size;
-+ (instancetype)shopifyIconWithSize:(CGFloat)size;
 + (instancetype)shoppingBagIconWithSize:(CGFloat)size;
 + (instancetype)shoppingBasketIconWithSize:(CGFloat)size;
 + (instancetype)shoppingCartIconWithSize:(CGFloat)size;
@@ -1350,8 +1279,6 @@
 + (instancetype)signalSlashIconWithSize:(CGFloat)size;
 + (instancetype)signatureIconWithSize:(CGFloat)size;
 + (instancetype)simCardIconWithSize:(CGFloat)size;
-+ (instancetype)sirenIconWithSize:(CGFloat)size;
-+ (instancetype)sirenOnIconWithSize:(CGFloat)size;
 + (instancetype)sitemapIconWithSize:(CGFloat)size;
 + (instancetype)skatingIconWithSize:(CGFloat)size;
 + (instancetype)skeletonIconWithSize:(CGFloat)size;
@@ -1388,7 +1315,6 @@
 + (instancetype)snowplowIconWithSize:(CGFloat)size;
 + (instancetype)socksIconWithSize:(CGFloat)size;
 + (instancetype)solarPanelIconWithSize:(CGFloat)size;
-+ (instancetype)solarSystemIconWithSize:(CGFloat)size;
 + (instancetype)sortIconWithSize:(CGFloat)size;
 + (instancetype)sortAlphaDownIconWithSize:(CGFloat)size;
 + (instancetype)sortAlphaDownAltIconWithSize:(CGFloat)size;
@@ -1399,9 +1325,6 @@
 + (instancetype)sortAmountDownAltIconWithSize:(CGFloat)size;
 + (instancetype)sortAmountUpIconWithSize:(CGFloat)size;
 + (instancetype)sortAmountUpAltIconWithSize:(CGFloat)size;
-+ (instancetype)sortCircleIconWithSize:(CGFloat)size;
-+ (instancetype)sortCircleDownIconWithSize:(CGFloat)size;
-+ (instancetype)sortCircleUpIconWithSize:(CGFloat)size;
 + (instancetype)sortDownIconWithSize:(CGFloat)size;
 + (instancetype)sortNumericDownIconWithSize:(CGFloat)size;
 + (instancetype)sortNumericDownAltIconWithSize:(CGFloat)size;
@@ -1419,8 +1342,6 @@
 + (instancetype)soupIconWithSize:(CGFloat)size;
 + (instancetype)spaIconWithSize:(CGFloat)size;
 + (instancetype)spaceShuttleIconWithSize:(CGFloat)size;
-+ (instancetype)spaceStationMoonIconWithSize:(CGFloat)size;
-+ (instancetype)spaceStationMoonAltIconWithSize:(CGFloat)size;
 + (instancetype)spadeIconWithSize:(CGFloat)size;
 + (instancetype)sparklesIconWithSize:(CGFloat)size;
 + (instancetype)spellCheckIconWithSize:(CGFloat)size;
@@ -1431,7 +1352,6 @@
 + (instancetype)spinnerThirdIconWithSize:(CGFloat)size;
 + (instancetype)splotchIconWithSize:(CGFloat)size;
 + (instancetype)sprayCanIconWithSize:(CGFloat)size;
-+ (instancetype)sprinklerIconWithSize:(CGFloat)size;
 + (instancetype)squareIconWithSize:(CGFloat)size;
 + (instancetype)squareFullIconWithSize:(CGFloat)size;
 + (instancetype)squareRootIconWithSize:(CGFloat)size;
@@ -1448,12 +1368,7 @@
 + (instancetype)starHalfAltIconWithSize:(CGFloat)size;
 + (instancetype)starOfDavidIconWithSize:(CGFloat)size;
 + (instancetype)starOfLifeIconWithSize:(CGFloat)size;
-+ (instancetype)starShootingIconWithSize:(CGFloat)size;
-+ (instancetype)starfighterIconWithSize:(CGFloat)size;
-+ (instancetype)starfighterAltIconWithSize:(CGFloat)size;
 + (instancetype)starsIconWithSize:(CGFloat)size;
-+ (instancetype)starshipIconWithSize:(CGFloat)size;
-+ (instancetype)starshipFreighterIconWithSize:(CGFloat)size;
 + (instancetype)steakIconWithSize:(CGFloat)size;
 + (instancetype)steeringWheelIconWithSize:(CGFloat)size;
 + (instancetype)stepBackwardIconWithSize:(CGFloat)size;
@@ -1465,7 +1380,6 @@
 + (instancetype)stopIconWithSize:(CGFloat)size;
 + (instancetype)stopCircleIconWithSize:(CGFloat)size;
 + (instancetype)stopwatchIconWithSize:(CGFloat)size;
-+ (instancetype)stopwatch20IconWithSize:(CGFloat)size;
 + (instancetype)storeIconWithSize:(CGFloat)size;
 + (instancetype)storeAltIconWithSize:(CGFloat)size;
 + (instancetype)streamIconWithSize:(CGFloat)size;
@@ -1490,10 +1404,7 @@
 + (instancetype)swimmerIconWithSize:(CGFloat)size;
 + (instancetype)swimmingPoolIconWithSize:(CGFloat)size;
 + (instancetype)swordIconWithSize:(CGFloat)size;
-+ (instancetype)swordLaserIconWithSize:(CGFloat)size;
-+ (instancetype)swordLaserAltIconWithSize:(CGFloat)size;
 + (instancetype)swordsIconWithSize:(CGFloat)size;
-+ (instancetype)swordsLaserIconWithSize:(CGFloat)size;
 + (instancetype)symfonyIconWithSize:(CGFloat)size;
 + (instancetype)synagogueIconWithSize:(CGFloat)size;
 + (instancetype)syncIconWithSize:(CGFloat)size;
@@ -1530,13 +1441,10 @@
 + (instancetype)taxiIconWithSize:(CGFloat)size;
 + (instancetype)teethIconWithSize:(CGFloat)size;
 + (instancetype)teethOpenIconWithSize:(CGFloat)size;
-+ (instancetype)telescopeIconWithSize:(CGFloat)size;
-+ (instancetype)temperatureDownIconWithSize:(CGFloat)size;
 + (instancetype)temperatureFrigidIconWithSize:(CGFloat)size;
 + (instancetype)temperatureHighIconWithSize:(CGFloat)size;
 + (instancetype)temperatureHotIconWithSize:(CGFloat)size;
 + (instancetype)temperatureLowIconWithSize:(CGFloat)size;
-+ (instancetype)temperatureUpIconWithSize:(CGFloat)size;
 + (instancetype)tengeIconWithSize:(CGFloat)size;
 + (instancetype)tennisBallIconWithSize:(CGFloat)size;
 + (instancetype)terminalIconWithSize:(CGFloat)size;
@@ -1598,16 +1506,10 @@
 + (instancetype)trafficLightGoIconWithSize:(CGFloat)size;
 + (instancetype)trafficLightSlowIconWithSize:(CGFloat)size;
 + (instancetype)trafficLightStopIconWithSize:(CGFloat)size;
-+ (instancetype)trailerIconWithSize:(CGFloat)size;
 + (instancetype)trainIconWithSize:(CGFloat)size;
 + (instancetype)tramIconWithSize:(CGFloat)size;
 + (instancetype)transgenderIconWithSize:(CGFloat)size;
 + (instancetype)transgenderAltIconWithSize:(CGFloat)size;
-+ (instancetype)transporterIconWithSize:(CGFloat)size;
-+ (instancetype)transporter1IconWithSize:(CGFloat)size;
-+ (instancetype)transporter2IconWithSize:(CGFloat)size;
-+ (instancetype)transporter3IconWithSize:(CGFloat)size;
-+ (instancetype)transporterEmptyIconWithSize:(CGFloat)size;
 + (instancetype)trashIconWithSize:(CGFloat)size;
 + (instancetype)trashAltIconWithSize:(CGFloat)size;
 + (instancetype)trashRestoreIconWithSize:(CGFloat)size;
@@ -1643,8 +1545,6 @@
 + (instancetype)tvMusicIconWithSize:(CGFloat)size;
 + (instancetype)tvRetroIconWithSize:(CGFloat)size;
 + (instancetype)typewriterIconWithSize:(CGFloat)size;
-+ (instancetype)ufoIconWithSize:(CGFloat)size;
-+ (instancetype)ufoBeamIconWithSize:(CGFloat)size;
 + (instancetype)umbracoIconWithSize:(CGFloat)size;
 + (instancetype)umbrellaIconWithSize:(CGFloat)size;
 + (instancetype)umbrellaBeachIconWithSize:(CGFloat)size;
@@ -1653,7 +1553,6 @@
 + (instancetype)undoAltIconWithSize:(CGFloat)size;
 + (instancetype)unicornIconWithSize:(CGFloat)size;
 + (instancetype)unionIconWithSize:(CGFloat)size;
-+ (instancetype)unityIconWithSize:(CGFloat)size;
 + (instancetype)universalAccessIconWithSize:(CGFloat)size;
 + (instancetype)universityIconWithSize:(CGFloat)size;
 + (instancetype)unlinkIconWithSize:(CGFloat)size;
@@ -1664,7 +1563,6 @@
 + (instancetype)usdCircleIconWithSize:(CGFloat)size;
 + (instancetype)usdSquareIconWithSize:(CGFloat)size;
 + (instancetype)userIconWithSize:(CGFloat)size;
-+ (instancetype)userAlienIconWithSize:(CGFloat)size;
 + (instancetype)userAltIconWithSize:(CGFloat)size;
 + (instancetype)userAltSlashIconWithSize:(CGFloat)size;
 + (instancetype)userAstronautIconWithSize:(CGFloat)size;
@@ -1673,7 +1571,6 @@
 + (instancetype)userCircleIconWithSize:(CGFloat)size;
 + (instancetype)userClockIconWithSize:(CGFloat)size;
 + (instancetype)userCogIconWithSize:(CGFloat)size;
-+ (instancetype)userCowboyIconWithSize:(CGFloat)size;
 + (instancetype)userCrownIconWithSize:(CGFloat)size;
 + (instancetype)userEditIconWithSize:(CGFloat)size;
 + (instancetype)userFriendsIconWithSize:(CGFloat)size;
@@ -1685,19 +1582,15 @@
 + (instancetype)userMdIconWithSize:(CGFloat)size;
 + (instancetype)userMdChatIconWithSize:(CGFloat)size;
 + (instancetype)userMinusIconWithSize:(CGFloat)size;
-+ (instancetype)userMusicIconWithSize:(CGFloat)size;
 + (instancetype)userNinjaIconWithSize:(CGFloat)size;
 + (instancetype)userNurseIconWithSize:(CGFloat)size;
 + (instancetype)userPlusIconWithSize:(CGFloat)size;
-+ (instancetype)userRobotIconWithSize:(CGFloat)size;
 + (instancetype)userSecretIconWithSize:(CGFloat)size;
 + (instancetype)userShieldIconWithSize:(CGFloat)size;
 + (instancetype)userSlashIconWithSize:(CGFloat)size;
 + (instancetype)userTagIconWithSize:(CGFloat)size;
 + (instancetype)userTieIconWithSize:(CGFloat)size;
 + (instancetype)userTimesIconWithSize:(CGFloat)size;
-+ (instancetype)userUnlockIconWithSize:(CGFloat)size;
-+ (instancetype)userVisorIconWithSize:(CGFloat)size;
 + (instancetype)usersIconWithSize:(CGFloat)size;
 + (instancetype)usersClassIconWithSize:(CGFloat)size;
 + (instancetype)usersCogIconWithSize:(CGFloat)size;
@@ -1708,8 +1601,6 @@
 + (instancetype)utensilSpoonIconWithSize:(CGFloat)size;
 + (instancetype)utensilsIconWithSize:(CGFloat)size;
 + (instancetype)utensilsAltIconWithSize:(CGFloat)size;
-+ (instancetype)vacuumIconWithSize:(CGFloat)size;
-+ (instancetype)vacuumRobotIconWithSize:(CGFloat)size;
 + (instancetype)valueAbsoluteIconWithSize:(CGFloat)size;
 + (instancetype)vectorSquareIconWithSize:(CGFloat)size;
 + (instancetype)venusIconWithSize:(CGFloat)size;
@@ -1722,7 +1613,6 @@
 + (instancetype)videoPlusIconWithSize:(CGFloat)size;
 + (instancetype)videoSlashIconWithSize:(CGFloat)size;
 + (instancetype)viharaIconWithSize:(CGFloat)size;
-+ (instancetype)violinIconWithSize:(CGFloat)size;
 + (instancetype)voicemailIconWithSize:(CGFloat)size;
 + (instancetype)volcanoIconWithSize:(CGFloat)size;
 + (instancetype)volleyballBallIconWithSize:(CGFloat)size;
@@ -1735,9 +1625,7 @@
 + (instancetype)voteNayIconWithSize:(CGFloat)size;
 + (instancetype)voteYeaIconWithSize:(CGFloat)size;
 + (instancetype)vrCardboardIconWithSize:(CGFloat)size;
-+ (instancetype)wagonCoveredIconWithSize:(CGFloat)size;
 + (instancetype)walkerIconWithSize:(CGFloat)size;
-+ (instancetype)walkieTalkieIconWithSize:(CGFloat)size;
 + (instancetype)walkingIconWithSize:(CGFloat)size;
 + (instancetype)walletIconWithSize:(CGFloat)size;
 + (instancetype)wandIconWithSize:(CGFloat)size;
@@ -1746,7 +1634,6 @@
 + (instancetype)warehouseAltIconWithSize:(CGFloat)size;
 + (instancetype)washerIconWithSize:(CGFloat)size;
 + (instancetype)watchIconWithSize:(CGFloat)size;
-+ (instancetype)watchCalculatorIconWithSize:(CGFloat)size;
 + (instancetype)watchFitnessIconWithSize:(CGFloat)size;
 + (instancetype)waterIconWithSize:(CGFloat)size;
 + (instancetype)waterLowerIconWithSize:(CGFloat)size;
@@ -1774,8 +1661,6 @@
 + (instancetype)windowIconWithSize:(CGFloat)size;
 + (instancetype)windowAltIconWithSize:(CGFloat)size;
 + (instancetype)windowCloseIconWithSize:(CGFloat)size;
-+ (instancetype)windowFrameIconWithSize:(CGFloat)size;
-+ (instancetype)windowFrameOpenIconWithSize:(CGFloat)size;
 + (instancetype)windowMaximizeIconWithSize:(CGFloat)size;
 + (instancetype)windowMinimizeIconWithSize:(CGFloat)size;
 + (instancetype)windowRestoreIconWithSize:(CGFloat)size;

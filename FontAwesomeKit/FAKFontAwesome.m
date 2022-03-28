@@ -11,16 +11,12 @@ static NSString *const FAKGlyphAd = @"\uf641";
 static NSString *const FAKGlyphAddressBook = @"\uf2b9";
 static NSString *const FAKGlyphAddressCard = @"\uf2bb";
 static NSString *const FAKGlyphAdjust = @"\uf042";
-static NSString *const FAKGlyphAdobe = @"\uf778";
-static NSString *const FAKGlyphAirConditioner = @"\uf8f4";
 static NSString *const FAKGlyphAirFreshener = @"\uf5d0";
 static NSString *const FAKGlyphAlarmClock = @"\uf34e";
 static NSString *const FAKGlyphAlarmExclamation = @"\uf843";
 static NSString *const FAKGlyphAlarmPlus = @"\uf844";
 static NSString *const FAKGlyphAlarmSnooze = @"\uf845";
 static NSString *const FAKGlyphAlicorn = @"\uf6b0";
-static NSString *const FAKGlyphAlien = @"\uf8f5";
-static NSString *const FAKGlyphAlienMonster = @"\uf8f6";
 static NSString *const FAKGlyphAlignCenter = @"\uf037";
 static NSString *const FAKGlyphAlignJustify = @"\uf039";
 static NSString *const FAKGlyphAlignLeft = @"\uf036";
@@ -109,8 +105,6 @@ static NSString *const FAKGlyphBackpack = @"\uf5d4";
 static NSString *const FAKGlyphBackspace = @"\uf55a";
 static NSString *const FAKGlyphBackward = @"\uf04a";
 static NSString *const FAKGlyphBacon = @"\uf7e5";
-static NSString *const FAKGlyphBacteria = @"\ue059";
-static NSString *const FAKGlyphBacterium = @"\ue05a";
 static NSString *const FAKGlyphBadge = @"\uf335";
 static NSString *const FAKGlyphBadgeCheck = @"\uf336";
 static NSString *const FAKGlyphBadgeDollar = @"\uf645";
@@ -145,13 +139,9 @@ static NSString *const FAKGlyphBatteryQuarter = @"\uf243";
 static NSString *const FAKGlyphBatterySlash = @"\uf377";
 static NSString *const FAKGlyphBatteryThreeQuarters = @"\uf241";
 static NSString *const FAKGlyphBed = @"\uf236";
-static NSString *const FAKGlyphBedAlt = @"\uf8f7";
-static NSString *const FAKGlyphBedBunk = @"\uf8f8";
-static NSString *const FAKGlyphBedEmpty = @"\uf8f9";
 static NSString *const FAKGlyphBeer = @"\uf0fc";
 static NSString *const FAKGlyphBell = @"\uf0f3";
 static NSString *const FAKGlyphBellExclamation = @"\uf848";
-static NSString *const FAKGlyphBellOn = @"\uf8fa";
 static NSString *const FAKGlyphBellPlus = @"\uf849";
 static NSString *const FAKGlyphBellSchool = @"\uf5d5";
 static NSString *const FAKGlyphBellSchoolSlash = @"\uf5d6";
@@ -168,10 +158,6 @@ static NSString *const FAKGlyphBirthdayCake = @"\uf1fd";
 static NSString *const FAKGlyphBlanket = @"\uf498";
 static NSString *const FAKGlyphBlender = @"\uf517";
 static NSString *const FAKGlyphBlenderPhone = @"\uf6b6";
-static NSString *const FAKGlyphBlind = @"\uf29d";
-static NSString *const FAKGlyphBlinds = @"\uf8fb";
-static NSString *const FAKGlyphBlindsOpen = @"\uf8fc";
-static NSString *const FAKGlyphBlindsRaised = @"\uf8fd";
 static NSString *const FAKGlyphBlog = @"\uf781";
 static NSString *const FAKGlyphBold = @"\uf032";
 static NSString *const FAKGlyphBolt = @"\uf0e7";
@@ -264,7 +250,6 @@ static NSString *const FAKGlyphCalendarTimes = @"\uf273";
 static NSString *const FAKGlyphCalendarWeek = @"\uf784";
 static NSString *const FAKGlyphCamera = @"\uf030";
 static NSString *const FAKGlyphCameraAlt = @"\uf332";
-static NSString *const FAKGlyphCameraHome = @"\uf8fe";
 static NSString *const FAKGlyphCameraRetro = @"\uf083";
 static NSString *const FAKGlyphCampfire = @"\uf6ba";
 static NSString *const FAKGlyphCampground = @"\uf6bb";
@@ -304,7 +289,6 @@ static NSString *const FAKGlyphCartArrowDown = @"\uf218";
 static NSString *const FAKGlyphCartPlus = @"\uf217";
 static NSString *const FAKGlyphCashRegister = @"\uf788";
 static NSString *const FAKGlyphCat = @"\uf6be";
-static NSString *const FAKGlyphCatSpace = @"\ue001";
 static NSString *const FAKGlyphCauldron = @"\uf6bf";
 static NSString *const FAKGlyphCertificate = @"\uf0a3";
 static NSString *const FAKGlyphChair = @"\uf6c0";
@@ -405,16 +389,13 @@ static NSString *const FAKGlyphCodeBranch = @"\uf126";
 static NSString *const FAKGlyphCodeCommit = @"\uf386";
 static NSString *const FAKGlyphCodeMerge = @"\uf387";
 static NSString *const FAKGlyphCoffee = @"\uf0f4";
-static NSString *const FAKGlyphCoffeePot = @"\ue002";
 static NSString *const FAKGlyphCoffeeTogo = @"\uf6c5";
 static NSString *const FAKGlyphCoffin = @"\uf6c6";
-static NSString *const FAKGlyphCoffinCross = @"\ue051";
 static NSString *const FAKGlyphCog = @"\uf013";
 static NSString *const FAKGlyphCogs = @"\uf085";
 static NSString *const FAKGlyphCoin = @"\uf85c";
 static NSString *const FAKGlyphCoins = @"\uf51e";
 static NSString *const FAKGlyphColumns = @"\uf0db";
-static NSString *const FAKGlyphComet = @"\ue003";
 static NSString *const FAKGlyphComment = @"\uf075";
 static NSString *const FAKGlyphCommentAlt = @"\uf27a";
 static NSString *const FAKGlyphCommentAltCheck = @"\uf4a2";
@@ -482,7 +463,6 @@ static NSString *const FAKGlyphCubes = @"\uf1b3";
 static NSString *const FAKGlyphCurling = @"\uf44a";
 static NSString *const FAKGlyphCut = @"\uf0c4";
 static NSString *const FAKGlyphDagger = @"\uf6cb";
-static NSString *const FAKGlyphDailymotion = @"\ue052";
 static NSString *const FAKGlyphDatabase = @"\uf1c0";
 static NSString *const FAKGlyphDeaf = @"\uf2a4";
 static NSString *const FAKGlyphDebug = @"\uf7f9";
@@ -594,12 +574,9 @@ static NSString *const FAKGlyphEyeDropper = @"\uf1fb";
 static NSString *const FAKGlyphEyeEvil = @"\uf6db";
 static NSString *const FAKGlyphEyeSlash = @"\uf070";
 static NSString *const FAKGlyphFan = @"\uf863";
-static NSString *const FAKGlyphFanTable = @"\ue004";
 static NSString *const FAKGlyphFarm = @"\uf864";
 static NSString *const FAKGlyphFastBackward = @"\uf049";
 static NSString *const FAKGlyphFastForward = @"\uf050";
-static NSString *const FAKGlyphFaucet = @"\ue005";
-static NSString *const FAKGlyphFaucetDrip = @"\ue006";
 static NSString *const FAKGlyphFax = @"\uf1ac";
 static NSString *const FAKGlyphFeather = @"\uf52d";
 static NSString *const FAKGlyphFeatherAlt = @"\uf56b";
@@ -653,7 +630,6 @@ static NSString *const FAKGlyphFire = @"\uf06d";
 static NSString *const FAKGlyphFireAlt = @"\uf7e4";
 static NSString *const FAKGlyphFireExtinguisher = @"\uf134";
 static NSString *const FAKGlyphFireSmoke = @"\uf74b";
-static NSString *const FAKGlyphFirefoxBrowser = @"\ue007";
 static NSString *const FAKGlyphFireplace = @"\uf79a";
 static NSString *const FAKGlyphFirstAid = @"\uf479";
 static NSString *const FAKGlyphFish = @"\uf578";
@@ -676,13 +652,11 @@ static NSString *const FAKGlyphFlute = @"\uf8b9";
 static NSString *const FAKGlyphFluxCapacitor = @"\uf8ba";
 static NSString *const FAKGlyphFog = @"\uf74e";
 static NSString *const FAKGlyphFolder = @"\uf07b";
-static NSString *const FAKGlyphFolderDownload = @"\ue053";
 static NSString *const FAKGlyphFolderMinus = @"\uf65d";
 static NSString *const FAKGlyphFolderOpen = @"\uf07c";
 static NSString *const FAKGlyphFolderPlus = @"\uf65e";
 static NSString *const FAKGlyphFolderTimes = @"\uf65f";
 static NSString *const FAKGlyphFolderTree = @"\uf802";
-static NSString *const FAKGlyphFolderUpload = @"\ue054";
 static NSString *const FAKGlyphFolders = @"\uf660";
 static NSString *const FAKGlyphFont = @"\uf031";
 static NSString *const FAKGlyphFontAwesomeLogoFull = @"\uf4e6";
@@ -700,15 +674,9 @@ static NSString *const FAKGlyphFrownOpen = @"\uf57a";
 static NSString *const FAKGlyphFunction = @"\uf661";
 static NSString *const FAKGlyphFunnelDollar = @"\uf662";
 static NSString *const FAKGlyphFutbol = @"\uf1e3";
-static NSString *const FAKGlyphGalaxy = @"\ue008";
 static NSString *const FAKGlyphGameBoard = @"\uf867";
 static NSString *const FAKGlyphGameBoardAlt = @"\uf868";
-static NSString *const FAKGlyphGameConsoleHandheld = @"\uf8bb";
 static NSString *const FAKGlyphGamepad = @"\uf11b";
-static NSString *const FAKGlyphGamepadAlt = @"\uf8bc";
-static NSString *const FAKGlyphGarage = @"\ue009";
-static NSString *const FAKGlyphGarageCar = @"\ue00a";
-static NSString *const FAKGlyphGarageOpen = @"\ue00b";
 static NSString *const FAKGlyphGasPump = @"\uf52f";
 static NSString *const FAKGlyphGasPumpSlash = @"\uf5f4";
 static NSString *const FAKGlyphGavel = @"\uf0e3";
@@ -741,7 +709,6 @@ static NSString *const FAKGlyphGolfBall = @"\uf450";
 static NSString *const FAKGlyphGolfClub = @"\uf451";
 static NSString *const FAKGlyphGopuram = @"\uf664";
 static NSString *const FAKGlyphGraduationCap = @"\uf19d";
-static NSString *const FAKGlyphGramophone = @"\uf8bd";
 static NSString *const FAKGlyphGreaterThan = @"\uf531";
 static NSString *const FAKGlyphGreaterThanEqual = @"\uf532";
 static NSString *const FAKGlyphGrimace = @"\uf57f";
@@ -805,7 +772,6 @@ static NSString *const FAKGlyphHanukiah = @"\uf6e6";
 static NSString *const FAKGlyphHardHat = @"\uf807";
 static NSString *const FAKGlyphHashtag = @"\uf292";
 static NSString *const FAKGlyphHatChef = @"\uf86b";
-static NSString *const FAKGlyphHatCowboy = @"\uf8c0";
 static NSString *const FAKGlyphHatSanta = @"\uf7a7";
 static NSString *const FAKGlyphHatWinter = @"\uf7a8";
 static NSString *const FAKGlyphHatWitch = @"\uf6e7";
@@ -825,7 +791,6 @@ static NSString *const FAKGlyphHeartCircle = @"\uf4c7";
 static NSString *const FAKGlyphHeartRate = @"\uf5f8";
 static NSString *const FAKGlyphHeartSquare = @"\uf4c8";
 static NSString *const FAKGlyphHeartbeat = @"\uf21e";
-static NSString *const FAKGlyphHeat = @"\ue00c";
 static NSString *const FAKGlyphHelicopter = @"\uf533";
 static NSString *const FAKGlyphHelmetBattle = @"\uf6eb";
 static NSString *const FAKGlyphHexagon = @"\uf312";
@@ -858,14 +823,8 @@ static NSString *const FAKGlyphHourglass = @"\uf254";
 static NSString *const FAKGlyphHourglassEnd = @"\uf253";
 static NSString *const FAKGlyphHourglassHalf = @"\uf252";
 static NSString *const FAKGlyphHourglassStart = @"\uf251";
-static NSString *const FAKGlyphHouse = @"\ue00d";
 static NSString *const FAKGlyphHouseDamage = @"\uf6f1";
-static NSString *const FAKGlyphHouseDay = @"\ue00e";
 static NSString *const FAKGlyphHouseFlood = @"\uf74f";
-static NSString *const FAKGlyphHouseLeave = @"\ue00f";
-static NSString *const FAKGlyphHouseNight = @"\ue010";
-static NSString *const FAKGlyphHouseReturn = @"\ue011";
-static NSString *const FAKGlyphHouseSignal = @"\ue012";
 static NSString *const FAKGlyphHryvnia = @"\uf6f2";
 static NSString *const FAKGlyphHumidity = @"\uf750";
 static NSString *const FAKGlyphHurricane = @"\uf751";
@@ -878,7 +837,6 @@ static NSString *const FAKGlyphIconsAlt = @"\uf86e";
 static NSString *const FAKGlyphIdBadge = @"\uf2c1";
 static NSString *const FAKGlyphIdCard = @"\uf2c2";
 static NSString *const FAKGlyphIdCardAlt = @"\uf47f";
-static NSString *const FAKGlyphIdeal = @"\ue013";
 static NSString *const FAKGlyphIgloo = @"\uf7ae";
 static NSString *const FAKGlyphImage = @"\uf03e";
 static NSString *const FAKGlyphImages = @"\uf302";
@@ -893,7 +851,6 @@ static NSString *const FAKGlyphInfo = @"\uf129";
 static NSString *const FAKGlyphInfoCircle = @"\uf05a";
 static NSString *const FAKGlyphInfoSquare = @"\uf30f";
 static NSString *const FAKGlyphInhaler = @"\uf5f9";
-static NSString *const FAKGlyphInstagramSquare = @"\ue055";
 static NSString *const FAKGlyphIntegral = @"\uf667";
 static NSString *const FAKGlyphIntersection = @"\uf668";
 static NSString *const FAKGlyphInventory = @"\uf480";
@@ -919,8 +876,6 @@ static NSString *const FAKGlyphKiwiBird = @"\uf535";
 static NSString *const FAKGlyphKnifeKitchen = @"\uf6f5";
 static NSString *const FAKGlyphLambda = @"\uf66e";
 static NSString *const FAKGlyphLamp = @"\uf4ca";
-static NSString *const FAKGlyphLampDesk = @"\ue014";
-static NSString *const FAKGlyphLampFloor = @"\ue015";
 static NSString *const FAKGlyphLandmark = @"\uf66f";
 static NSString *const FAKGlyphLandmarkAlt = @"\uf752";
 static NSString *const FAKGlyphLanguage = @"\uf1ab";
@@ -946,10 +901,6 @@ static NSString *const FAKGlyphLevelDownAlt = @"\uf3be";
 static NSString *const FAKGlyphLevelUp = @"\uf148";
 static NSString *const FAKGlyphLevelUpAlt = @"\uf3bf";
 static NSString *const FAKGlyphLifeRing = @"\uf1cd";
-static NSString *const FAKGlyphLightCeiling = @"\ue016";
-static NSString *const FAKGlyphLightSwitch = @"\ue017";
-static NSString *const FAKGlyphLightSwitchOff = @"\ue018";
-static NSString *const FAKGlyphLightSwitchOn = @"\ue019";
 static NSString *const FAKGlyphLightbulb = @"\uf0eb";
 static NSString *const FAKGlyphLightbulbDollar = @"\uf670";
 static NSString *const FAKGlyphLightbulbExclamation = @"\uf671";
@@ -1028,14 +979,12 @@ static NSString *const FAKGlyphMemory = @"\uf538";
 static NSString *const FAKGlyphMenorah = @"\uf676";
 static NSString *const FAKGlyphMercury = @"\uf223";
 static NSString *const FAKGlyphMeteor = @"\uf753";
-static NSString *const FAKGlyphMicroblog = @"\ue01a";
 static NSString *const FAKGlyphMicrochip = @"\uf2db";
 static NSString *const FAKGlyphMicrophone = @"\uf130";
 static NSString *const FAKGlyphMicrophoneAlt = @"\uf3c9";
 static NSString *const FAKGlyphMicrophoneAltSlash = @"\uf539";
 static NSString *const FAKGlyphMicrophoneSlash = @"\uf131";
 static NSString *const FAKGlyphMicroscope = @"\uf610";
-static NSString *const FAKGlyphMicrowave = @"\ue01b";
 static NSString *const FAKGlyphMindShare = @"\uf677";
 static NSString *const FAKGlyphMinus = @"\uf068";
 static NSString *const FAKGlyphMinusCircle = @"\uf056";
@@ -1044,7 +993,6 @@ static NSString *const FAKGlyphMinusOctagon = @"\uf308";
 static NSString *const FAKGlyphMinusSquare = @"\uf146";
 static NSString *const FAKGlyphMistletoe = @"\uf7b4";
 static NSString *const FAKGlyphMitten = @"\uf7b5";
-static NSString *const FAKGlyphMixer = @"\ue056";
 static NSString *const FAKGlyphMobile = @"\uf10b";
 static NSString *const FAKGlyphMobileAlt = @"\uf3cd";
 static NSString *const FAKGlyphMobileAndroid = @"\uf3ce";
@@ -1090,8 +1038,6 @@ static NSString *const FAKGlyphOmega = @"\uf67a";
 static NSString *const FAKGlyphOrnament = @"\uf7b8";
 static NSString *const FAKGlyphOtter = @"\uf700";
 static NSString *const FAKGlyphOutdent = @"\uf03b";
-static NSString *const FAKGlyphOutlet = @"\ue01c";
-static NSString *const FAKGlyphOven = @"\ue01d";
 static NSString *const FAKGlyphOverline = @"\uf876";
 static NSString *const FAKGlyphPageBreak = @"\uf877";
 static NSString *const FAKGlyphPager = @"\uf815";
@@ -1151,7 +1097,6 @@ static NSString *const FAKGlyphPhoneVolume = @"\uf2a0";
 static NSString *const FAKGlyphPhotoVideo = @"\uf87c";
 static NSString *const FAKGlyphPi = @"\uf67e";
 static NSString *const FAKGlyphPie = @"\uf705";
-static NSString *const FAKGlyphPiedPiperSquare = @"\ue01e";
 static NSString *const FAKGlyphPig = @"\uf706";
 static NSString *const FAKGlyphPiggyBank = @"\uf4d3";
 static NSString *const FAKGlyphPills = @"\uf484";
@@ -1162,8 +1107,6 @@ static NSString *const FAKGlyphPlane = @"\uf072";
 static NSString *const FAKGlyphPlaneAlt = @"\uf3de";
 static NSString *const FAKGlyphPlaneArrival = @"\uf5af";
 static NSString *const FAKGlyphPlaneDeparture = @"\uf5b0";
-static NSString *const FAKGlyphPlanetMoon = @"\ue01f";
-static NSString *const FAKGlyphPlanetRinged = @"\ue020";
 static NSString *const FAKGlyphPlay = @"\uf04b";
 static NSString *const FAKGlyphPlayCircle = @"\uf144";
 static NSString *const FAKGlyphPlug = @"\uf1e6";
@@ -1175,7 +1118,6 @@ static NSString *const FAKGlyphPlusSquare = @"\uf0fe";
 static NSString *const FAKGlyphPodcast = @"\uf2ce";
 static NSString *const FAKGlyphPodium = @"\uf680";
 static NSString *const FAKGlyphPodiumStar = @"\uf758";
-static NSString *const FAKGlyphPoliceBox = @"\ue021";
 static NSString *const FAKGlyphPoll = @"\uf681";
 static NSString *const FAKGlyphPollH = @"\uf682";
 static NSString *const FAKGlyphPollPeople = @"\uf759";
@@ -1183,8 +1125,6 @@ static NSString *const FAKGlyphPoo = @"\uf2fe";
 static NSString *const FAKGlyphPooStorm = @"\uf75a";
 static NSString *const FAKGlyphPoop = @"\uf619";
 static NSString *const FAKGlyphPopcorn = @"\uf819";
-static NSString *const FAKGlyphPortalEnter = @"\ue022";
-static NSString *const FAKGlyphPortalExit = @"\ue023";
 static NSString *const FAKGlyphPortrait = @"\uf3e0";
 static NSString *const FAKGlyphPoundSign = @"\uf154";
 static NSString *const FAKGlyphPowerOff = @"\uf011";
@@ -1212,7 +1152,6 @@ static NSString *const FAKGlyphQuran = @"\uf687";
 static NSString *const FAKGlyphRabbit = @"\uf708";
 static NSString *const FAKGlyphRabbitFast = @"\uf709";
 static NSString *const FAKGlyphRacquet = @"\uf45a";
-static NSString *const FAKGlyphRadar = @"\ue024";
 static NSString *const FAKGlyphRadiation = @"\uf7b9";
 static NSString *const FAKGlyphRadiationAlt = @"\uf7ba";
 static NSString *const FAKGlyphRainbow = @"\uf75b";
@@ -1220,7 +1159,6 @@ static NSString *const FAKGlyphRaindrops = @"\uf75c";
 static NSString *const FAKGlyphRam = @"\uf70a";
 static NSString *const FAKGlyphRampLoading = @"\uf4d4";
 static NSString *const FAKGlyphRandom = @"\uf074";
-static NSString *const FAKGlyphRaygun = @"\ue025";
 static NSString *const FAKGlyphReceipt = @"\uf543";
 static NSString *const FAKGlyphRectangleLandscape = @"\uf2fa";
 static NSString *const FAKGlyphRectanglePortrait = @"\uf2fb";
@@ -1228,7 +1166,6 @@ static NSString *const FAKGlyphRectangleWide = @"\uf2fc";
 static NSString *const FAKGlyphRecycle = @"\uf1b8";
 static NSString *const FAKGlyphRedo = @"\uf01e";
 static NSString *const FAKGlyphRedoAlt = @"\uf2f9";
-static NSString *const FAKGlyphRefrigerator = @"\ue026";
 static NSString *const FAKGlyphRegistered = @"\uf25d";
 static NSString *const FAKGlyphRemoveFormat = @"\uf87d";
 static NSString *const FAKGlyphRepeat = @"\uf363";
@@ -1247,7 +1184,6 @@ static NSString *const FAKGlyphRingsWedding = @"\uf81b";
 static NSString *const FAKGlyphRoad = @"\uf018";
 static NSString *const FAKGlyphRobot = @"\uf544";
 static NSString *const FAKGlyphRocket = @"\uf135";
-static NSString *const FAKGlyphRocketLaunch = @"\ue027";
 static NSString *const FAKGlyphRoute = @"\uf4d7";
 static NSString *const FAKGlyphRouteHighway = @"\uf61a";
 static NSString *const FAKGlyphRouteInterstate = @"\uf61b";
@@ -1275,7 +1211,6 @@ static NSString *const FAKGlyphSave = @"\uf0c7";
 static NSString *const FAKGlyphScalpel = @"\uf61d";
 static NSString *const FAKGlyphScalpelPath = @"\uf61e";
 static NSString *const FAKGlyphScanner = @"\uf488";
-static NSString *const FAKGlyphScannerImage = @"\uf8f3";
 static NSString *const FAKGlyphScannerKeyboard = @"\uf489";
 static NSString *const FAKGlyphScannerTouchscreen = @"\uf48a";
 static NSString *const FAKGlyphScarecrow = @"\uf70d";
@@ -1295,11 +1230,6 @@ static NSString *const FAKGlyphSearchPlus = @"\uf00e";
 static NSString *const FAKGlyphSeedling = @"\uf4d8";
 static NSString *const FAKGlyphSendBack = @"\uf87e";
 static NSString *const FAKGlyphSendBackward = @"\uf87f";
-static NSString *const FAKGlyphSensor = @"\ue028";
-static NSString *const FAKGlyphSensorAlert = @"\ue029";
-static NSString *const FAKGlyphSensorFire = @"\ue02a";
-static NSString *const FAKGlyphSensorOn = @"\ue02b";
-static NSString *const FAKGlyphSensorSmoke = @"\ue02c";
 static NSString *const FAKGlyphServer = @"\uf233";
 static NSString *const FAKGlyphShapes = @"\uf61f";
 static NSString *const FAKGlyphShare = @"\uf064";
@@ -1318,7 +1248,6 @@ static NSString *const FAKGlyphShippingFast = @"\uf48b";
 static NSString *const FAKGlyphShippingTimed = @"\uf48c";
 static NSString *const FAKGlyphShishKebab = @"\uf821";
 static NSString *const FAKGlyphShoePrints = @"\uf54b";
-static NSString *const FAKGlyphShopify = @"\ue057";
 static NSString *const FAKGlyphShoppingBag = @"\uf290";
 static NSString *const FAKGlyphShoppingBasket = @"\uf291";
 static NSString *const FAKGlyphShoppingCart = @"\uf07a";
@@ -1349,8 +1278,6 @@ static NSString *const FAKGlyphSignalAltSlash = @"\uf694";
 static NSString *const FAKGlyphSignalSlash = @"\uf695";
 static NSString *const FAKGlyphSignature = @"\uf5b7";
 static NSString *const FAKGlyphSimCard = @"\uf7c4";
-static NSString *const FAKGlyphSiren = @"\ue02d";
-static NSString *const FAKGlyphSirenOn = @"\ue02e";
 static NSString *const FAKGlyphSitemap = @"\uf0e8";
 static NSString *const FAKGlyphSkating = @"\uf7c5";
 static NSString *const FAKGlyphSkeleton = @"\uf620";
@@ -1387,7 +1314,6 @@ static NSString *const FAKGlyphSnowmobile = @"\uf7d1";
 static NSString *const FAKGlyphSnowplow = @"\uf7d2";
 static NSString *const FAKGlyphSocks = @"\uf696";
 static NSString *const FAKGlyphSolarPanel = @"\uf5ba";
-static NSString *const FAKGlyphSolarSystem = @"\ue02f";
 static NSString *const FAKGlyphSort = @"\uf0dc";
 static NSString *const FAKGlyphSortAlphaDown = @"\uf15d";
 static NSString *const FAKGlyphSortAlphaDownAlt = @"\uf881";
@@ -1398,9 +1324,6 @@ static NSString *const FAKGlyphSortAmountDown = @"\uf160";
 static NSString *const FAKGlyphSortAmountDownAlt = @"\uf884";
 static NSString *const FAKGlyphSortAmountUp = @"\uf161";
 static NSString *const FAKGlyphSortAmountUpAlt = @"\uf885";
-static NSString *const FAKGlyphSortCircle = @"\ue030";
-static NSString *const FAKGlyphSortCircleDown = @"\ue031";
-static NSString *const FAKGlyphSortCircleUp = @"\ue032";
 static NSString *const FAKGlyphSortDown = @"\uf0dd";
 static NSString *const FAKGlyphSortNumericDown = @"\uf162";
 static NSString *const FAKGlyphSortNumericDownAlt = @"\uf886";
@@ -1418,8 +1341,6 @@ static NSString *const FAKGlyphSortUp = @"\uf0de";
 static NSString *const FAKGlyphSoup = @"\uf823";
 static NSString *const FAKGlyphSpa = @"\uf5bb";
 static NSString *const FAKGlyphSpaceShuttle = @"\uf197";
-static NSString *const FAKGlyphSpaceStationMoon = @"\ue033";
-static NSString *const FAKGlyphSpaceStationMoonAlt = @"\ue034";
 static NSString *const FAKGlyphSpade = @"\uf2f4";
 static NSString *const FAKGlyphSparkles = @"\uf890";
 static NSString *const FAKGlyphSpellCheck = @"\uf891";
@@ -1430,7 +1351,6 @@ static NSString *const FAKGlyphSpinner = @"\uf110";
 static NSString *const FAKGlyphSpinnerThird = @"\uf3f4";
 static NSString *const FAKGlyphSplotch = @"\uf5bc";
 static NSString *const FAKGlyphSprayCan = @"\uf5bd";
-static NSString *const FAKGlyphSprinkler = @"\ue035";
 static NSString *const FAKGlyphSquare = @"\uf0c8";
 static NSString *const FAKGlyphSquareFull = @"\uf45c";
 static NSString *const FAKGlyphSquareRoot = @"\uf697";
@@ -1447,12 +1367,7 @@ static NSString *const FAKGlyphStarHalf = @"\uf089";
 static NSString *const FAKGlyphStarHalfAlt = @"\uf5c0";
 static NSString *const FAKGlyphStarOfDavid = @"\uf69a";
 static NSString *const FAKGlyphStarOfLife = @"\uf621";
-static NSString *const FAKGlyphStarShooting = @"\ue036";
-static NSString *const FAKGlyphStarfighter = @"\ue037";
-static NSString *const FAKGlyphStarfighterAlt = @"\ue038";
 static NSString *const FAKGlyphStars = @"\uf762";
-static NSString *const FAKGlyphStarship = @"\ue039";
-static NSString *const FAKGlyphStarshipFreighter = @"\ue03a";
 static NSString *const FAKGlyphSteak = @"\uf824";
 static NSString *const FAKGlyphSteeringWheel = @"\uf622";
 static NSString *const FAKGlyphStepBackward = @"\uf048";
@@ -1464,7 +1379,6 @@ static NSString *const FAKGlyphStomach = @"\uf623";
 static NSString *const FAKGlyphStop = @"\uf04d";
 static NSString *const FAKGlyphStopCircle = @"\uf28d";
 static NSString *const FAKGlyphStopwatch = @"\uf2f2";
-static NSString *const FAKGlyphStopwatch20 = @"\ue06f";
 static NSString *const FAKGlyphStore = @"\uf54e";
 static NSString *const FAKGlyphStoreAlt = @"\uf54f";
 static NSString *const FAKGlyphStream = @"\uf550";
@@ -1489,10 +1403,7 @@ static NSString *const FAKGlyphSwatchbook = @"\uf5c3";
 static NSString *const FAKGlyphSwimmer = @"\uf5c4";
 static NSString *const FAKGlyphSwimmingPool = @"\uf5c5";
 static NSString *const FAKGlyphSword = @"\uf71c";
-static NSString *const FAKGlyphSwordLaser = @"\ue03b";
-static NSString *const FAKGlyphSwordLaserAlt = @"\ue03c";
 static NSString *const FAKGlyphSwords = @"\uf71d";
-static NSString *const FAKGlyphSwordsLaser = @"\ue03d";
 static NSString *const FAKGlyphSymfony = @"\uf83d";
 static NSString *const FAKGlyphSynagogue = @"\uf69b";
 static NSString *const FAKGlyphSync = @"\uf021";
@@ -1529,13 +1440,10 @@ static NSString *const FAKGlyphTasksAlt = @"\uf828";
 static NSString *const FAKGlyphTaxi = @"\uf1ba";
 static NSString *const FAKGlyphTeeth = @"\uf62e";
 static NSString *const FAKGlyphTeethOpen = @"\uf62f";
-static NSString *const FAKGlyphTelescope = @"\ue03e";
-static NSString *const FAKGlyphTemperatureDown = @"\ue03f";
 static NSString *const FAKGlyphTemperatureFrigid = @"\uf768";
 static NSString *const FAKGlyphTemperatureHigh = @"\uf769";
 static NSString *const FAKGlyphTemperatureHot = @"\uf76a";
 static NSString *const FAKGlyphTemperatureLow = @"\uf76b";
-static NSString *const FAKGlyphTemperatureUp = @"\ue040";
 static NSString *const FAKGlyphTenge = @"\uf7d7";
 static NSString *const FAKGlyphTennisBall = @"\uf45e";
 static NSString *const FAKGlyphTerminal = @"\uf120";
@@ -1597,16 +1505,10 @@ static NSString *const FAKGlyphTrafficLight = @"\uf637";
 static NSString *const FAKGlyphTrafficLightGo = @"\uf638";
 static NSString *const FAKGlyphTrafficLightSlow = @"\uf639";
 static NSString *const FAKGlyphTrafficLightStop = @"\uf63a";
-static NSString *const FAKGlyphTrailer = @"\ue041";
 static NSString *const FAKGlyphTrain = @"\uf238";
 static NSString *const FAKGlyphTram = @"\uf7da";
 static NSString *const FAKGlyphTransgender = @"\uf224";
 static NSString *const FAKGlyphTransgenderAlt = @"\uf225";
-static NSString *const FAKGlyphTransporter = @"\ue042";
-static NSString *const FAKGlyphTransporter1 = @"\ue043";
-static NSString *const FAKGlyphTransporter2 = @"\ue044";
-static NSString *const FAKGlyphTransporter3 = @"\ue045";
-static NSString *const FAKGlyphTransporterEmpty = @"\ue046";
 static NSString *const FAKGlyphTrash = @"\uf1f8";
 static NSString *const FAKGlyphTrashAlt = @"\uf2ed";
 static NSString *const FAKGlyphTrashRestore = @"\uf829";
@@ -1642,8 +1544,6 @@ static NSString *const FAKGlyphTvAlt = @"\uf8e5";
 static NSString *const FAKGlyphTvMusic = @"\uf8e6";
 static NSString *const FAKGlyphTvRetro = @"\uf401";
 static NSString *const FAKGlyphTypewriter = @"\uf8e7";
-static NSString *const FAKGlyphUfo = @"\ue047";
-static NSString *const FAKGlyphUfoBeam = @"\ue048";
 static NSString *const FAKGlyphUmbraco = @"\uf8e8";
 static NSString *const FAKGlyphUmbrella = @"\uf0e9";
 static NSString *const FAKGlyphUmbrellaBeach = @"\uf5ca";
@@ -1652,7 +1552,6 @@ static NSString *const FAKGlyphUndo = @"\uf0e2";
 static NSString *const FAKGlyphUndoAlt = @"\uf2ea";
 static NSString *const FAKGlyphUnicorn = @"\uf727";
 static NSString *const FAKGlyphUnion = @"\uf6a2";
-static NSString *const FAKGlyphUnity = @"\ue049";
 static NSString *const FAKGlyphUniversalAccess = @"\uf29a";
 static NSString *const FAKGlyphUniversity = @"\uf19c";
 static NSString *const FAKGlyphUnlink = @"\uf127";
@@ -1663,7 +1562,6 @@ static NSString *const FAKGlyphUsbDrive = @"\uf8e9";
 static NSString *const FAKGlyphUsdCircle = @"\uf2e8";
 static NSString *const FAKGlyphUsdSquare = @"\uf2e9";
 static NSString *const FAKGlyphUser = @"\uf007";
-static NSString *const FAKGlyphUserAlien = @"\ue04a";
 static NSString *const FAKGlyphUserAlt = @"\uf406";
 static NSString *const FAKGlyphUserAltSlash = @"\uf4fa";
 static NSString *const FAKGlyphUserAstronaut = @"\uf4fb";
@@ -1672,7 +1570,6 @@ static NSString *const FAKGlyphUserCheck = @"\uf4fc";
 static NSString *const FAKGlyphUserCircle = @"\uf2bd";
 static NSString *const FAKGlyphUserClock = @"\uf4fd";
 static NSString *const FAKGlyphUserCog = @"\uf4fe";
-static NSString *const FAKGlyphUserCowboy = @"\uf8ea";
 static NSString *const FAKGlyphUserCrown = @"\uf6a4";
 static NSString *const FAKGlyphUserEdit = @"\uf4ff";
 static NSString *const FAKGlyphUserFriends = @"\uf500";
@@ -1684,19 +1581,15 @@ static NSString *const FAKGlyphUserLock = @"\uf502";
 static NSString *const FAKGlyphUserMd = @"\uf0f0";
 static NSString *const FAKGlyphUserMdChat = @"\uf82e";
 static NSString *const FAKGlyphUserMinus = @"\uf503";
-static NSString *const FAKGlyphUserMusic = @"\uf8eb";
 static NSString *const FAKGlyphUserNinja = @"\uf504";
 static NSString *const FAKGlyphUserNurse = @"\uf82f";
 static NSString *const FAKGlyphUserPlus = @"\uf234";
-static NSString *const FAKGlyphUserRobot = @"\ue04b";
 static NSString *const FAKGlyphUserSecret = @"\uf21b";
 static NSString *const FAKGlyphUserShield = @"\uf505";
 static NSString *const FAKGlyphUserSlash = @"\uf506";
 static NSString *const FAKGlyphUserTag = @"\uf507";
 static NSString *const FAKGlyphUserTie = @"\uf508";
 static NSString *const FAKGlyphUserTimes = @"\uf235";
-static NSString *const FAKGlyphUserUnlock = @"\ue058";
-static NSString *const FAKGlyphUserVisor = @"\ue04c";
 static NSString *const FAKGlyphUsers = @"\uf0c0";
 static NSString *const FAKGlyphUsersClass = @"\uf63d";
 static NSString *const FAKGlyphUsersCog = @"\uf509";
@@ -1707,8 +1600,6 @@ static NSString *const FAKGlyphUtensilKnife = @"\uf2e4";
 static NSString *const FAKGlyphUtensilSpoon = @"\uf2e5";
 static NSString *const FAKGlyphUtensils = @"\uf2e7";
 static NSString *const FAKGlyphUtensilsAlt = @"\uf2e6";
-static NSString *const FAKGlyphVacuum = @"\ue04d";
-static NSString *const FAKGlyphVacuumRobot = @"\ue04e";
 static NSString *const FAKGlyphValueAbsolute = @"\uf6a6";
 static NSString *const FAKGlyphVectorSquare = @"\uf5cb";
 static NSString *const FAKGlyphVenus = @"\uf221";
@@ -1721,7 +1612,6 @@ static NSString *const FAKGlyphVideo = @"\uf03d";
 static NSString *const FAKGlyphVideoPlus = @"\uf4e1";
 static NSString *const FAKGlyphVideoSlash = @"\uf4e2";
 static NSString *const FAKGlyphVihara = @"\uf6a7";
-static NSString *const FAKGlyphViolin = @"\uf8ed";
 static NSString *const FAKGlyphVoicemail = @"\uf897";
 static NSString *const FAKGlyphVolcano = @"\uf770";
 static NSString *const FAKGlyphVolleyballBall = @"\uf45f";
@@ -1734,9 +1624,7 @@ static NSString *const FAKGlyphVolumeUp = @"\uf028";
 static NSString *const FAKGlyphVoteNay = @"\uf771";
 static NSString *const FAKGlyphVoteYea = @"\uf772";
 static NSString *const FAKGlyphVrCardboard = @"\uf729";
-static NSString *const FAKGlyphWagonCovered = @"\uf8ee";
 static NSString *const FAKGlyphWalker = @"\uf831";
-static NSString *const FAKGlyphWalkieTalkie = @"\uf8ef";
 static NSString *const FAKGlyphWalking = @"\uf554";
 static NSString *const FAKGlyphWallet = @"\uf555";
 static NSString *const FAKGlyphWand = @"\uf72a";
@@ -1745,7 +1633,6 @@ static NSString *const FAKGlyphWarehouse = @"\uf494";
 static NSString *const FAKGlyphWarehouseAlt = @"\uf495";
 static NSString *const FAKGlyphWasher = @"\uf898";
 static NSString *const FAKGlyphWatch = @"\uf2e1";
-static NSString *const FAKGlyphWatchCalculator = @"\uf8f0";
 static NSString *const FAKGlyphWatchFitness = @"\uf63e";
 static NSString *const FAKGlyphWater = @"\uf773";
 static NSString *const FAKGlyphWaterLower = @"\uf774";
@@ -1773,8 +1660,6 @@ static NSString *const FAKGlyphWindWarning = @"\uf776";
 static NSString *const FAKGlyphWindow = @"\uf40e";
 static NSString *const FAKGlyphWindowAlt = @"\uf40f";
 static NSString *const FAKGlyphWindowClose = @"\uf410";
-static NSString *const FAKGlyphWindowFrame = @"\ue04f";
-static NSString *const FAKGlyphWindowFrameOpen = @"\ue050";
 static NSString *const FAKGlyphWindowMaximize = @"\uf2d0";
 static NSString *const FAKGlyphWindowMinimize = @"\uf2d1";
 static NSString *const FAKGlyphWindowRestore = @"\uf2d2";
@@ -1838,16 +1723,12 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)addressBookIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAddressBook size:size]; }
 + (instancetype)addressCardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAddressCard size:size]; }
 + (instancetype)adjustIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAdjust size:size]; }
-+ (instancetype)adobeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAdobe size:size]; }
-+ (instancetype)airConditionerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAirConditioner size:size]; }
 + (instancetype)airFreshenerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAirFreshener size:size]; }
 + (instancetype)alarmClockIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlarmClock size:size]; }
 + (instancetype)alarmExclamationIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlarmExclamation size:size]; }
 + (instancetype)alarmPlusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlarmPlus size:size]; }
 + (instancetype)alarmSnoozeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlarmSnooze size:size]; }
 + (instancetype)alicornIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlicorn size:size]; }
-+ (instancetype)alienIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlien size:size]; }
-+ (instancetype)alienMonsterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlienMonster size:size]; }
 + (instancetype)alignCenterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlignCenter size:size]; }
 + (instancetype)alignJustifyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlignJustify size:size]; }
 + (instancetype)alignLeftIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphAlignLeft size:size]; }
@@ -1936,8 +1817,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)backspaceIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBackspace size:size]; }
 + (instancetype)backwardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBackward size:size]; }
 + (instancetype)baconIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBacon size:size]; }
-+ (instancetype)bacteriaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBacteria size:size]; }
-+ (instancetype)bacteriumIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBacterium size:size]; }
 + (instancetype)badgeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBadge size:size]; }
 + (instancetype)badgeCheckIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBadgeCheck size:size]; }
 + (instancetype)badgeDollarIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBadgeDollar size:size]; }
@@ -1972,13 +1851,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)batterySlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBatterySlash size:size]; }
 + (instancetype)batteryThreeQuartersIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBatteryThreeQuarters size:size]; }
 + (instancetype)bedIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBed size:size]; }
-+ (instancetype)bedAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBedAlt size:size]; }
-+ (instancetype)bedBunkIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBedBunk size:size]; }
-+ (instancetype)bedEmptyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBedEmpty size:size]; }
 + (instancetype)beerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBeer size:size]; }
 + (instancetype)bellIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBell size:size]; }
 + (instancetype)bellExclamationIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBellExclamation size:size]; }
-+ (instancetype)bellOnIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBellOn size:size]; }
 + (instancetype)bellPlusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBellPlus size:size]; }
 + (instancetype)bellSchoolIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBellSchool size:size]; }
 + (instancetype)bellSchoolSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBellSchoolSlash size:size]; }
@@ -1995,10 +1870,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)blanketIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlanket size:size]; }
 + (instancetype)blenderIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlender size:size]; }
 + (instancetype)blenderPhoneIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlenderPhone size:size]; }
-+ (instancetype)blindIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlind size:size]; }
-+ (instancetype)blindsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlinds size:size]; }
-+ (instancetype)blindsOpenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlindsOpen size:size]; }
-+ (instancetype)blindsRaisedIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlindsRaised size:size]; }
 + (instancetype)blogIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBlog size:size]; }
 + (instancetype)boldIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBold size:size]; }
 + (instancetype)boltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphBolt size:size]; }
@@ -2091,7 +1962,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)calendarWeekIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCalendarWeek size:size]; }
 + (instancetype)cameraIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCamera size:size]; }
 + (instancetype)cameraAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCameraAlt size:size]; }
-+ (instancetype)cameraHomeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCameraHome size:size]; }
 + (instancetype)cameraRetroIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCameraRetro size:size]; }
 + (instancetype)campfireIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCampfire size:size]; }
 + (instancetype)campgroundIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCampground size:size]; }
@@ -2131,7 +2001,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)cartPlusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCartPlus size:size]; }
 + (instancetype)cashRegisterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCashRegister size:size]; }
 + (instancetype)catIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCat size:size]; }
-+ (instancetype)catSpaceIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCatSpace size:size]; }
 + (instancetype)cauldronIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCauldron size:size]; }
 + (instancetype)certificateIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCertificate size:size]; }
 + (instancetype)chairIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphChair size:size]; }
@@ -2232,16 +2101,13 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)codeCommitIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCodeCommit size:size]; }
 + (instancetype)codeMergeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCodeMerge size:size]; }
 + (instancetype)coffeeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCoffee size:size]; }
-+ (instancetype)coffeePotIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCoffeePot size:size]; }
 + (instancetype)coffeeTogoIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCoffeeTogo size:size]; }
 + (instancetype)coffinIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCoffin size:size]; }
-+ (instancetype)coffinCrossIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCoffinCross size:size]; }
 + (instancetype)cogIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCog size:size]; }
 + (instancetype)cogsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCogs size:size]; }
 + (instancetype)coinIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCoin size:size]; }
 + (instancetype)coinsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCoins size:size]; }
 + (instancetype)columnsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphColumns size:size]; }
-+ (instancetype)cometIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphComet size:size]; }
 + (instancetype)commentIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphComment size:size]; }
 + (instancetype)commentAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCommentAlt size:size]; }
 + (instancetype)commentAltCheckIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCommentAltCheck size:size]; }
@@ -2309,7 +2175,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)curlingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCurling size:size]; }
 + (instancetype)cutIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphCut size:size]; }
 + (instancetype)daggerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphDagger size:size]; }
-+ (instancetype)dailymotionIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphDailymotion size:size]; }
 + (instancetype)databaseIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphDatabase size:size]; }
 + (instancetype)deafIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphDeaf size:size]; }
 + (instancetype)debugIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphDebug size:size]; }
@@ -2421,12 +2286,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)eyeEvilIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphEyeEvil size:size]; }
 + (instancetype)eyeSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphEyeSlash size:size]; }
 + (instancetype)fanIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFan size:size]; }
-+ (instancetype)fanTableIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFanTable size:size]; }
 + (instancetype)farmIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFarm size:size]; }
 + (instancetype)fastBackwardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFastBackward size:size]; }
 + (instancetype)fastForwardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFastForward size:size]; }
-+ (instancetype)faucetIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFaucet size:size]; }
-+ (instancetype)faucetDripIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFaucetDrip size:size]; }
 + (instancetype)faxIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFax size:size]; }
 + (instancetype)featherIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFeather size:size]; }
 + (instancetype)featherAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFeatherAlt size:size]; }
@@ -2480,7 +2342,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)fireAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFireAlt size:size]; }
 + (instancetype)fireExtinguisherIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFireExtinguisher size:size]; }
 + (instancetype)fireSmokeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFireSmoke size:size]; }
-+ (instancetype)firefoxBrowserIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFirefoxBrowser size:size]; }
 + (instancetype)fireplaceIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFireplace size:size]; }
 + (instancetype)firstAidIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFirstAid size:size]; }
 + (instancetype)fishIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFish size:size]; }
@@ -2503,13 +2364,11 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)fluxCapacitorIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFluxCapacitor size:size]; }
 + (instancetype)fogIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFog size:size]; }
 + (instancetype)folderIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolder size:size]; }
-+ (instancetype)folderDownloadIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolderDownload size:size]; }
 + (instancetype)folderMinusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolderMinus size:size]; }
 + (instancetype)folderOpenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolderOpen size:size]; }
 + (instancetype)folderPlusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolderPlus size:size]; }
 + (instancetype)folderTimesIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolderTimes size:size]; }
 + (instancetype)folderTreeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolderTree size:size]; }
-+ (instancetype)folderUploadIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolderUpload size:size]; }
 + (instancetype)foldersIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFolders size:size]; }
 + (instancetype)fontIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFont size:size]; }
 + (instancetype)fontAwesomeLogoFullIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFontAwesomeLogoFull size:size]; }
@@ -2527,15 +2386,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)functionIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFunction size:size]; }
 + (instancetype)funnelDollarIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFunnelDollar size:size]; }
 + (instancetype)futbolIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphFutbol size:size]; }
-+ (instancetype)galaxyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGalaxy size:size]; }
 + (instancetype)gameBoardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGameBoard size:size]; }
 + (instancetype)gameBoardAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGameBoardAlt size:size]; }
-+ (instancetype)gameConsoleHandheldIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGameConsoleHandheld size:size]; }
 + (instancetype)gamepadIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGamepad size:size]; }
-+ (instancetype)gamepadAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGamepadAlt size:size]; }
-+ (instancetype)garageIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGarage size:size]; }
-+ (instancetype)garageCarIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGarageCar size:size]; }
-+ (instancetype)garageOpenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGarageOpen size:size]; }
 + (instancetype)gasPumpIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGasPump size:size]; }
 + (instancetype)gasPumpSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGasPumpSlash size:size]; }
 + (instancetype)gavelIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGavel size:size]; }
@@ -2568,7 +2421,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)golfClubIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGolfClub size:size]; }
 + (instancetype)gopuramIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGopuram size:size]; }
 + (instancetype)graduationCapIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGraduationCap size:size]; }
-+ (instancetype)gramophoneIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGramophone size:size]; }
 + (instancetype)greaterThanIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGreaterThan size:size]; }
 + (instancetype)greaterThanEqualIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGreaterThanEqual size:size]; }
 + (instancetype)grimaceIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphGrimace size:size]; }
@@ -2632,7 +2484,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)hardHatIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHardHat size:size]; }
 + (instancetype)hashtagIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHashtag size:size]; }
 + (instancetype)hatChefIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHatChef size:size]; }
-+ (instancetype)hatCowboyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHatCowboy size:size]; }
 + (instancetype)hatSantaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHatSanta size:size]; }
 + (instancetype)hatWinterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHatWinter size:size]; }
 + (instancetype)hatWitchIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHatWitch size:size]; }
@@ -2652,7 +2503,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)heartRateIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHeartRate size:size]; }
 + (instancetype)heartSquareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHeartSquare size:size]; }
 + (instancetype)heartbeatIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHeartbeat size:size]; }
-+ (instancetype)heatIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHeat size:size]; }
 + (instancetype)helicopterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHelicopter size:size]; }
 + (instancetype)helmetBattleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHelmetBattle size:size]; }
 + (instancetype)hexagonIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHexagon size:size]; }
@@ -2685,14 +2535,8 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)hourglassEndIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHourglassEnd size:size]; }
 + (instancetype)hourglassHalfIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHourglassHalf size:size]; }
 + (instancetype)hourglassStartIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHourglassStart size:size]; }
-+ (instancetype)houseIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouse size:size]; }
 + (instancetype)houseDamageIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouseDamage size:size]; }
-+ (instancetype)houseDayIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouseDay size:size]; }
 + (instancetype)houseFloodIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouseFlood size:size]; }
-+ (instancetype)houseLeaveIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouseLeave size:size]; }
-+ (instancetype)houseNightIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouseNight size:size]; }
-+ (instancetype)houseReturnIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouseReturn size:size]; }
-+ (instancetype)houseSignalIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHouseSignal size:size]; }
 + (instancetype)hryvniaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHryvnia size:size]; }
 + (instancetype)humidityIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHumidity size:size]; }
 + (instancetype)hurricaneIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphHurricane size:size]; }
@@ -2705,7 +2549,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)idBadgeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphIdBadge size:size]; }
 + (instancetype)idCardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphIdCard size:size]; }
 + (instancetype)idCardAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphIdCardAlt size:size]; }
-+ (instancetype)idealIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphIdeal size:size]; }
 + (instancetype)iglooIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphIgloo size:size]; }
 + (instancetype)imageIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphImage size:size]; }
 + (instancetype)imagesIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphImages size:size]; }
@@ -2720,7 +2563,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)infoCircleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphInfoCircle size:size]; }
 + (instancetype)infoSquareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphInfoSquare size:size]; }
 + (instancetype)inhalerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphInhaler size:size]; }
-+ (instancetype)instagramSquareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphInstagramSquare size:size]; }
 + (instancetype)integralIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphIntegral size:size]; }
 + (instancetype)intersectionIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphIntersection size:size]; }
 + (instancetype)inventoryIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphInventory size:size]; }
@@ -2746,8 +2588,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)knifeKitchenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphKnifeKitchen size:size]; }
 + (instancetype)lambdaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLambda size:size]; }
 + (instancetype)lampIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLamp size:size]; }
-+ (instancetype)lampDeskIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLampDesk size:size]; }
-+ (instancetype)lampFloorIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLampFloor size:size]; }
 + (instancetype)landmarkIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLandmark size:size]; }
 + (instancetype)landmarkAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLandmarkAlt size:size]; }
 + (instancetype)languageIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLanguage size:size]; }
@@ -2773,10 +2613,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)levelUpIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLevelUp size:size]; }
 + (instancetype)levelUpAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLevelUpAlt size:size]; }
 + (instancetype)lifeRingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLifeRing size:size]; }
-+ (instancetype)lightCeilingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLightCeiling size:size]; }
-+ (instancetype)lightSwitchIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLightSwitch size:size]; }
-+ (instancetype)lightSwitchOffIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLightSwitchOff size:size]; }
-+ (instancetype)lightSwitchOnIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLightSwitchOn size:size]; }
 + (instancetype)lightbulbIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLightbulb size:size]; }
 + (instancetype)lightbulbDollarIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLightbulbDollar size:size]; }
 + (instancetype)lightbulbExclamationIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphLightbulbExclamation size:size]; }
@@ -2855,14 +2691,12 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)menorahIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMenorah size:size]; }
 + (instancetype)mercuryIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMercury size:size]; }
 + (instancetype)meteorIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMeteor size:size]; }
-+ (instancetype)microblogIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicroblog size:size]; }
 + (instancetype)microchipIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicrochip size:size]; }
 + (instancetype)microphoneIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicrophone size:size]; }
 + (instancetype)microphoneAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicrophoneAlt size:size]; }
 + (instancetype)microphoneAltSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicrophoneAltSlash size:size]; }
 + (instancetype)microphoneSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicrophoneSlash size:size]; }
 + (instancetype)microscopeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicroscope size:size]; }
-+ (instancetype)microwaveIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMicrowave size:size]; }
 + (instancetype)mindShareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMindShare size:size]; }
 + (instancetype)minusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMinus size:size]; }
 + (instancetype)minusCircleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMinusCircle size:size]; }
@@ -2871,7 +2705,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)minusSquareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMinusSquare size:size]; }
 + (instancetype)mistletoeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMistletoe size:size]; }
 + (instancetype)mittenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMitten size:size]; }
-+ (instancetype)mixerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMixer size:size]; }
 + (instancetype)mobileIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMobile size:size]; }
 + (instancetype)mobileAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMobileAlt size:size]; }
 + (instancetype)mobileAndroidIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphMobileAndroid size:size]; }
@@ -2917,8 +2750,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)ornamentIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphOrnament size:size]; }
 + (instancetype)otterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphOtter size:size]; }
 + (instancetype)outdentIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphOutdent size:size]; }
-+ (instancetype)outletIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphOutlet size:size]; }
-+ (instancetype)ovenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphOven size:size]; }
 + (instancetype)overlineIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphOverline size:size]; }
 + (instancetype)pageBreakIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPageBreak size:size]; }
 + (instancetype)pagerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPager size:size]; }
@@ -2978,7 +2809,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)photoVideoIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPhotoVideo size:size]; }
 + (instancetype)piIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPi size:size]; }
 + (instancetype)pieIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPie size:size]; }
-+ (instancetype)piedPiperSquareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPiedPiperSquare size:size]; }
 + (instancetype)pigIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPig size:size]; }
 + (instancetype)piggyBankIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPiggyBank size:size]; }
 + (instancetype)pillsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPills size:size]; }
@@ -2989,8 +2819,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)planeAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlaneAlt size:size]; }
 + (instancetype)planeArrivalIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlaneArrival size:size]; }
 + (instancetype)planeDepartureIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlaneDeparture size:size]; }
-+ (instancetype)planetMoonIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlanetMoon size:size]; }
-+ (instancetype)planetRingedIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlanetRinged size:size]; }
 + (instancetype)playIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlay size:size]; }
 + (instancetype)playCircleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlayCircle size:size]; }
 + (instancetype)plugIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPlug size:size]; }
@@ -3002,7 +2830,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)podcastIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPodcast size:size]; }
 + (instancetype)podiumIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPodium size:size]; }
 + (instancetype)podiumStarIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPodiumStar size:size]; }
-+ (instancetype)policeBoxIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPoliceBox size:size]; }
 + (instancetype)pollIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPoll size:size]; }
 + (instancetype)pollHIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPollH size:size]; }
 + (instancetype)pollPeopleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPollPeople size:size]; }
@@ -3010,8 +2837,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)pooStormIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPooStorm size:size]; }
 + (instancetype)poopIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPoop size:size]; }
 + (instancetype)popcornIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPopcorn size:size]; }
-+ (instancetype)portalEnterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPortalEnter size:size]; }
-+ (instancetype)portalExitIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPortalExit size:size]; }
 + (instancetype)portraitIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPortrait size:size]; }
 + (instancetype)poundSignIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPoundSign size:size]; }
 + (instancetype)powerOffIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphPowerOff size:size]; }
@@ -3039,7 +2864,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)rabbitIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRabbit size:size]; }
 + (instancetype)rabbitFastIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRabbitFast size:size]; }
 + (instancetype)racquetIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRacquet size:size]; }
-+ (instancetype)radarIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRadar size:size]; }
 + (instancetype)radiationIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRadiation size:size]; }
 + (instancetype)radiationAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRadiationAlt size:size]; }
 + (instancetype)rainbowIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRainbow size:size]; }
@@ -3047,7 +2871,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)ramIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRam size:size]; }
 + (instancetype)rampLoadingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRampLoading size:size]; }
 + (instancetype)randomIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRandom size:size]; }
-+ (instancetype)raygunIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRaygun size:size]; }
 + (instancetype)receiptIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphReceipt size:size]; }
 + (instancetype)rectangleLandscapeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRectangleLandscape size:size]; }
 + (instancetype)rectanglePortraitIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRectanglePortrait size:size]; }
@@ -3055,7 +2878,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)recycleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRecycle size:size]; }
 + (instancetype)redoIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRedo size:size]; }
 + (instancetype)redoAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRedoAlt size:size]; }
-+ (instancetype)refrigeratorIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRefrigerator size:size]; }
 + (instancetype)registeredIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRegistered size:size]; }
 + (instancetype)removeFormatIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRemoveFormat size:size]; }
 + (instancetype)repeatIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRepeat size:size]; }
@@ -3074,7 +2896,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)roadIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRoad size:size]; }
 + (instancetype)robotIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRobot size:size]; }
 + (instancetype)rocketIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRocket size:size]; }
-+ (instancetype)rocketLaunchIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRocketLaunch size:size]; }
 + (instancetype)routeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRoute size:size]; }
 + (instancetype)routeHighwayIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRouteHighway size:size]; }
 + (instancetype)routeInterstateIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphRouteInterstate size:size]; }
@@ -3102,7 +2923,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)scalpelIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphScalpel size:size]; }
 + (instancetype)scalpelPathIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphScalpelPath size:size]; }
 + (instancetype)scannerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphScanner size:size]; }
-+ (instancetype)scannerImageIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphScannerImage size:size]; }
 + (instancetype)scannerKeyboardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphScannerKeyboard size:size]; }
 + (instancetype)scannerTouchscreenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphScannerTouchscreen size:size]; }
 + (instancetype)scarecrowIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphScarecrow size:size]; }
@@ -3122,11 +2942,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)seedlingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSeedling size:size]; }
 + (instancetype)sendBackIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSendBack size:size]; }
 + (instancetype)sendBackwardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSendBackward size:size]; }
-+ (instancetype)sensorIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSensor size:size]; }
-+ (instancetype)sensorAlertIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSensorAlert size:size]; }
-+ (instancetype)sensorFireIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSensorFire size:size]; }
-+ (instancetype)sensorOnIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSensorOn size:size]; }
-+ (instancetype)sensorSmokeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSensorSmoke size:size]; }
 + (instancetype)serverIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphServer size:size]; }
 + (instancetype)shapesIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShapes size:size]; }
 + (instancetype)shareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShare size:size]; }
@@ -3145,7 +2960,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)shippingTimedIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShippingTimed size:size]; }
 + (instancetype)shishKebabIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShishKebab size:size]; }
 + (instancetype)shoePrintsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShoePrints size:size]; }
-+ (instancetype)shopifyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShopify size:size]; }
 + (instancetype)shoppingBagIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShoppingBag size:size]; }
 + (instancetype)shoppingBasketIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShoppingBasket size:size]; }
 + (instancetype)shoppingCartIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphShoppingCart size:size]; }
@@ -3176,8 +2990,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)signalSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSignalSlash size:size]; }
 + (instancetype)signatureIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSignature size:size]; }
 + (instancetype)simCardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSimCard size:size]; }
-+ (instancetype)sirenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSiren size:size]; }
-+ (instancetype)sirenOnIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSirenOn size:size]; }
 + (instancetype)sitemapIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSitemap size:size]; }
 + (instancetype)skatingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSkating size:size]; }
 + (instancetype)skeletonIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSkeleton size:size]; }
@@ -3214,7 +3026,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)snowplowIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSnowplow size:size]; }
 + (instancetype)socksIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSocks size:size]; }
 + (instancetype)solarPanelIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSolarPanel size:size]; }
-+ (instancetype)solarSystemIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSolarSystem size:size]; }
 + (instancetype)sortIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSort size:size]; }
 + (instancetype)sortAlphaDownIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortAlphaDown size:size]; }
 + (instancetype)sortAlphaDownAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortAlphaDownAlt size:size]; }
@@ -3225,9 +3036,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)sortAmountDownAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortAmountDownAlt size:size]; }
 + (instancetype)sortAmountUpIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortAmountUp size:size]; }
 + (instancetype)sortAmountUpAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortAmountUpAlt size:size]; }
-+ (instancetype)sortCircleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortCircle size:size]; }
-+ (instancetype)sortCircleDownIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortCircleDown size:size]; }
-+ (instancetype)sortCircleUpIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortCircleUp size:size]; }
 + (instancetype)sortDownIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortDown size:size]; }
 + (instancetype)sortNumericDownIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortNumericDown size:size]; }
 + (instancetype)sortNumericDownAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSortNumericDownAlt size:size]; }
@@ -3245,8 +3053,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)soupIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSoup size:size]; }
 + (instancetype)spaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSpa size:size]; }
 + (instancetype)spaceShuttleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSpaceShuttle size:size]; }
-+ (instancetype)spaceStationMoonIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSpaceStationMoon size:size]; }
-+ (instancetype)spaceStationMoonAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSpaceStationMoonAlt size:size]; }
 + (instancetype)spadeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSpade size:size]; }
 + (instancetype)sparklesIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSparkles size:size]; }
 + (instancetype)spellCheckIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSpellCheck size:size]; }
@@ -3257,7 +3063,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)spinnerThirdIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSpinnerThird size:size]; }
 + (instancetype)splotchIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSplotch size:size]; }
 + (instancetype)sprayCanIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSprayCan size:size]; }
-+ (instancetype)sprinklerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSprinkler size:size]; }
 + (instancetype)squareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSquare size:size]; }
 + (instancetype)squareFullIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSquareFull size:size]; }
 + (instancetype)squareRootIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSquareRoot size:size]; }
@@ -3274,12 +3079,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)starHalfAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarHalfAlt size:size]; }
 + (instancetype)starOfDavidIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarOfDavid size:size]; }
 + (instancetype)starOfLifeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarOfLife size:size]; }
-+ (instancetype)starShootingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarShooting size:size]; }
-+ (instancetype)starfighterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarfighter size:size]; }
-+ (instancetype)starfighterAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarfighterAlt size:size]; }
 + (instancetype)starsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStars size:size]; }
-+ (instancetype)starshipIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarship size:size]; }
-+ (instancetype)starshipFreighterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStarshipFreighter size:size]; }
 + (instancetype)steakIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSteak size:size]; }
 + (instancetype)steeringWheelIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSteeringWheel size:size]; }
 + (instancetype)stepBackwardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStepBackward size:size]; }
@@ -3291,7 +3091,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)stopIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStop size:size]; }
 + (instancetype)stopCircleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStopCircle size:size]; }
 + (instancetype)stopwatchIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStopwatch size:size]; }
-+ (instancetype)stopwatch20IconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStopwatch20 size:size]; }
 + (instancetype)storeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStore size:size]; }
 + (instancetype)storeAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStoreAlt size:size]; }
 + (instancetype)streamIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphStream size:size]; }
@@ -3316,10 +3115,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)swimmerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSwimmer size:size]; }
 + (instancetype)swimmingPoolIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSwimmingPool size:size]; }
 + (instancetype)swordIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSword size:size]; }
-+ (instancetype)swordLaserIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSwordLaser size:size]; }
-+ (instancetype)swordLaserAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSwordLaserAlt size:size]; }
 + (instancetype)swordsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSwords size:size]; }
-+ (instancetype)swordsLaserIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSwordsLaser size:size]; }
 + (instancetype)symfonyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSymfony size:size]; }
 + (instancetype)synagogueIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSynagogue size:size]; }
 + (instancetype)syncIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphSync size:size]; }
@@ -3356,13 +3152,10 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)taxiIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTaxi size:size]; }
 + (instancetype)teethIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTeeth size:size]; }
 + (instancetype)teethOpenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTeethOpen size:size]; }
-+ (instancetype)telescopeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTelescope size:size]; }
-+ (instancetype)temperatureDownIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTemperatureDown size:size]; }
 + (instancetype)temperatureFrigidIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTemperatureFrigid size:size]; }
 + (instancetype)temperatureHighIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTemperatureHigh size:size]; }
 + (instancetype)temperatureHotIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTemperatureHot size:size]; }
 + (instancetype)temperatureLowIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTemperatureLow size:size]; }
-+ (instancetype)temperatureUpIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTemperatureUp size:size]; }
 + (instancetype)tengeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTenge size:size]; }
 + (instancetype)tennisBallIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTennisBall size:size]; }
 + (instancetype)terminalIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTerminal size:size]; }
@@ -3424,16 +3217,10 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)trafficLightGoIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrafficLightGo size:size]; }
 + (instancetype)trafficLightSlowIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrafficLightSlow size:size]; }
 + (instancetype)trafficLightStopIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrafficLightStop size:size]; }
-+ (instancetype)trailerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrailer size:size]; }
 + (instancetype)trainIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrain size:size]; }
 + (instancetype)tramIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTram size:size]; }
 + (instancetype)transgenderIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTransgender size:size]; }
 + (instancetype)transgenderAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTransgenderAlt size:size]; }
-+ (instancetype)transporterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTransporter size:size]; }
-+ (instancetype)transporter1IconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTransporter1 size:size]; }
-+ (instancetype)transporter2IconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTransporter2 size:size]; }
-+ (instancetype)transporter3IconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTransporter3 size:size]; }
-+ (instancetype)transporterEmptyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTransporterEmpty size:size]; }
 + (instancetype)trashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrash size:size]; }
 + (instancetype)trashAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrashAlt size:size]; }
 + (instancetype)trashRestoreIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTrashRestore size:size]; }
@@ -3469,8 +3256,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)tvMusicIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTvMusic size:size]; }
 + (instancetype)tvRetroIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTvRetro size:size]; }
 + (instancetype)typewriterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphTypewriter size:size]; }
-+ (instancetype)ufoIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUfo size:size]; }
-+ (instancetype)ufoBeamIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUfoBeam size:size]; }
 + (instancetype)umbracoIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUmbraco size:size]; }
 + (instancetype)umbrellaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUmbrella size:size]; }
 + (instancetype)umbrellaBeachIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUmbrellaBeach size:size]; }
@@ -3479,7 +3264,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)undoAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUndoAlt size:size]; }
 + (instancetype)unicornIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUnicorn size:size]; }
 + (instancetype)unionIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUnion size:size]; }
-+ (instancetype)unityIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUnity size:size]; }
 + (instancetype)universalAccessIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUniversalAccess size:size]; }
 + (instancetype)universityIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUniversity size:size]; }
 + (instancetype)unlinkIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUnlink size:size]; }
@@ -3490,7 +3274,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)usdCircleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUsdCircle size:size]; }
 + (instancetype)usdSquareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUsdSquare size:size]; }
 + (instancetype)userIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUser size:size]; }
-+ (instancetype)userAlienIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserAlien size:size]; }
 + (instancetype)userAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserAlt size:size]; }
 + (instancetype)userAltSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserAltSlash size:size]; }
 + (instancetype)userAstronautIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserAstronaut size:size]; }
@@ -3499,7 +3282,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)userCircleIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserCircle size:size]; }
 + (instancetype)userClockIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserClock size:size]; }
 + (instancetype)userCogIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserCog size:size]; }
-+ (instancetype)userCowboyIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserCowboy size:size]; }
 + (instancetype)userCrownIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserCrown size:size]; }
 + (instancetype)userEditIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserEdit size:size]; }
 + (instancetype)userFriendsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserFriends size:size]; }
@@ -3511,19 +3293,15 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)userMdIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserMd size:size]; }
 + (instancetype)userMdChatIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserMdChat size:size]; }
 + (instancetype)userMinusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserMinus size:size]; }
-+ (instancetype)userMusicIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserMusic size:size]; }
 + (instancetype)userNinjaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserNinja size:size]; }
 + (instancetype)userNurseIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserNurse size:size]; }
 + (instancetype)userPlusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserPlus size:size]; }
-+ (instancetype)userRobotIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserRobot size:size]; }
 + (instancetype)userSecretIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserSecret size:size]; }
 + (instancetype)userShieldIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserShield size:size]; }
 + (instancetype)userSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserSlash size:size]; }
 + (instancetype)userTagIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserTag size:size]; }
 + (instancetype)userTieIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserTie size:size]; }
 + (instancetype)userTimesIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserTimes size:size]; }
-+ (instancetype)userUnlockIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserUnlock size:size]; }
-+ (instancetype)userVisorIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUserVisor size:size]; }
 + (instancetype)usersIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUsers size:size]; }
 + (instancetype)usersClassIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUsersClass size:size]; }
 + (instancetype)usersCogIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUsersCog size:size]; }
@@ -3534,8 +3312,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)utensilSpoonIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUtensilSpoon size:size]; }
 + (instancetype)utensilsIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUtensils size:size]; }
 + (instancetype)utensilsAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphUtensilsAlt size:size]; }
-+ (instancetype)vacuumIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVacuum size:size]; }
-+ (instancetype)vacuumRobotIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVacuumRobot size:size]; }
 + (instancetype)valueAbsoluteIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphValueAbsolute size:size]; }
 + (instancetype)vectorSquareIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVectorSquare size:size]; }
 + (instancetype)venusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVenus size:size]; }
@@ -3548,7 +3324,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)videoPlusIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVideoPlus size:size]; }
 + (instancetype)videoSlashIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVideoSlash size:size]; }
 + (instancetype)viharaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVihara size:size]; }
-+ (instancetype)violinIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphViolin size:size]; }
 + (instancetype)voicemailIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVoicemail size:size]; }
 + (instancetype)volcanoIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVolcano size:size]; }
 + (instancetype)volleyballBallIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVolleyballBall size:size]; }
@@ -3561,9 +3336,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)voteNayIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVoteNay size:size]; }
 + (instancetype)voteYeaIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVoteYea size:size]; }
 + (instancetype)vrCardboardIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphVrCardboard size:size]; }
-+ (instancetype)wagonCoveredIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWagonCovered size:size]; }
 + (instancetype)walkerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWalker size:size]; }
-+ (instancetype)walkieTalkieIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWalkieTalkie size:size]; }
 + (instancetype)walkingIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWalking size:size]; }
 + (instancetype)walletIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWallet size:size]; }
 + (instancetype)wandIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWand size:size]; }
@@ -3572,7 +3345,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)warehouseAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWarehouseAlt size:size]; }
 + (instancetype)washerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWasher size:size]; }
 + (instancetype)watchIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWatch size:size]; }
-+ (instancetype)watchCalculatorIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWatchCalculator size:size]; }
 + (instancetype)watchFitnessIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWatchFitness size:size]; }
 + (instancetype)waterIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWater size:size]; }
 + (instancetype)waterLowerIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWaterLower size:size]; }
@@ -3600,8 +3372,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
 + (instancetype)windowIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindow size:size]; }
 + (instancetype)windowAltIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindowAlt size:size]; }
 + (instancetype)windowCloseIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindowClose size:size]; }
-+ (instancetype)windowFrameIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindowFrame size:size]; }
-+ (instancetype)windowFrameOpenIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindowFrameOpen size:size]; }
 + (instancetype)windowMaximizeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindowMaximize size:size]; }
 + (instancetype)windowMinimizeIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindowMinimize size:size]; }
 + (instancetype)windowRestoreIconWithSize:(CGFloat)size { return [self iconWithCode:FAKGlyphWindowRestore size:size]; }
@@ -3635,16 +3405,12 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphAddressBook : @"addressBook",
       FAKGlyphAddressCard : @"addressCard",
       FAKGlyphAdjust : @"adjust",
-      FAKGlyphAdobe : @"adobe",
-      FAKGlyphAirConditioner : @"airConditioner",
       FAKGlyphAirFreshener : @"airFreshener",
       FAKGlyphAlarmClock : @"alarmClock",
       FAKGlyphAlarmExclamation : @"alarmExclamation",
       FAKGlyphAlarmPlus : @"alarmPlus",
       FAKGlyphAlarmSnooze : @"alarmSnooze",
       FAKGlyphAlicorn : @"alicorn",
-      FAKGlyphAlien : @"alien",
-      FAKGlyphAlienMonster : @"alienMonster",
       FAKGlyphAlignCenter : @"alignCenter",
       FAKGlyphAlignJustify : @"alignJustify",
       FAKGlyphAlignLeft : @"alignLeft",
@@ -3733,8 +3499,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphBackspace : @"backspace",
       FAKGlyphBackward : @"backward",
       FAKGlyphBacon : @"bacon",
-      FAKGlyphBacteria : @"bacteria",
-      FAKGlyphBacterium : @"bacterium",
       FAKGlyphBadge : @"badge",
       FAKGlyphBadgeCheck : @"badgeCheck",
       FAKGlyphBadgeDollar : @"badgeDollar",
@@ -3769,13 +3533,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphBatterySlash : @"batterySlash",
       FAKGlyphBatteryThreeQuarters : @"batteryThreeQuarters",
       FAKGlyphBed : @"bed",
-      FAKGlyphBedAlt : @"bedAlt",
-      FAKGlyphBedBunk : @"bedBunk",
-      FAKGlyphBedEmpty : @"bedEmpty",
       FAKGlyphBeer : @"beer",
       FAKGlyphBell : @"bell",
       FAKGlyphBellExclamation : @"bellExclamation",
-      FAKGlyphBellOn : @"bellOn",
       FAKGlyphBellPlus : @"bellPlus",
       FAKGlyphBellSchool : @"bellSchool",
       FAKGlyphBellSchoolSlash : @"bellSchoolSlash",
@@ -3792,10 +3552,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphBlanket : @"blanket",
       FAKGlyphBlender : @"blender",
       FAKGlyphBlenderPhone : @"blenderPhone",
-      FAKGlyphBlind : @"blind",
-      FAKGlyphBlinds : @"blinds",
-      FAKGlyphBlindsOpen : @"blindsOpen",
-      FAKGlyphBlindsRaised : @"blindsRaised",
       FAKGlyphBlog : @"blog",
       FAKGlyphBold : @"bold",
       FAKGlyphBolt : @"bolt",
@@ -3888,7 +3644,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphCalendarWeek : @"calendarWeek",
       FAKGlyphCamera : @"camera",
       FAKGlyphCameraAlt : @"cameraAlt",
-      FAKGlyphCameraHome : @"cameraHome",
       FAKGlyphCameraRetro : @"cameraRetro",
       FAKGlyphCampfire : @"campfire",
       FAKGlyphCampground : @"campground",
@@ -3928,7 +3683,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphCartPlus : @"cartPlus",
       FAKGlyphCashRegister : @"cashRegister",
       FAKGlyphCat : @"cat",
-      FAKGlyphCatSpace : @"catSpace",
       FAKGlyphCauldron : @"cauldron",
       FAKGlyphCertificate : @"certificate",
       FAKGlyphChair : @"chair",
@@ -4029,16 +3783,13 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphCodeCommit : @"codeCommit",
       FAKGlyphCodeMerge : @"codeMerge",
       FAKGlyphCoffee : @"coffee",
-      FAKGlyphCoffeePot : @"coffeePot",
       FAKGlyphCoffeeTogo : @"coffeeTogo",
       FAKGlyphCoffin : @"coffin",
-      FAKGlyphCoffinCross : @"coffinCross",
       FAKGlyphCog : @"cog",
       FAKGlyphCogs : @"cogs",
       FAKGlyphCoin : @"coin",
       FAKGlyphCoins : @"coins",
       FAKGlyphColumns : @"columns",
-      FAKGlyphComet : @"comet",
       FAKGlyphComment : @"comment",
       FAKGlyphCommentAlt : @"commentAlt",
       FAKGlyphCommentAltCheck : @"commentAltCheck",
@@ -4106,7 +3857,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphCurling : @"curling",
       FAKGlyphCut : @"cut",
       FAKGlyphDagger : @"dagger",
-      FAKGlyphDailymotion : @"dailymotion",
       FAKGlyphDatabase : @"database",
       FAKGlyphDeaf : @"deaf",
       FAKGlyphDebug : @"debug",
@@ -4218,12 +3968,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphEyeEvil : @"eyeEvil",
       FAKGlyphEyeSlash : @"eyeSlash",
       FAKGlyphFan : @"fan",
-      FAKGlyphFanTable : @"fanTable",
       FAKGlyphFarm : @"farm",
       FAKGlyphFastBackward : @"fastBackward",
       FAKGlyphFastForward : @"fastForward",
-      FAKGlyphFaucet : @"faucet",
-      FAKGlyphFaucetDrip : @"faucetDrip",
       FAKGlyphFax : @"fax",
       FAKGlyphFeather : @"feather",
       FAKGlyphFeatherAlt : @"featherAlt",
@@ -4277,7 +4024,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphFireAlt : @"fireAlt",
       FAKGlyphFireExtinguisher : @"fireExtinguisher",
       FAKGlyphFireSmoke : @"fireSmoke",
-      FAKGlyphFirefoxBrowser : @"firefoxBrowser",
       FAKGlyphFireplace : @"fireplace",
       FAKGlyphFirstAid : @"firstAid",
       FAKGlyphFish : @"fish",
@@ -4300,13 +4046,11 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphFluxCapacitor : @"fluxCapacitor",
       FAKGlyphFog : @"fog",
       FAKGlyphFolder : @"folder",
-      FAKGlyphFolderDownload : @"folderDownload",
       FAKGlyphFolderMinus : @"folderMinus",
       FAKGlyphFolderOpen : @"folderOpen",
       FAKGlyphFolderPlus : @"folderPlus",
       FAKGlyphFolderTimes : @"folderTimes",
       FAKGlyphFolderTree : @"folderTree",
-      FAKGlyphFolderUpload : @"folderUpload",
       FAKGlyphFolders : @"folders",
       FAKGlyphFont : @"font",
       FAKGlyphFontAwesomeLogoFull : @"fontAwesomeLogoFull",
@@ -4324,15 +4068,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphFunction : @"function",
       FAKGlyphFunnelDollar : @"funnelDollar",
       FAKGlyphFutbol : @"futbol",
-      FAKGlyphGalaxy : @"galaxy",
       FAKGlyphGameBoard : @"gameBoard",
       FAKGlyphGameBoardAlt : @"gameBoardAlt",
-      FAKGlyphGameConsoleHandheld : @"gameConsoleHandheld",
       FAKGlyphGamepad : @"gamepad",
-      FAKGlyphGamepadAlt : @"gamepadAlt",
-      FAKGlyphGarage : @"garage",
-      FAKGlyphGarageCar : @"garageCar",
-      FAKGlyphGarageOpen : @"garageOpen",
       FAKGlyphGasPump : @"gasPump",
       FAKGlyphGasPumpSlash : @"gasPumpSlash",
       FAKGlyphGavel : @"gavel",
@@ -4365,7 +4103,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphGolfClub : @"golfClub",
       FAKGlyphGopuram : @"gopuram",
       FAKGlyphGraduationCap : @"graduationCap",
-      FAKGlyphGramophone : @"gramophone",
       FAKGlyphGreaterThan : @"greaterThan",
       FAKGlyphGreaterThanEqual : @"greaterThanEqual",
       FAKGlyphGrimace : @"grimace",
@@ -4429,7 +4166,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphHardHat : @"hardHat",
       FAKGlyphHashtag : @"hashtag",
       FAKGlyphHatChef : @"hatChef",
-      FAKGlyphHatCowboy : @"hatCowboy",
       FAKGlyphHatSanta : @"hatSanta",
       FAKGlyphHatWinter : @"hatWinter",
       FAKGlyphHatWitch : @"hatWitch",
@@ -4449,7 +4185,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphHeartRate : @"heartRate",
       FAKGlyphHeartSquare : @"heartSquare",
       FAKGlyphHeartbeat : @"heartbeat",
-      FAKGlyphHeat : @"heat",
       FAKGlyphHelicopter : @"helicopter",
       FAKGlyphHelmetBattle : @"helmetBattle",
       FAKGlyphHexagon : @"hexagon",
@@ -4482,14 +4217,8 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphHourglassEnd : @"hourglassEnd",
       FAKGlyphHourglassHalf : @"hourglassHalf",
       FAKGlyphHourglassStart : @"hourglassStart",
-      FAKGlyphHouse : @"house",
       FAKGlyphHouseDamage : @"houseDamage",
-      FAKGlyphHouseDay : @"houseDay",
       FAKGlyphHouseFlood : @"houseFlood",
-      FAKGlyphHouseLeave : @"houseLeave",
-      FAKGlyphHouseNight : @"houseNight",
-      FAKGlyphHouseReturn : @"houseReturn",
-      FAKGlyphHouseSignal : @"houseSignal",
       FAKGlyphHryvnia : @"hryvnia",
       FAKGlyphHumidity : @"humidity",
       FAKGlyphHurricane : @"hurricane",
@@ -4502,7 +4231,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphIdBadge : @"idBadge",
       FAKGlyphIdCard : @"idCard",
       FAKGlyphIdCardAlt : @"idCardAlt",
-      FAKGlyphIdeal : @"ideal",
       FAKGlyphIgloo : @"igloo",
       FAKGlyphImage : @"image",
       FAKGlyphImages : @"images",
@@ -4517,7 +4245,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphInfoCircle : @"infoCircle",
       FAKGlyphInfoSquare : @"infoSquare",
       FAKGlyphInhaler : @"inhaler",
-      FAKGlyphInstagramSquare : @"instagramSquare",
       FAKGlyphIntegral : @"integral",
       FAKGlyphIntersection : @"intersection",
       FAKGlyphInventory : @"inventory",
@@ -4543,8 +4270,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphKnifeKitchen : @"knifeKitchen",
       FAKGlyphLambda : @"lambda",
       FAKGlyphLamp : @"lamp",
-      FAKGlyphLampDesk : @"lampDesk",
-      FAKGlyphLampFloor : @"lampFloor",
       FAKGlyphLandmark : @"landmark",
       FAKGlyphLandmarkAlt : @"landmarkAlt",
       FAKGlyphLanguage : @"language",
@@ -4570,10 +4295,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphLevelUp : @"levelUp",
       FAKGlyphLevelUpAlt : @"levelUpAlt",
       FAKGlyphLifeRing : @"lifeRing",
-      FAKGlyphLightCeiling : @"lightCeiling",
-      FAKGlyphLightSwitch : @"lightSwitch",
-      FAKGlyphLightSwitchOff : @"lightSwitchOff",
-      FAKGlyphLightSwitchOn : @"lightSwitchOn",
       FAKGlyphLightbulb : @"lightbulb",
       FAKGlyphLightbulbDollar : @"lightbulbDollar",
       FAKGlyphLightbulbExclamation : @"lightbulbExclamation",
@@ -4652,14 +4373,12 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphMenorah : @"menorah",
       FAKGlyphMercury : @"mercury",
       FAKGlyphMeteor : @"meteor",
-      FAKGlyphMicroblog : @"microblog",
       FAKGlyphMicrochip : @"microchip",
       FAKGlyphMicrophone : @"microphone",
       FAKGlyphMicrophoneAlt : @"microphoneAlt",
       FAKGlyphMicrophoneAltSlash : @"microphoneAltSlash",
       FAKGlyphMicrophoneSlash : @"microphoneSlash",
       FAKGlyphMicroscope : @"microscope",
-      FAKGlyphMicrowave : @"microwave",
       FAKGlyphMindShare : @"mindShare",
       FAKGlyphMinus : @"minus",
       FAKGlyphMinusCircle : @"minusCircle",
@@ -4668,7 +4387,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphMinusSquare : @"minusSquare",
       FAKGlyphMistletoe : @"mistletoe",
       FAKGlyphMitten : @"mitten",
-      FAKGlyphMixer : @"mixer",
       FAKGlyphMobile : @"mobile",
       FAKGlyphMobileAlt : @"mobileAlt",
       FAKGlyphMobileAndroid : @"mobileAndroid",
@@ -4714,8 +4432,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphOrnament : @"ornament",
       FAKGlyphOtter : @"otter",
       FAKGlyphOutdent : @"outdent",
-      FAKGlyphOutlet : @"outlet",
-      FAKGlyphOven : @"oven",
       FAKGlyphOverline : @"overline",
       FAKGlyphPageBreak : @"pageBreak",
       FAKGlyphPager : @"pager",
@@ -4775,7 +4491,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphPhotoVideo : @"photoVideo",
       FAKGlyphPi : @"pi",
       FAKGlyphPie : @"pie",
-      FAKGlyphPiedPiperSquare : @"piedPiperSquare",
       FAKGlyphPig : @"pig",
       FAKGlyphPiggyBank : @"piggyBank",
       FAKGlyphPills : @"pills",
@@ -4786,8 +4501,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphPlaneAlt : @"planeAlt",
       FAKGlyphPlaneArrival : @"planeArrival",
       FAKGlyphPlaneDeparture : @"planeDeparture",
-      FAKGlyphPlanetMoon : @"planetMoon",
-      FAKGlyphPlanetRinged : @"planetRinged",
       FAKGlyphPlay : @"play",
       FAKGlyphPlayCircle : @"playCircle",
       FAKGlyphPlug : @"plug",
@@ -4799,7 +4512,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphPodcast : @"podcast",
       FAKGlyphPodium : @"podium",
       FAKGlyphPodiumStar : @"podiumStar",
-      FAKGlyphPoliceBox : @"policeBox",
       FAKGlyphPoll : @"poll",
       FAKGlyphPollH : @"pollH",
       FAKGlyphPollPeople : @"pollPeople",
@@ -4807,8 +4519,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphPooStorm : @"pooStorm",
       FAKGlyphPoop : @"poop",
       FAKGlyphPopcorn : @"popcorn",
-      FAKGlyphPortalEnter : @"portalEnter",
-      FAKGlyphPortalExit : @"portalExit",
       FAKGlyphPortrait : @"portrait",
       FAKGlyphPoundSign : @"poundSign",
       FAKGlyphPowerOff : @"powerOff",
@@ -4836,7 +4546,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphRabbit : @"rabbit",
       FAKGlyphRabbitFast : @"rabbitFast",
       FAKGlyphRacquet : @"racquet",
-      FAKGlyphRadar : @"radar",
       FAKGlyphRadiation : @"radiation",
       FAKGlyphRadiationAlt : @"radiationAlt",
       FAKGlyphRainbow : @"rainbow",
@@ -4844,7 +4553,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphRam : @"ram",
       FAKGlyphRampLoading : @"rampLoading",
       FAKGlyphRandom : @"random",
-      FAKGlyphRaygun : @"raygun",
       FAKGlyphReceipt : @"receipt",
       FAKGlyphRectangleLandscape : @"rectangleLandscape",
       FAKGlyphRectanglePortrait : @"rectanglePortrait",
@@ -4852,7 +4560,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphRecycle : @"recycle",
       FAKGlyphRedo : @"redo",
       FAKGlyphRedoAlt : @"redoAlt",
-      FAKGlyphRefrigerator : @"refrigerator",
       FAKGlyphRegistered : @"registered",
       FAKGlyphRemoveFormat : @"removeFormat",
       FAKGlyphRepeat : @"repeat",
@@ -4871,7 +4578,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphRoad : @"road",
       FAKGlyphRobot : @"robot",
       FAKGlyphRocket : @"rocket",
-      FAKGlyphRocketLaunch : @"rocketLaunch",
       FAKGlyphRoute : @"route",
       FAKGlyphRouteHighway : @"routeHighway",
       FAKGlyphRouteInterstate : @"routeInterstate",
@@ -4899,7 +4605,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphScalpel : @"scalpel",
       FAKGlyphScalpelPath : @"scalpelPath",
       FAKGlyphScanner : @"scanner",
-      FAKGlyphScannerImage : @"scannerImage",
       FAKGlyphScannerKeyboard : @"scannerKeyboard",
       FAKGlyphScannerTouchscreen : @"scannerTouchscreen",
       FAKGlyphScarecrow : @"scarecrow",
@@ -4919,11 +4624,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphSeedling : @"seedling",
       FAKGlyphSendBack : @"sendBack",
       FAKGlyphSendBackward : @"sendBackward",
-      FAKGlyphSensor : @"sensor",
-      FAKGlyphSensorAlert : @"sensorAlert",
-      FAKGlyphSensorFire : @"sensorFire",
-      FAKGlyphSensorOn : @"sensorOn",
-      FAKGlyphSensorSmoke : @"sensorSmoke",
       FAKGlyphServer : @"server",
       FAKGlyphShapes : @"shapes",
       FAKGlyphShare : @"share",
@@ -4942,7 +4642,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphShippingTimed : @"shippingTimed",
       FAKGlyphShishKebab : @"shishKebab",
       FAKGlyphShoePrints : @"shoePrints",
-      FAKGlyphShopify : @"shopify",
       FAKGlyphShoppingBag : @"shoppingBag",
       FAKGlyphShoppingBasket : @"shoppingBasket",
       FAKGlyphShoppingCart : @"shoppingCart",
@@ -4973,8 +4672,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphSignalSlash : @"signalSlash",
       FAKGlyphSignature : @"signature",
       FAKGlyphSimCard : @"simCard",
-      FAKGlyphSiren : @"siren",
-      FAKGlyphSirenOn : @"sirenOn",
       FAKGlyphSitemap : @"sitemap",
       FAKGlyphSkating : @"skating",
       FAKGlyphSkeleton : @"skeleton",
@@ -5011,7 +4708,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphSnowplow : @"snowplow",
       FAKGlyphSocks : @"socks",
       FAKGlyphSolarPanel : @"solarPanel",
-      FAKGlyphSolarSystem : @"solarSystem",
       FAKGlyphSort : @"sort",
       FAKGlyphSortAlphaDown : @"sortAlphaDown",
       FAKGlyphSortAlphaDownAlt : @"sortAlphaDownAlt",
@@ -5022,9 +4718,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphSortAmountDownAlt : @"sortAmountDownAlt",
       FAKGlyphSortAmountUp : @"sortAmountUp",
       FAKGlyphSortAmountUpAlt : @"sortAmountUpAlt",
-      FAKGlyphSortCircle : @"sortCircle",
-      FAKGlyphSortCircleDown : @"sortCircleDown",
-      FAKGlyphSortCircleUp : @"sortCircleUp",
       FAKGlyphSortDown : @"sortDown",
       FAKGlyphSortNumericDown : @"sortNumericDown",
       FAKGlyphSortNumericDownAlt : @"sortNumericDownAlt",
@@ -5042,8 +4735,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphSoup : @"soup",
       FAKGlyphSpa : @"spa",
       FAKGlyphSpaceShuttle : @"spaceShuttle",
-      FAKGlyphSpaceStationMoon : @"spaceStationMoon",
-      FAKGlyphSpaceStationMoonAlt : @"spaceStationMoonAlt",
       FAKGlyphSpade : @"spade",
       FAKGlyphSparkles : @"sparkles",
       FAKGlyphSpellCheck : @"spellCheck",
@@ -5054,7 +4745,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphSpinnerThird : @"spinnerThird",
       FAKGlyphSplotch : @"splotch",
       FAKGlyphSprayCan : @"sprayCan",
-      FAKGlyphSprinkler : @"sprinkler",
       FAKGlyphSquare : @"square",
       FAKGlyphSquareFull : @"squareFull",
       FAKGlyphSquareRoot : @"squareRoot",
@@ -5071,12 +4761,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphStarHalfAlt : @"starHalfAlt",
       FAKGlyphStarOfDavid : @"starOfDavid",
       FAKGlyphStarOfLife : @"starOfLife",
-      FAKGlyphStarShooting : @"starShooting",
-      FAKGlyphStarfighter : @"starfighter",
-      FAKGlyphStarfighterAlt : @"starfighterAlt",
       FAKGlyphStars : @"stars",
-      FAKGlyphStarship : @"starship",
-      FAKGlyphStarshipFreighter : @"starshipFreighter",
       FAKGlyphSteak : @"steak",
       FAKGlyphSteeringWheel : @"steeringWheel",
       FAKGlyphStepBackward : @"stepBackward",
@@ -5088,7 +4773,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphStop : @"stop",
       FAKGlyphStopCircle : @"stopCircle",
       FAKGlyphStopwatch : @"stopwatch",
-      FAKGlyphStopwatch20 : @"stopwatch20",
       FAKGlyphStore : @"store",
       FAKGlyphStoreAlt : @"storeAlt",
       FAKGlyphStream : @"stream",
@@ -5113,10 +4797,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphSwimmer : @"swimmer",
       FAKGlyphSwimmingPool : @"swimmingPool",
       FAKGlyphSword : @"sword",
-      FAKGlyphSwordLaser : @"swordLaser",
-      FAKGlyphSwordLaserAlt : @"swordLaserAlt",
       FAKGlyphSwords : @"swords",
-      FAKGlyphSwordsLaser : @"swordsLaser",
       FAKGlyphSymfony : @"symfony",
       FAKGlyphSynagogue : @"synagogue",
       FAKGlyphSync : @"sync",
@@ -5153,13 +4834,10 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphTaxi : @"taxi",
       FAKGlyphTeeth : @"teeth",
       FAKGlyphTeethOpen : @"teethOpen",
-      FAKGlyphTelescope : @"telescope",
-      FAKGlyphTemperatureDown : @"temperatureDown",
       FAKGlyphTemperatureFrigid : @"temperatureFrigid",
       FAKGlyphTemperatureHigh : @"temperatureHigh",
       FAKGlyphTemperatureHot : @"temperatureHot",
       FAKGlyphTemperatureLow : @"temperatureLow",
-      FAKGlyphTemperatureUp : @"temperatureUp",
       FAKGlyphTenge : @"tenge",
       FAKGlyphTennisBall : @"tennisBall",
       FAKGlyphTerminal : @"terminal",
@@ -5221,16 +4899,10 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphTrafficLightGo : @"trafficLightGo",
       FAKGlyphTrafficLightSlow : @"trafficLightSlow",
       FAKGlyphTrafficLightStop : @"trafficLightStop",
-      FAKGlyphTrailer : @"trailer",
       FAKGlyphTrain : @"train",
       FAKGlyphTram : @"tram",
       FAKGlyphTransgender : @"transgender",
       FAKGlyphTransgenderAlt : @"transgenderAlt",
-      FAKGlyphTransporter : @"transporter",
-      FAKGlyphTransporter1 : @"transporter1",
-      FAKGlyphTransporter2 : @"transporter2",
-      FAKGlyphTransporter3 : @"transporter3",
-      FAKGlyphTransporterEmpty : @"transporterEmpty",
       FAKGlyphTrash : @"trash",
       FAKGlyphTrashAlt : @"trashAlt",
       FAKGlyphTrashRestore : @"trashRestore",
@@ -5266,8 +4938,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphTvMusic : @"tvMusic",
       FAKGlyphTvRetro : @"tvRetro",
       FAKGlyphTypewriter : @"typewriter",
-      FAKGlyphUfo : @"ufo",
-      FAKGlyphUfoBeam : @"ufoBeam",
       FAKGlyphUmbraco : @"umbraco",
       FAKGlyphUmbrella : @"umbrella",
       FAKGlyphUmbrellaBeach : @"umbrellaBeach",
@@ -5276,7 +4946,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphUndoAlt : @"undoAlt",
       FAKGlyphUnicorn : @"unicorn",
       FAKGlyphUnion : @"union",
-      FAKGlyphUnity : @"unity",
       FAKGlyphUniversalAccess : @"universalAccess",
       FAKGlyphUniversity : @"university",
       FAKGlyphUnlink : @"unlink",
@@ -5287,7 +4956,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphUsdCircle : @"usdCircle",
       FAKGlyphUsdSquare : @"usdSquare",
       FAKGlyphUser : @"user",
-      FAKGlyphUserAlien : @"userAlien",
       FAKGlyphUserAlt : @"userAlt",
       FAKGlyphUserAltSlash : @"userAltSlash",
       FAKGlyphUserAstronaut : @"userAstronaut",
@@ -5296,7 +4964,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphUserCircle : @"userCircle",
       FAKGlyphUserClock : @"userClock",
       FAKGlyphUserCog : @"userCog",
-      FAKGlyphUserCowboy : @"userCowboy",
       FAKGlyphUserCrown : @"userCrown",
       FAKGlyphUserEdit : @"userEdit",
       FAKGlyphUserFriends : @"userFriends",
@@ -5308,19 +4975,15 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphUserMd : @"userMd",
       FAKGlyphUserMdChat : @"userMdChat",
       FAKGlyphUserMinus : @"userMinus",
-      FAKGlyphUserMusic : @"userMusic",
       FAKGlyphUserNinja : @"userNinja",
       FAKGlyphUserNurse : @"userNurse",
       FAKGlyphUserPlus : @"userPlus",
-      FAKGlyphUserRobot : @"userRobot",
       FAKGlyphUserSecret : @"userSecret",
       FAKGlyphUserShield : @"userShield",
       FAKGlyphUserSlash : @"userSlash",
       FAKGlyphUserTag : @"userTag",
       FAKGlyphUserTie : @"userTie",
       FAKGlyphUserTimes : @"userTimes",
-      FAKGlyphUserUnlock : @"userUnlock",
-      FAKGlyphUserVisor : @"userVisor",
       FAKGlyphUsers : @"users",
       FAKGlyphUsersClass : @"usersClass",
       FAKGlyphUsersCog : @"usersCog",
@@ -5331,8 +4994,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphUtensilSpoon : @"utensilSpoon",
       FAKGlyphUtensils : @"utensils",
       FAKGlyphUtensilsAlt : @"utensilsAlt",
-      FAKGlyphVacuum : @"vacuum",
-      FAKGlyphVacuumRobot : @"vacuumRobot",
       FAKGlyphValueAbsolute : @"valueAbsolute",
       FAKGlyphVectorSquare : @"vectorSquare",
       FAKGlyphVenus : @"venus",
@@ -5345,7 +5006,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphVideoPlus : @"videoPlus",
       FAKGlyphVideoSlash : @"videoSlash",
       FAKGlyphVihara : @"vihara",
-      FAKGlyphViolin : @"violin",
       FAKGlyphVoicemail : @"voicemail",
       FAKGlyphVolcano : @"volcano",
       FAKGlyphVolleyballBall : @"volleyballBall",
@@ -5358,9 +5018,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphVoteNay : @"voteNay",
       FAKGlyphVoteYea : @"voteYea",
       FAKGlyphVrCardboard : @"vrCardboard",
-      FAKGlyphWagonCovered : @"wagonCovered",
       FAKGlyphWalker : @"walker",
-      FAKGlyphWalkieTalkie : @"walkieTalkie",
       FAKGlyphWalking : @"walking",
       FAKGlyphWallet : @"wallet",
       FAKGlyphWand : @"wand",
@@ -5369,7 +5027,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphWarehouseAlt : @"warehouseAlt",
       FAKGlyphWasher : @"washer",
       FAKGlyphWatch : @"watch",
-      FAKGlyphWatchCalculator : @"watchCalculator",
       FAKGlyphWatchFitness : @"watchFitness",
       FAKGlyphWater : @"water",
       FAKGlyphWaterLower : @"waterLower",
@@ -5397,8 +5054,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       FAKGlyphWindow : @"window",
       FAKGlyphWindowAlt : @"windowAlt",
       FAKGlyphWindowClose : @"windowClose",
-      FAKGlyphWindowFrame : @"windowFrame",
-      FAKGlyphWindowFrameOpen : @"windowFrameOpen",
       FAKGlyphWindowMaximize : @"windowMaximize",
       FAKGlyphWindowMinimize : @"windowMinimize",
       FAKGlyphWindowRestore : @"windowRestore",
@@ -5431,16 +5086,12 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"addressBook" : FAKGlyphAddressBook,
       @"addressCard" : FAKGlyphAddressCard,
       @"adjust" : FAKGlyphAdjust,
-      @"adobe" : FAKGlyphAdobe,
-      @"airConditioner" : FAKGlyphAirConditioner,
       @"airFreshener" : FAKGlyphAirFreshener,
       @"alarmClock" : FAKGlyphAlarmClock,
       @"alarmExclamation" : FAKGlyphAlarmExclamation,
       @"alarmPlus" : FAKGlyphAlarmPlus,
       @"alarmSnooze" : FAKGlyphAlarmSnooze,
       @"alicorn" : FAKGlyphAlicorn,
-      @"alien" : FAKGlyphAlien,
-      @"alienMonster" : FAKGlyphAlienMonster,
       @"alignCenter" : FAKGlyphAlignCenter,
       @"alignJustify" : FAKGlyphAlignJustify,
       @"alignLeft" : FAKGlyphAlignLeft,
@@ -5529,8 +5180,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"backspace" : FAKGlyphBackspace,
       @"backward" : FAKGlyphBackward,
       @"bacon" : FAKGlyphBacon,
-      @"bacteria" : FAKGlyphBacteria,
-      @"bacterium" : FAKGlyphBacterium,
       @"badge" : FAKGlyphBadge,
       @"badgeCheck" : FAKGlyphBadgeCheck,
       @"badgeDollar" : FAKGlyphBadgeDollar,
@@ -5565,13 +5214,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"batterySlash" : FAKGlyphBatterySlash,
       @"batteryThreeQuarters" : FAKGlyphBatteryThreeQuarters,
       @"bed" : FAKGlyphBed,
-      @"bedAlt" : FAKGlyphBedAlt,
-      @"bedBunk" : FAKGlyphBedBunk,
-      @"bedEmpty" : FAKGlyphBedEmpty,
       @"beer" : FAKGlyphBeer,
       @"bell" : FAKGlyphBell,
       @"bellExclamation" : FAKGlyphBellExclamation,
-      @"bellOn" : FAKGlyphBellOn,
       @"bellPlus" : FAKGlyphBellPlus,
       @"bellSchool" : FAKGlyphBellSchool,
       @"bellSchoolSlash" : FAKGlyphBellSchoolSlash,
@@ -5588,10 +5233,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"blanket" : FAKGlyphBlanket,
       @"blender" : FAKGlyphBlender,
       @"blenderPhone" : FAKGlyphBlenderPhone,
-      @"blind" : FAKGlyphBlind,
-      @"blinds" : FAKGlyphBlinds,
-      @"blindsOpen" : FAKGlyphBlindsOpen,
-      @"blindsRaised" : FAKGlyphBlindsRaised,
       @"blog" : FAKGlyphBlog,
       @"bold" : FAKGlyphBold,
       @"bolt" : FAKGlyphBolt,
@@ -5684,7 +5325,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"calendarWeek" : FAKGlyphCalendarWeek,
       @"camera" : FAKGlyphCamera,
       @"cameraAlt" : FAKGlyphCameraAlt,
-      @"cameraHome" : FAKGlyphCameraHome,
       @"cameraRetro" : FAKGlyphCameraRetro,
       @"campfire" : FAKGlyphCampfire,
       @"campground" : FAKGlyphCampground,
@@ -5724,7 +5364,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"cartPlus" : FAKGlyphCartPlus,
       @"cashRegister" : FAKGlyphCashRegister,
       @"cat" : FAKGlyphCat,
-      @"catSpace" : FAKGlyphCatSpace,
       @"cauldron" : FAKGlyphCauldron,
       @"certificate" : FAKGlyphCertificate,
       @"chair" : FAKGlyphChair,
@@ -5825,16 +5464,13 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"codeCommit" : FAKGlyphCodeCommit,
       @"codeMerge" : FAKGlyphCodeMerge,
       @"coffee" : FAKGlyphCoffee,
-      @"coffeePot" : FAKGlyphCoffeePot,
       @"coffeeTogo" : FAKGlyphCoffeeTogo,
       @"coffin" : FAKGlyphCoffin,
-      @"coffinCross" : FAKGlyphCoffinCross,
       @"cog" : FAKGlyphCog,
       @"cogs" : FAKGlyphCogs,
       @"coin" : FAKGlyphCoin,
       @"coins" : FAKGlyphCoins,
       @"columns" : FAKGlyphColumns,
-      @"comet" : FAKGlyphComet,
       @"comment" : FAKGlyphComment,
       @"commentAlt" : FAKGlyphCommentAlt,
       @"commentAltCheck" : FAKGlyphCommentAltCheck,
@@ -5902,7 +5538,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"curling" : FAKGlyphCurling,
       @"cut" : FAKGlyphCut,
       @"dagger" : FAKGlyphDagger,
-      @"dailymotion" : FAKGlyphDailymotion,
       @"database" : FAKGlyphDatabase,
       @"deaf" : FAKGlyphDeaf,
       @"debug" : FAKGlyphDebug,
@@ -6014,12 +5649,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"eyeEvil" : FAKGlyphEyeEvil,
       @"eyeSlash" : FAKGlyphEyeSlash,
       @"fan" : FAKGlyphFan,
-      @"fanTable" : FAKGlyphFanTable,
       @"farm" : FAKGlyphFarm,
       @"fastBackward" : FAKGlyphFastBackward,
       @"fastForward" : FAKGlyphFastForward,
-      @"faucet" : FAKGlyphFaucet,
-      @"faucetDrip" : FAKGlyphFaucetDrip,
       @"fax" : FAKGlyphFax,
       @"feather" : FAKGlyphFeather,
       @"featherAlt" : FAKGlyphFeatherAlt,
@@ -6073,7 +5705,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"fireAlt" : FAKGlyphFireAlt,
       @"fireExtinguisher" : FAKGlyphFireExtinguisher,
       @"fireSmoke" : FAKGlyphFireSmoke,
-      @"firefoxBrowser" : FAKGlyphFirefoxBrowser,
       @"fireplace" : FAKGlyphFireplace,
       @"firstAid" : FAKGlyphFirstAid,
       @"fish" : FAKGlyphFish,
@@ -6096,13 +5727,11 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"fluxCapacitor" : FAKGlyphFluxCapacitor,
       @"fog" : FAKGlyphFog,
       @"folder" : FAKGlyphFolder,
-      @"folderDownload" : FAKGlyphFolderDownload,
       @"folderMinus" : FAKGlyphFolderMinus,
       @"folderOpen" : FAKGlyphFolderOpen,
       @"folderPlus" : FAKGlyphFolderPlus,
       @"folderTimes" : FAKGlyphFolderTimes,
       @"folderTree" : FAKGlyphFolderTree,
-      @"folderUpload" : FAKGlyphFolderUpload,
       @"folders" : FAKGlyphFolders,
       @"font" : FAKGlyphFont,
       @"fontAwesomeLogoFull" : FAKGlyphFontAwesomeLogoFull,
@@ -6120,15 +5749,9 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"function" : FAKGlyphFunction,
       @"funnelDollar" : FAKGlyphFunnelDollar,
       @"futbol" : FAKGlyphFutbol,
-      @"galaxy" : FAKGlyphGalaxy,
       @"gameBoard" : FAKGlyphGameBoard,
       @"gameBoardAlt" : FAKGlyphGameBoardAlt,
-      @"gameConsoleHandheld" : FAKGlyphGameConsoleHandheld,
       @"gamepad" : FAKGlyphGamepad,
-      @"gamepadAlt" : FAKGlyphGamepadAlt,
-      @"garage" : FAKGlyphGarage,
-      @"garageCar" : FAKGlyphGarageCar,
-      @"garageOpen" : FAKGlyphGarageOpen,
       @"gasPump" : FAKGlyphGasPump,
       @"gasPumpSlash" : FAKGlyphGasPumpSlash,
       @"gavel" : FAKGlyphGavel,
@@ -6161,7 +5784,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"golfClub" : FAKGlyphGolfClub,
       @"gopuram" : FAKGlyphGopuram,
       @"graduationCap" : FAKGlyphGraduationCap,
-      @"gramophone" : FAKGlyphGramophone,
       @"greaterThan" : FAKGlyphGreaterThan,
       @"greaterThanEqual" : FAKGlyphGreaterThanEqual,
       @"grimace" : FAKGlyphGrimace,
@@ -6225,7 +5847,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"hardHat" : FAKGlyphHardHat,
       @"hashtag" : FAKGlyphHashtag,
       @"hatChef" : FAKGlyphHatChef,
-      @"hatCowboy" : FAKGlyphHatCowboy,
       @"hatSanta" : FAKGlyphHatSanta,
       @"hatWinter" : FAKGlyphHatWinter,
       @"hatWitch" : FAKGlyphHatWitch,
@@ -6245,7 +5866,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"heartRate" : FAKGlyphHeartRate,
       @"heartSquare" : FAKGlyphHeartSquare,
       @"heartbeat" : FAKGlyphHeartbeat,
-      @"heat" : FAKGlyphHeat,
       @"helicopter" : FAKGlyphHelicopter,
       @"helmetBattle" : FAKGlyphHelmetBattle,
       @"hexagon" : FAKGlyphHexagon,
@@ -6278,14 +5898,8 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"hourglassEnd" : FAKGlyphHourglassEnd,
       @"hourglassHalf" : FAKGlyphHourglassHalf,
       @"hourglassStart" : FAKGlyphHourglassStart,
-      @"house" : FAKGlyphHouse,
       @"houseDamage" : FAKGlyphHouseDamage,
-      @"houseDay" : FAKGlyphHouseDay,
       @"houseFlood" : FAKGlyphHouseFlood,
-      @"houseLeave" : FAKGlyphHouseLeave,
-      @"houseNight" : FAKGlyphHouseNight,
-      @"houseReturn" : FAKGlyphHouseReturn,
-      @"houseSignal" : FAKGlyphHouseSignal,
       @"hryvnia" : FAKGlyphHryvnia,
       @"humidity" : FAKGlyphHumidity,
       @"hurricane" : FAKGlyphHurricane,
@@ -6298,7 +5912,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"idBadge" : FAKGlyphIdBadge,
       @"idCard" : FAKGlyphIdCard,
       @"idCardAlt" : FAKGlyphIdCardAlt,
-      @"ideal" : FAKGlyphIdeal,
       @"igloo" : FAKGlyphIgloo,
       @"image" : FAKGlyphImage,
       @"images" : FAKGlyphImages,
@@ -6313,7 +5926,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"infoCircle" : FAKGlyphInfoCircle,
       @"infoSquare" : FAKGlyphInfoSquare,
       @"inhaler" : FAKGlyphInhaler,
-      @"instagramSquare" : FAKGlyphInstagramSquare,
       @"integral" : FAKGlyphIntegral,
       @"intersection" : FAKGlyphIntersection,
       @"inventory" : FAKGlyphInventory,
@@ -6339,8 +5951,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"knifeKitchen" : FAKGlyphKnifeKitchen,
       @"lambda" : FAKGlyphLambda,
       @"lamp" : FAKGlyphLamp,
-      @"lampDesk" : FAKGlyphLampDesk,
-      @"lampFloor" : FAKGlyphLampFloor,
       @"landmark" : FAKGlyphLandmark,
       @"landmarkAlt" : FAKGlyphLandmarkAlt,
       @"language" : FAKGlyphLanguage,
@@ -6366,10 +5976,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"levelUp" : FAKGlyphLevelUp,
       @"levelUpAlt" : FAKGlyphLevelUpAlt,
       @"lifeRing" : FAKGlyphLifeRing,
-      @"lightCeiling" : FAKGlyphLightCeiling,
-      @"lightSwitch" : FAKGlyphLightSwitch,
-      @"lightSwitchOff" : FAKGlyphLightSwitchOff,
-      @"lightSwitchOn" : FAKGlyphLightSwitchOn,
       @"lightbulb" : FAKGlyphLightbulb,
       @"lightbulbDollar" : FAKGlyphLightbulbDollar,
       @"lightbulbExclamation" : FAKGlyphLightbulbExclamation,
@@ -6448,14 +6054,12 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"menorah" : FAKGlyphMenorah,
       @"mercury" : FAKGlyphMercury,
       @"meteor" : FAKGlyphMeteor,
-      @"microblog" : FAKGlyphMicroblog,
       @"microchip" : FAKGlyphMicrochip,
       @"microphone" : FAKGlyphMicrophone,
       @"microphoneAlt" : FAKGlyphMicrophoneAlt,
       @"microphoneAltSlash" : FAKGlyphMicrophoneAltSlash,
       @"microphoneSlash" : FAKGlyphMicrophoneSlash,
       @"microscope" : FAKGlyphMicroscope,
-      @"microwave" : FAKGlyphMicrowave,
       @"mindShare" : FAKGlyphMindShare,
       @"minus" : FAKGlyphMinus,
       @"minusCircle" : FAKGlyphMinusCircle,
@@ -6464,7 +6068,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"minusSquare" : FAKGlyphMinusSquare,
       @"mistletoe" : FAKGlyphMistletoe,
       @"mitten" : FAKGlyphMitten,
-      @"mixer" : FAKGlyphMixer,
       @"mobile" : FAKGlyphMobile,
       @"mobileAlt" : FAKGlyphMobileAlt,
       @"mobileAndroid" : FAKGlyphMobileAndroid,
@@ -6510,8 +6113,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"ornament" : FAKGlyphOrnament,
       @"otter" : FAKGlyphOtter,
       @"outdent" : FAKGlyphOutdent,
-      @"outlet" : FAKGlyphOutlet,
-      @"oven" : FAKGlyphOven,
       @"overline" : FAKGlyphOverline,
       @"pageBreak" : FAKGlyphPageBreak,
       @"pager" : FAKGlyphPager,
@@ -6571,7 +6172,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"photoVideo" : FAKGlyphPhotoVideo,
       @"pi" : FAKGlyphPi,
       @"pie" : FAKGlyphPie,
-      @"piedPiperSquare" : FAKGlyphPiedPiperSquare,
       @"pig" : FAKGlyphPig,
       @"piggyBank" : FAKGlyphPiggyBank,
       @"pills" : FAKGlyphPills,
@@ -6582,8 +6182,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"planeAlt" : FAKGlyphPlaneAlt,
       @"planeArrival" : FAKGlyphPlaneArrival,
       @"planeDeparture" : FAKGlyphPlaneDeparture,
-      @"planetMoon" : FAKGlyphPlanetMoon,
-      @"planetRinged" : FAKGlyphPlanetRinged,
       @"play" : FAKGlyphPlay,
       @"playCircle" : FAKGlyphPlayCircle,
       @"plug" : FAKGlyphPlug,
@@ -6595,7 +6193,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"podcast" : FAKGlyphPodcast,
       @"podium" : FAKGlyphPodium,
       @"podiumStar" : FAKGlyphPodiumStar,
-      @"policeBox" : FAKGlyphPoliceBox,
       @"poll" : FAKGlyphPoll,
       @"pollH" : FAKGlyphPollH,
       @"pollPeople" : FAKGlyphPollPeople,
@@ -6603,8 +6200,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"pooStorm" : FAKGlyphPooStorm,
       @"poop" : FAKGlyphPoop,
       @"popcorn" : FAKGlyphPopcorn,
-      @"portalEnter" : FAKGlyphPortalEnter,
-      @"portalExit" : FAKGlyphPortalExit,
       @"portrait" : FAKGlyphPortrait,
       @"poundSign" : FAKGlyphPoundSign,
       @"powerOff" : FAKGlyphPowerOff,
@@ -6632,7 +6227,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"rabbit" : FAKGlyphRabbit,
       @"rabbitFast" : FAKGlyphRabbitFast,
       @"racquet" : FAKGlyphRacquet,
-      @"radar" : FAKGlyphRadar,
       @"radiation" : FAKGlyphRadiation,
       @"radiationAlt" : FAKGlyphRadiationAlt,
       @"rainbow" : FAKGlyphRainbow,
@@ -6640,7 +6234,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"ram" : FAKGlyphRam,
       @"rampLoading" : FAKGlyphRampLoading,
       @"random" : FAKGlyphRandom,
-      @"raygun" : FAKGlyphRaygun,
       @"receipt" : FAKGlyphReceipt,
       @"rectangleLandscape" : FAKGlyphRectangleLandscape,
       @"rectanglePortrait" : FAKGlyphRectanglePortrait,
@@ -6648,7 +6241,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"recycle" : FAKGlyphRecycle,
       @"redo" : FAKGlyphRedo,
       @"redoAlt" : FAKGlyphRedoAlt,
-      @"refrigerator" : FAKGlyphRefrigerator,
       @"registered" : FAKGlyphRegistered,
       @"removeFormat" : FAKGlyphRemoveFormat,
       @"repeat" : FAKGlyphRepeat,
@@ -6667,7 +6259,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"road" : FAKGlyphRoad,
       @"robot" : FAKGlyphRobot,
       @"rocket" : FAKGlyphRocket,
-      @"rocketLaunch" : FAKGlyphRocketLaunch,
       @"route" : FAKGlyphRoute,
       @"routeHighway" : FAKGlyphRouteHighway,
       @"routeInterstate" : FAKGlyphRouteInterstate,
@@ -6695,7 +6286,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"scalpel" : FAKGlyphScalpel,
       @"scalpelPath" : FAKGlyphScalpelPath,
       @"scanner" : FAKGlyphScanner,
-      @"scannerImage" : FAKGlyphScannerImage,
       @"scannerKeyboard" : FAKGlyphScannerKeyboard,
       @"scannerTouchscreen" : FAKGlyphScannerTouchscreen,
       @"scarecrow" : FAKGlyphScarecrow,
@@ -6715,11 +6305,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"seedling" : FAKGlyphSeedling,
       @"sendBack" : FAKGlyphSendBack,
       @"sendBackward" : FAKGlyphSendBackward,
-      @"sensor" : FAKGlyphSensor,
-      @"sensorAlert" : FAKGlyphSensorAlert,
-      @"sensorFire" : FAKGlyphSensorFire,
-      @"sensorOn" : FAKGlyphSensorOn,
-      @"sensorSmoke" : FAKGlyphSensorSmoke,
       @"server" : FAKGlyphServer,
       @"shapes" : FAKGlyphShapes,
       @"share" : FAKGlyphShare,
@@ -6738,7 +6323,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"shippingTimed" : FAKGlyphShippingTimed,
       @"shishKebab" : FAKGlyphShishKebab,
       @"shoePrints" : FAKGlyphShoePrints,
-      @"shopify" : FAKGlyphShopify,
       @"shoppingBag" : FAKGlyphShoppingBag,
       @"shoppingBasket" : FAKGlyphShoppingBasket,
       @"shoppingCart" : FAKGlyphShoppingCart,
@@ -6769,8 +6353,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"signalSlash" : FAKGlyphSignalSlash,
       @"signature" : FAKGlyphSignature,
       @"simCard" : FAKGlyphSimCard,
-      @"siren" : FAKGlyphSiren,
-      @"sirenOn" : FAKGlyphSirenOn,
       @"sitemap" : FAKGlyphSitemap,
       @"skating" : FAKGlyphSkating,
       @"skeleton" : FAKGlyphSkeleton,
@@ -6807,7 +6389,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"snowplow" : FAKGlyphSnowplow,
       @"socks" : FAKGlyphSocks,
       @"solarPanel" : FAKGlyphSolarPanel,
-      @"solarSystem" : FAKGlyphSolarSystem,
       @"sort" : FAKGlyphSort,
       @"sortAlphaDown" : FAKGlyphSortAlphaDown,
       @"sortAlphaDownAlt" : FAKGlyphSortAlphaDownAlt,
@@ -6818,9 +6399,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"sortAmountDownAlt" : FAKGlyphSortAmountDownAlt,
       @"sortAmountUp" : FAKGlyphSortAmountUp,
       @"sortAmountUpAlt" : FAKGlyphSortAmountUpAlt,
-      @"sortCircle" : FAKGlyphSortCircle,
-      @"sortCircleDown" : FAKGlyphSortCircleDown,
-      @"sortCircleUp" : FAKGlyphSortCircleUp,
       @"sortDown" : FAKGlyphSortDown,
       @"sortNumericDown" : FAKGlyphSortNumericDown,
       @"sortNumericDownAlt" : FAKGlyphSortNumericDownAlt,
@@ -6838,8 +6416,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"soup" : FAKGlyphSoup,
       @"spa" : FAKGlyphSpa,
       @"spaceShuttle" : FAKGlyphSpaceShuttle,
-      @"spaceStationMoon" : FAKGlyphSpaceStationMoon,
-      @"spaceStationMoonAlt" : FAKGlyphSpaceStationMoonAlt,
       @"spade" : FAKGlyphSpade,
       @"sparkles" : FAKGlyphSparkles,
       @"spellCheck" : FAKGlyphSpellCheck,
@@ -6850,7 +6426,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"spinnerThird" : FAKGlyphSpinnerThird,
       @"splotch" : FAKGlyphSplotch,
       @"sprayCan" : FAKGlyphSprayCan,
-      @"sprinkler" : FAKGlyphSprinkler,
       @"square" : FAKGlyphSquare,
       @"squareFull" : FAKGlyphSquareFull,
       @"squareRoot" : FAKGlyphSquareRoot,
@@ -6867,12 +6442,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"starHalfAlt" : FAKGlyphStarHalfAlt,
       @"starOfDavid" : FAKGlyphStarOfDavid,
       @"starOfLife" : FAKGlyphStarOfLife,
-      @"starShooting" : FAKGlyphStarShooting,
-      @"starfighter" : FAKGlyphStarfighter,
-      @"starfighterAlt" : FAKGlyphStarfighterAlt,
       @"stars" : FAKGlyphStars,
-      @"starship" : FAKGlyphStarship,
-      @"starshipFreighter" : FAKGlyphStarshipFreighter,
       @"steak" : FAKGlyphSteak,
       @"steeringWheel" : FAKGlyphSteeringWheel,
       @"stepBackward" : FAKGlyphStepBackward,
@@ -6884,7 +6454,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"stop" : FAKGlyphStop,
       @"stopCircle" : FAKGlyphStopCircle,
       @"stopwatch" : FAKGlyphStopwatch,
-      @"stopwatch20" : FAKGlyphStopwatch20,
       @"store" : FAKGlyphStore,
       @"storeAlt" : FAKGlyphStoreAlt,
       @"stream" : FAKGlyphStream,
@@ -6909,10 +6478,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"swimmer" : FAKGlyphSwimmer,
       @"swimmingPool" : FAKGlyphSwimmingPool,
       @"sword" : FAKGlyphSword,
-      @"swordLaser" : FAKGlyphSwordLaser,
-      @"swordLaserAlt" : FAKGlyphSwordLaserAlt,
       @"swords" : FAKGlyphSwords,
-      @"swordsLaser" : FAKGlyphSwordsLaser,
       @"symfony" : FAKGlyphSymfony,
       @"synagogue" : FAKGlyphSynagogue,
       @"sync" : FAKGlyphSync,
@@ -6949,13 +6515,10 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"taxi" : FAKGlyphTaxi,
       @"teeth" : FAKGlyphTeeth,
       @"teethOpen" : FAKGlyphTeethOpen,
-      @"telescope" : FAKGlyphTelescope,
-      @"temperatureDown" : FAKGlyphTemperatureDown,
       @"temperatureFrigid" : FAKGlyphTemperatureFrigid,
       @"temperatureHigh" : FAKGlyphTemperatureHigh,
       @"temperatureHot" : FAKGlyphTemperatureHot,
       @"temperatureLow" : FAKGlyphTemperatureLow,
-      @"temperatureUp" : FAKGlyphTemperatureUp,
       @"tenge" : FAKGlyphTenge,
       @"tennisBall" : FAKGlyphTennisBall,
       @"terminal" : FAKGlyphTerminal,
@@ -7017,16 +6580,10 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"trafficLightGo" : FAKGlyphTrafficLightGo,
       @"trafficLightSlow" : FAKGlyphTrafficLightSlow,
       @"trafficLightStop" : FAKGlyphTrafficLightStop,
-      @"trailer" : FAKGlyphTrailer,
       @"train" : FAKGlyphTrain,
       @"tram" : FAKGlyphTram,
       @"transgender" : FAKGlyphTransgender,
       @"transgenderAlt" : FAKGlyphTransgenderAlt,
-      @"transporter" : FAKGlyphTransporter,
-      @"transporter1" : FAKGlyphTransporter1,
-      @"transporter2" : FAKGlyphTransporter2,
-      @"transporter3" : FAKGlyphTransporter3,
-      @"transporterEmpty" : FAKGlyphTransporterEmpty,
       @"trash" : FAKGlyphTrash,
       @"trashAlt" : FAKGlyphTrashAlt,
       @"trashRestore" : FAKGlyphTrashRestore,
@@ -7062,8 +6619,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"tvMusic" : FAKGlyphTvMusic,
       @"tvRetro" : FAKGlyphTvRetro,
       @"typewriter" : FAKGlyphTypewriter,
-      @"ufo" : FAKGlyphUfo,
-      @"ufoBeam" : FAKGlyphUfoBeam,
       @"umbraco" : FAKGlyphUmbraco,
       @"umbrella" : FAKGlyphUmbrella,
       @"umbrellaBeach" : FAKGlyphUmbrellaBeach,
@@ -7072,7 +6627,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"undoAlt" : FAKGlyphUndoAlt,
       @"unicorn" : FAKGlyphUnicorn,
       @"union" : FAKGlyphUnion,
-      @"unity" : FAKGlyphUnity,
       @"universalAccess" : FAKGlyphUniversalAccess,
       @"university" : FAKGlyphUniversity,
       @"unlink" : FAKGlyphUnlink,
@@ -7083,7 +6637,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"usdCircle" : FAKGlyphUsdCircle,
       @"usdSquare" : FAKGlyphUsdSquare,
       @"user" : FAKGlyphUser,
-      @"userAlien" : FAKGlyphUserAlien,
       @"userAlt" : FAKGlyphUserAlt,
       @"userAltSlash" : FAKGlyphUserAltSlash,
       @"userAstronaut" : FAKGlyphUserAstronaut,
@@ -7092,7 +6645,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"userCircle" : FAKGlyphUserCircle,
       @"userClock" : FAKGlyphUserClock,
       @"userCog" : FAKGlyphUserCog,
-      @"userCowboy" : FAKGlyphUserCowboy,
       @"userCrown" : FAKGlyphUserCrown,
       @"userEdit" : FAKGlyphUserEdit,
       @"userFriends" : FAKGlyphUserFriends,
@@ -7104,19 +6656,15 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"userMd" : FAKGlyphUserMd,
       @"userMdChat" : FAKGlyphUserMdChat,
       @"userMinus" : FAKGlyphUserMinus,
-      @"userMusic" : FAKGlyphUserMusic,
       @"userNinja" : FAKGlyphUserNinja,
       @"userNurse" : FAKGlyphUserNurse,
       @"userPlus" : FAKGlyphUserPlus,
-      @"userRobot" : FAKGlyphUserRobot,
       @"userSecret" : FAKGlyphUserSecret,
       @"userShield" : FAKGlyphUserShield,
       @"userSlash" : FAKGlyphUserSlash,
       @"userTag" : FAKGlyphUserTag,
       @"userTie" : FAKGlyphUserTie,
       @"userTimes" : FAKGlyphUserTimes,
-      @"userUnlock" : FAKGlyphUserUnlock,
-      @"userVisor" : FAKGlyphUserVisor,
       @"users" : FAKGlyphUsers,
       @"usersClass" : FAKGlyphUsersClass,
       @"usersCog" : FAKGlyphUsersCog,
@@ -7127,8 +6675,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"utensilSpoon" : FAKGlyphUtensilSpoon,
       @"utensils" : FAKGlyphUtensils,
       @"utensilsAlt" : FAKGlyphUtensilsAlt,
-      @"vacuum" : FAKGlyphVacuum,
-      @"vacuumRobot" : FAKGlyphVacuumRobot,
       @"valueAbsolute" : FAKGlyphValueAbsolute,
       @"vectorSquare" : FAKGlyphVectorSquare,
       @"venus" : FAKGlyphVenus,
@@ -7141,7 +6687,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"videoPlus" : FAKGlyphVideoPlus,
       @"videoSlash" : FAKGlyphVideoSlash,
       @"vihara" : FAKGlyphVihara,
-      @"violin" : FAKGlyphViolin,
       @"voicemail" : FAKGlyphVoicemail,
       @"volcano" : FAKGlyphVolcano,
       @"volleyballBall" : FAKGlyphVolleyballBall,
@@ -7154,9 +6699,7 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"voteNay" : FAKGlyphVoteNay,
       @"voteYea" : FAKGlyphVoteYea,
       @"vrCardboard" : FAKGlyphVrCardboard,
-      @"wagonCovered" : FAKGlyphWagonCovered,
       @"walker" : FAKGlyphWalker,
-      @"walkieTalkie" : FAKGlyphWalkieTalkie,
       @"walking" : FAKGlyphWalking,
       @"wallet" : FAKGlyphWallet,
       @"wand" : FAKGlyphWand,
@@ -7165,7 +6708,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"warehouseAlt" : FAKGlyphWarehouseAlt,
       @"washer" : FAKGlyphWasher,
       @"watch" : FAKGlyphWatch,
-      @"watchCalculator" : FAKGlyphWatchCalculator,
       @"watchFitness" : FAKGlyphWatchFitness,
       @"water" : FAKGlyphWater,
       @"waterLower" : FAKGlyphWaterLower,
@@ -7193,8 +6735,6 @@ static NSString *const FAKGlyphYinYang = @"\uf6ad";
       @"window" : FAKGlyphWindow,
       @"windowAlt" : FAKGlyphWindowAlt,
       @"windowClose" : FAKGlyphWindowClose,
-      @"windowFrame" : FAKGlyphWindowFrame,
-      @"windowFrameOpen" : FAKGlyphWindowFrameOpen,
       @"windowMaximize" : FAKGlyphWindowMaximize,
       @"windowMinimize" : FAKGlyphWindowMinimize,
       @"windowRestore" : FAKGlyphWindowRestore,

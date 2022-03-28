@@ -166,11 +166,11 @@
 
 - (void)loadFontAwesome
 {
-    NSArray *keys = [[[FAKFontAwesomeSix allNames] allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    NSArray *keys = [[[FAKFontAwesome allNames] allKeys] sortedArrayUsingSelector:@selector(compare:)];
     //NSMutableArray *badEggs = [NSMutableArray new];
     for (NSString *key in keys) {
         //FAKFontAwesome *icon = [FAKFontAwesome iconWithIdentifier:key size:50 error:nil];
-        FAKFontAwesomeSix *icon = [FAKFontAwesomeSix iconWithName:key size:50];
+        FAKFontAwesome *icon = [FAKFontAwesome iconWithName:key size:50];
         /*
         NSData *imageData = UIImagePNGRepresentation([icon easyImageRepWithColor:[UIColor blackColor]]);
         NSString *md5 = [imageData MD5];
