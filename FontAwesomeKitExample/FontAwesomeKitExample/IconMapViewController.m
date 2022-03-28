@@ -97,6 +97,7 @@
     
     FAKIcon *icon = self.icons[indexPath.row];
 
+    DLog(@"keyCode: %@", icon.characterCode);
     //added by skyfox
     NSString *code = [NSString stringWithFormat:@"\n%@ *%@Icon = [%@ %@IconWithSize:30];\n[%@Icon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];\nUIImage *%@IconImage = [%@Icon imageWithSize:CGSizeMake(30, 30)];",self.iconGroup,icon.iconName,self.iconGroup,icon.iconName,icon.iconName,icon.iconName,icon.iconName];
     NSLog(@"\n\n\n===================Code Autogeneration ===================\n%@\n\n==========================================================\n",code);
@@ -156,19 +157,20 @@
 - (void)loadFontAwesomeBrands
 {
     //NSArray *keys = [[[FAKFontAwesomeBrands allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
-    NSArray *keys = [[FAKFontAwesomeBrands allNames].allKeys sortedArrayUsingSelector:@selector(compare:)];
+    NSArray *keys = [[FAKFontAwesomeBrands6 allNames].allKeys sortedArrayUsingSelector:@selector(compare:)];
     for (NSString *key in keys) {
-        FAKFontAwesomeBrands *icon = [FAKFontAwesomeBrands iconWithName:key size:50];
+        FAKFontAwesomeBrands6 *icon = [FAKFontAwesomeBrands6 iconWithName:key size:50];
         [self.icons addObject:icon];
     }
 }
 
 - (void)loadFontAwesome
 {
-    NSArray *keys = [[[FAKFontAwesome allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    NSArray *keys = [[[FAKFontAwesomeSix allNames] allKeys] sortedArrayUsingSelector:@selector(compare:)];
     //NSMutableArray *badEggs = [NSMutableArray new];
     for (NSString *key in keys) {
-        FAKFontAwesome *icon = [FAKFontAwesome iconWithIdentifier:key size:50 error:nil];
+        //FAKFontAwesome *icon = [FAKFontAwesome iconWithIdentifier:key size:50 error:nil];
+        FAKFontAwesomeSix *icon = [FAKFontAwesomeSix iconWithName:key size:50];
         /*
         NSData *imageData = UIImagePNGRepresentation([icon easyImageRepWithColor:[UIColor blackColor]]);
         NSString *md5 = [imageData MD5];
@@ -181,12 +183,15 @@
             [badEggs addObject:newString];
         } else { */
             [self.icons addObject:icon];
-       // }
+        //}
         
     }
-    //NSString *newfile = [NSHomeDirectory() stringByAppendingPathComponent:@"badEggs.plist"];
-    //[badEggs writeToFile:newfile atomically:true];
-    //DLog(@"wrote newFile: %@", newfile);
+    /*
+    NSString *newfile = [NSHomeDirectory() stringByAppendingPathComponent:@"badEggs.plist"];
+    [badEggs writeToFile:newfile atomically:true];
+    DLog(@"wrote newFile: %@", newfile);
+     */
+     
 }
 
 - (void)loadFoundation

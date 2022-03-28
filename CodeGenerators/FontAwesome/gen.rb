@@ -40,7 +40,7 @@ File.read("_variables.scss").each_line do |line|
   end
 end
 
-generator = CodeGenerator.new('FontAwesome', names, codes, iconNames)
+generator = CodeGenerator.new('FontAwesome', names, codes, names_are_camel_case: true, prefix:'')
 generator.generate
 
 

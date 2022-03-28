@@ -62,7 +62,7 @@
 /**
  *  Creates and returns a FAKIcon object for the specified glyph name and size.
  *
- *  @param code A NSSTring representing the name of the glyph, e.g. @"fa-"
+ *  @param iconName A NSSTring representing the name of the glyph, e.g. @"fa-"
  *  @param size The desired size (in points) of the icon font that will be used for the icon. This value must be greater than 0.0.
  *
  *  @return Returns a FAKIcon object or nil, if the name is not known or the font does not support lookup by name

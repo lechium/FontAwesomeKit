@@ -35,8 +35,8 @@ class CodeGenerator
 
     @class_name = "FAK#{@font_name}"
     @header_file = "#{@class_name}.h"
-    @header_file_gen = "#{@class_name}.fakgen.h"
-    @implementation_file = "#{@class_name}.fakgen.m"
+    @header_file_gen = "#{@class_name}.h"
+    @implementation_file = "#{@class_name}.m"
 
   end
 

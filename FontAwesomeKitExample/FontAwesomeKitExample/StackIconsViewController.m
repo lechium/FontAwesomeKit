@@ -35,9 +35,9 @@
         [banIcon addAttribute:NSForegroundColorAttributeName value:[UIColor redColor]];
 
         _stackedIcons = @[
-            @[[FAKFontAwesome twitterIconWithSize:35], squareOIcon],
-            @[[FAKFontAwesome weiboIconWithSize:35], squareOIcon],
-            @[[FAKFontAwesome tumblrIconWithSize:35], squareOIcon],
+            @[[FAKFontAwesomeBrands twitterIconWithSize:35], squareOIcon],
+            @[[FAKFontAwesomeBrands weiboIconWithSize:35], squareOIcon],
+            @[[FAKFontAwesomeBrands tumblrIconWithSize:35], squareOIcon],
             
             @[[FAKFontAwesome cameraIconWithSize:35], banIcon],
             @[[FAKFontAwesome phoneIconWithSize:35], banIcon],

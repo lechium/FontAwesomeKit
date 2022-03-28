@@ -12,6 +12,14 @@
 		4C86A4F127F1321700ADBBF4 /* FontAwesomeBrands.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C86A4F027F1321700ADBBF4 /* FontAwesomeBrands.otf */; };
 		4C86A4F427F1327D00ADBBF4 /* FAKFontAwesomeBrands.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C86A4F227F1327D00ADBBF4 /* FAKFontAwesomeBrands.m */; };
 		4C86A4F527F1327D00ADBBF4 /* FAKFontAwesomeBrands.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86A4F327F1327D00ADBBF4 /* FAKFontAwesomeBrands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C86A50A27F14A4D00ADBBF4 /* FAKFontAwesomeFree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86A50827F14A4D00ADBBF4 /* FAKFontAwesomeFree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C86A50B27F14A4D00ADBBF4 /* FAKFontAwesomeFree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C86A50927F14A4D00ADBBF4 /* FAKFontAwesomeFree.m */; };
+		4C86A51727F1561A00ADBBF4 /* FontAwesomeSix.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C86A51627F1561A00ADBBF4 /* FontAwesomeSix.otf */; };
+		4C86A51A27F1565C00ADBBF4 /* FAKFontAwesomeSix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C86A51827F1565C00ADBBF4 /* FAKFontAwesomeSix.m */; };
+		4C86A51B27F1565C00ADBBF4 /* FAKFontAwesomeSix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86A51927F1565C00ADBBF4 /* FAKFontAwesomeSix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C86A52C27F15B4C00ADBBF4 /* FAKFontAwesomeBrands6.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86A52A27F15B4B00ADBBF4 /* FAKFontAwesomeBrands6.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C86A52D27F15B4C00ADBBF4 /* FAKFontAwesomeBrands6.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C86A52B27F15B4C00ADBBF4 /* FAKFontAwesomeBrands6.m */; };
+		4C86A53D27F15CFF00ADBBF4 /* FontAwesomeBrands6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C86A52927F15ABC00ADBBF4 /* FontAwesomeBrands6.otf */; };
 		4C9BA8BC27EE823E008F1A70 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */; };
 		4C9BA8C627EEF689008F1A70 /* FAKFontRegistryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9BA8C727EEF689008F1A70 /* FAKFontRegistryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */; };
@@ -43,6 +51,15 @@
 		4C86A4F027F1321700ADBBF4 /* FontAwesomeBrands.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeBrands.otf; sourceTree = "<group>"; };
 		4C86A4F227F1327D00ADBBF4 /* FAKFontAwesomeBrands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesomeBrands.m; sourceTree = "<group>"; };
 		4C86A4F327F1327D00ADBBF4 /* FAKFontAwesomeBrands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesomeBrands.h; sourceTree = "<group>"; };
+		4C86A50827F14A4D00ADBBF4 /* FAKFontAwesomeFree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesomeFree.h; sourceTree = "<group>"; };
+		4C86A50927F14A4D00ADBBF4 /* FAKFontAwesomeFree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesomeFree.m; sourceTree = "<group>"; };
+		4C86A50C27F14A5E00ADBBF4 /* FontAwesomeKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FontAwesomeKit.podspec; sourceTree = "<group>"; };
+		4C86A51627F1561A00ADBBF4 /* FontAwesomeSix.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeSix.otf; sourceTree = "<group>"; };
+		4C86A51827F1565C00ADBBF4 /* FAKFontAwesomeSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesomeSix.m; sourceTree = "<group>"; };
+		4C86A51927F1565C00ADBBF4 /* FAKFontAwesomeSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesomeSix.h; sourceTree = "<group>"; };
+		4C86A52927F15ABC00ADBBF4 /* FontAwesomeBrands6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeBrands6.otf; sourceTree = "<group>"; };
+		4C86A52A27F15B4B00ADBBF4 /* FAKFontAwesomeBrands6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesomeBrands6.h; sourceTree = "<group>"; };
+		4C86A52B27F15B4C00ADBBF4 /* FAKFontAwesomeBrands6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesomeBrands6.m; sourceTree = "<group>"; };
 		4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAKFontRegistryManager.h; sourceTree = "<group>"; };
 		4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAKFontRegistryManager.m; sourceTree = "<group>"; };
@@ -84,6 +101,7 @@
 		AD6F20201D6896B700DEF1F0 = {
 			isa = PBXGroup;
 			children = (
+				4C86A50C27F14A5E00ADBBF4 /* FontAwesomeKit.podspec */,
 				AD6F202C1D6896B700DEF1F0 /* FontAwesomeKit */,
 				AD6F202B1D6896B700DEF1F0 /* Products */,
 			);
@@ -106,6 +124,12 @@
 				4C86A4F227F1327D00ADBBF4 /* FAKFontAwesomeBrands.m */,
 				AD6F20351D68970600DEF1F0 /* FAKFontAwesome.h */,
 				AD6F20361D68970600DEF1F0 /* FAKFontAwesome.m */,
+				4C86A51927F1565C00ADBBF4 /* FAKFontAwesomeSix.h */,
+				4C86A51827F1565C00ADBBF4 /* FAKFontAwesomeSix.m */,
+				4C86A52A27F15B4B00ADBBF4 /* FAKFontAwesomeBrands6.h */,
+				4C86A52B27F15B4C00ADBBF4 /* FAKFontAwesomeBrands6.m */,
+				4C86A50827F14A4D00ADBBF4 /* FAKFontAwesomeFree.h */,
+				4C86A50927F14A4D00ADBBF4 /* FAKFontAwesomeFree.m */,
 				4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */,
 				4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */,
 				AD6F20371D68970600DEF1F0 /* FAKFoundationIcons.h */,
@@ -122,6 +146,8 @@
 				AD6F20421D68970600DEF1F0 /* FAKZocial.m */,
 				4C86A4F027F1321700ADBBF4 /* FontAwesomeBrands.otf */,
 				4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */,
+				4C86A51627F1561A00ADBBF4 /* FontAwesomeSix.otf */,
+				4C86A52927F15ABC00ADBBF4 /* FontAwesomeBrands6.otf */,
 				AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */,
 				AD6F20441D68970600DEF1F0 /* foundation-icons.ttf */,
 				AD6F20451D68970600DEF1F0 /* Info.plist */,
@@ -145,7 +171,10 @@
 				4C86A4F527F1327D00ADBBF4 /* FAKFontAwesomeBrands.h in Headers */,
 				4C86A4E827F0F5BB00ADBBF4 /* NSDictionary+keyForObject.h in Headers */,
 				AD6F20541D68970600DEF1F0 /* FAKOcticons.h in Headers */,
+				4C86A52C27F15B4C00ADBBF4 /* FAKFontAwesomeBrands6.h in Headers */,
 				AD6F204A1D68970600DEF1F0 /* FAKFontAwesome.h in Headers */,
+				4C86A51B27F1565C00ADBBF4 /* FAKFontAwesomeSix.h in Headers */,
+				4C86A50A27F14A4D00ADBBF4 /* FAKFontAwesomeFree.h in Headers */,
 				AD6F204C1D68970600DEF1F0 /* FAKFoundationIcons.h in Headers */,
 				AD6F204E1D68970600DEF1F0 /* FAKIcon.h in Headers */,
 				AD6F20561D68970600DEF1F0 /* FAKZocial.h in Headers */,
@@ -214,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C86A53D27F15CFF00ADBBF4 /* FontAwesomeBrands6.otf in Resources */,
 				AD6F20591D68970600DEF1F0 /* foundation-icons.ttf in Resources */,
 				AD6F205B1D68970600DEF1F0 /* ionicons.ttf in Resources */,
 				AD6F205E1D68970600DEF1F0 /* zocial-regular-webfont.ttf in Resources */,
+				4C86A51727F1561A00ADBBF4 /* FontAwesomeSix.otf in Resources */,
 				AD6F205D1D68970600DEF1F0 /* octicons.ttf in Resources */,
 				AD6F205C1D68970600DEF1F0 /* Material-Design-Iconic-Font.ttf in Resources */,
 				4C86A4F127F1321700ADBBF4 /* FontAwesomeBrands.otf in Resources */,
@@ -235,9 +266,12 @@
 				4C86A4F427F1327D00ADBBF4 /* FAKFontAwesomeBrands.m in Sources */,
 				AD6F20511D68970600DEF1F0 /* FAKIonIcons.m in Sources */,
 				AD6F20531D68970600DEF1F0 /* FAKMaterialIcons.m in Sources */,
+				4C86A52D27F15B4C00ADBBF4 /* FAKFontAwesomeBrands6.m in Sources */,
 				4C86A4E927F0F5BB00ADBBF4 /* NSDictionary+keyForObject.m in Sources */,
 				AD6F20571D68970600DEF1F0 /* FAKZocial.m in Sources */,
 				AD6F20551D68970600DEF1F0 /* FAKOcticons.m in Sources */,
+				4C86A50B27F14A4D00ADBBF4 /* FAKFontAwesomeFree.m in Sources */,
+				4C86A51A27F1565C00ADBBF4 /* FAKFontAwesomeSix.m in Sources */,
 				AD6F204D1D68970600DEF1F0 /* FAKFoundationIcons.m in Sources */,
 				AD6F204B1D68970600DEF1F0 /* FAKFontAwesome.m in Sources */,
 				AD6F204F1D68970600DEF1F0 /* FAKIcon.m in Sources */,
