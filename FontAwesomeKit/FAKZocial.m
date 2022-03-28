@@ -11,7 +11,6 @@
     dispatch_once(&onceToken, ^{
         NSString *name = [self registerIconFontWithURL: [[NSBundle bundleForClass:[FAKZocial class]] URLForResource:@"zocial-regular-webfont" withExtension:@"ttf"]];
         if (name) {
-            DLog(@"registering font name: %@ for class: %@", name, self.class);
             [[FAKFontRegistryManager sharedManager] registerName:name forClass:self.class];
         }
     });

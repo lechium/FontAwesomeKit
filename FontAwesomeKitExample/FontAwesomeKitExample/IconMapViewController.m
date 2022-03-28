@@ -1,6 +1,58 @@
 #import "IconMapViewController.h"
-#import "FontAwesomeKit.h"
+#import <FontAwesomeKit/FontAwesomeKit.h>
 #import "IconMapCell.h"
+
+#define DLog(format, ...) CFShow((__bridge CFStringRef)[NSString stringWithFormat:format, ## __VA_ARGS__]);
+
+@interface NSString (science)
+- (NSString *)splitOnCapital;
+@end
+
+@implementation NSString (science)
+
+- (NSString *)splitOnCapital
+{
+    // Make a index of uppercase characters
+    NSRange upcaseRange = NSMakeRange('A', 26);
+    NSIndexSet *upcaseSet = [NSIndexSet     indexSetWithIndexesInRange:upcaseRange];
+    
+    // Split our camecase word
+    NSMutableArray *resultArray = [NSMutableArray new];
+    NSMutableString *result = [NSMutableString string];
+    NSMutableString *oneWord = [NSMutableString string];
+    for (int i = 0; i < self.length; i++) {
+        char oneChar = [self characterAtIndex:i];
+        if ([upcaseSet containsIndex:oneChar]) {
+            // Found a uppercase char, now save previous word
+            if (result.length == 0) {
+                // First word, no space in beginning
+                [result appendFormat:@"$fa-var-%@", [oneWord lowercaseString]];
+            }else {
+                [result appendFormat:@"-%@", [oneWord lowercaseString]];
+            }
+            [resultArray addObject:oneWord];
+            // Clear previous word for new word
+            oneWord = [NSMutableString string];
+        }
+        
+        [oneWord appendFormat:@"%c", oneChar];
+    }
+    // Add last word
+    if (oneWord.length > 0) {
+        if (resultArray.count > 0){
+            [result appendFormat:@"-%@", [oneWord lowercaseString]];
+        } else {
+            [result appendFormat:@"$fa-var-%@", [oneWord lowercaseString]];
+        }
+        [resultArray addObject:oneWord];
+    }
+    //DLog(@"resultArray: %@", resultArray);
+    return result;
+}
+
+@end
+
+
 
 @interface IconMapViewController ()
 
@@ -15,6 +67,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     self.tabBarItem.image = [[FAKFontAwesome tableIconWithSize:30] imageWithSize:CGSizeMake(30, 30)];
     self.tabBarItem.title = @"Icon Map";
 }
@@ -76,17 +129,19 @@
 - (IBAction)segmentChanged:(UISegmentedControl *)sender
 {
     [self.icons removeAllObjects];
-    NSArray *groups = @[@"FAKFontAwesome",@"FAKFoundationIcons",@"FAKZocial",@"FAKIonIcons", @"FAKOcticons"];
+    NSArray *groups = @[@"FAKFontAwesome", @"FAKFontAwesomeBrands", @"FAKFoundationIcons",@"FAKZocial",@"FAKIonIcons", @"FAKOcticons"];
     if (sender.selectedSegmentIndex == 0) {
         [self loadFontAwesome];
     } else if (sender.selectedSegmentIndex == 1) {
-        [self loadFoundation];
+        [self loadFontAwesomeBrands];
     } else if (sender.selectedSegmentIndex == 2) {
+        [self loadFoundation];
+    } else if (sender.selectedSegmentIndex == 3) {
         [self loadZocial];
 
-    } else if (sender.selectedSegmentIndex == 3) {
-        [self loadIonIcons];
     } else if (sender.selectedSegmentIndex == 4) {
+        [self loadIonIcons];
+    } else if (sender.selectedSegmentIndex == 5) {
         [self loadOcticons];
     }
     if (!sender) {
@@ -98,19 +153,47 @@
     [self.collectionView reloadData];
 }
 
+- (void)loadFontAwesomeBrands
+{
+    //NSArray *keys = [[[FAKFontAwesomeBrands allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    NSArray *keys = [[FAKFontAwesomeBrands allNames].allKeys sortedArrayUsingSelector:@selector(compare:)];
+    for (NSString *key in keys) {
+        FAKFontAwesomeBrands *icon = [FAKFontAwesomeBrands iconWithName:key size:50];
+        [self.icons addObject:icon];
+    }
+}
+
 - (void)loadFontAwesome
 {
     NSArray *keys = [[[FAKFontAwesome allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    //NSMutableArray *badEggs = [NSMutableArray new];
     for (NSString *key in keys) {
-        [self.icons addObject:[FAKFontAwesome iconWithCode:key size:50]];
+        FAKFontAwesome *icon = [FAKFontAwesome iconWithIdentifier:key size:50 error:nil];
+        /*
+        NSData *imageData = UIImagePNGRepresentation([icon easyImageRepWithColor:[UIColor blackColor]]);
+        NSString *md5 = [imageData MD5];
+        //NSLog(@"md5: %@", md5);
+        if ([md5 isEqualToString:@"64ef4a9a38b9369f1315ebcca0705ec3"]){
+            //DLog(@"matched: %@", key);
+            NSString *cutKey = [[key componentsSeparatedByString:@"-"] lastObject];
+            NSString *newString = [cutKey splitOnCapital];
+            //DLog(@"%@ : %@",key, newString);
+            [badEggs addObject:newString];
+        } else { */
+            [self.icons addObject:icon];
+       // }
+        
     }
+    //NSString *newfile = [NSHomeDirectory() stringByAppendingPathComponent:@"badEggs.plist"];
+    //[badEggs writeToFile:newfile atomically:true];
+    //DLog(@"wrote newFile: %@", newfile);
 }
 
 - (void)loadFoundation
 {
     NSArray *keys = [[[FAKFoundationIcons allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
     for (NSString *key in keys) {
-        [self.icons addObject:[FAKFoundationIcons iconWithCode:key size:50]];
+        [self.icons addObject:[FAKFoundationIcons iconWithIdentifier:key size:50 error:nil]];
     }
 }
 
@@ -118,7 +201,7 @@
 {
     NSArray *keys = [[[FAKZocial allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
     for (NSString *key in keys) {
-        [self.icons addObject:[FAKZocial iconWithCode:key size:40]];
+        [self.icons addObject:[FAKZocial iconWithIdentifier:key size:40 error:nil]];
     }
 }
 
@@ -126,7 +209,7 @@
 {
     NSArray *keys = [[[FAKIonIcons allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
     for (NSString *key in keys) {
-        [self.icons addObject:[FAKIonIcons iconWithCode:key size:50]];
+        [self.icons addObject:[FAKIonIcons iconWithIdentifier:key size:50 error:nil]];
     }
 }
 
@@ -134,7 +217,7 @@
 {
     NSArray *keys = [[[FAKOcticons allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
     for (NSString *key in keys) {
-        [self.icons addObject:[FAKOcticons iconWithCode:key size:48]];
+        [self.icons addObject:[FAKOcticons iconWithIdentifier:key size:48 error:nil]];
     }
 }
 

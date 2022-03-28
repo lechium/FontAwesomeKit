@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C86A4E827F0F5BB00ADBBF4 /* NSDictionary+keyForObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86A4E627F0F5BB00ADBBF4 /* NSDictionary+keyForObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C86A4E927F0F5BB00ADBBF4 /* NSDictionary+keyForObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C86A4E727F0F5BB00ADBBF4 /* NSDictionary+keyForObject.m */; };
+		4C86A4F127F1321700ADBBF4 /* FontAwesomeBrands.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C86A4F027F1321700ADBBF4 /* FontAwesomeBrands.otf */; };
+		4C86A4F427F1327D00ADBBF4 /* FAKFontAwesomeBrands.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C86A4F227F1327D00ADBBF4 /* FAKFontAwesomeBrands.m */; };
+		4C86A4F527F1327D00ADBBF4 /* FAKFontAwesomeBrands.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C86A4F327F1327D00ADBBF4 /* FAKFontAwesomeBrands.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9BA8BC27EE823E008F1A70 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */; };
 		4C9BA8C627EEF689008F1A70 /* FAKFontRegistryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9BA8C727EEF689008F1A70 /* FAKFontRegistryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */; };
@@ -33,6 +38,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C86A4E627F0F5BB00ADBBF4 /* NSDictionary+keyForObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+keyForObject.h"; sourceTree = "<group>"; };
+		4C86A4E727F0F5BB00ADBBF4 /* NSDictionary+keyForObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+keyForObject.m"; sourceTree = "<group>"; };
+		4C86A4F027F1321700ADBBF4 /* FontAwesomeBrands.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeBrands.otf; sourceTree = "<group>"; };
+		4C86A4F227F1327D00ADBBF4 /* FAKFontAwesomeBrands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesomeBrands.m; sourceTree = "<group>"; };
+		4C86A4F327F1327D00ADBBF4 /* FAKFontAwesomeBrands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesomeBrands.h; sourceTree = "<group>"; };
 		4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAKFontRegistryManager.h; sourceTree = "<group>"; };
 		4C9BA8C527EEF689008F1A70 /* FAKFontRegistryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAKFontRegistryManager.m; sourceTree = "<group>"; };
@@ -90,6 +100,10 @@
 		AD6F202C1D6896B700DEF1F0 /* FontAwesomeKit */ = {
 			isa = PBXGroup;
 			children = (
+				4C86A4E627F0F5BB00ADBBF4 /* NSDictionary+keyForObject.h */,
+				4C86A4E727F0F5BB00ADBBF4 /* NSDictionary+keyForObject.m */,
+				4C86A4F327F1327D00ADBBF4 /* FAKFontAwesomeBrands.h */,
+				4C86A4F227F1327D00ADBBF4 /* FAKFontAwesomeBrands.m */,
 				AD6F20351D68970600DEF1F0 /* FAKFontAwesome.h */,
 				AD6F20361D68970600DEF1F0 /* FAKFontAwesome.m */,
 				4C9BA8C427EEF689008F1A70 /* FAKFontRegistryManager.h */,
@@ -106,6 +120,7 @@
 				AD6F20401D68970600DEF1F0 /* FAKOcticons.m */,
 				AD6F20411D68970600DEF1F0 /* FAKZocial.h */,
 				AD6F20421D68970600DEF1F0 /* FAKZocial.m */,
+				4C86A4F027F1321700ADBBF4 /* FontAwesomeBrands.otf */,
 				4C9BA8BB27EE823D008F1A70 /* FontAwesome.otf */,
 				AD6F202D1D6896B800DEF1F0 /* FontAwesomeKit.h */,
 				AD6F20441D68970600DEF1F0 /* foundation-icons.ttf */,
@@ -127,6 +142,8 @@
 			files = (
 				AD6F20501D68970600DEF1F0 /* FAKIonIcons.h in Headers */,
 				4C9BA8C627EEF689008F1A70 /* FAKFontRegistryManager.h in Headers */,
+				4C86A4F527F1327D00ADBBF4 /* FAKFontAwesomeBrands.h in Headers */,
+				4C86A4E827F0F5BB00ADBBF4 /* NSDictionary+keyForObject.h in Headers */,
 				AD6F20541D68970600DEF1F0 /* FAKOcticons.h in Headers */,
 				AD6F204A1D68970600DEF1F0 /* FAKFontAwesome.h in Headers */,
 				AD6F204C1D68970600DEF1F0 /* FAKFoundationIcons.h in Headers */,
@@ -202,6 +219,7 @@
 				AD6F205E1D68970600DEF1F0 /* zocial-regular-webfont.ttf in Resources */,
 				AD6F205D1D68970600DEF1F0 /* octicons.ttf in Resources */,
 				AD6F205C1D68970600DEF1F0 /* Material-Design-Iconic-Font.ttf in Resources */,
+				4C86A4F127F1321700ADBBF4 /* FontAwesomeBrands.otf in Resources */,
 				4C9BA8BC27EE823E008F1A70 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,8 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C9BA8C727EEF689008F1A70 /* FAKFontRegistryManager.m in Sources */,
+				4C86A4F427F1327D00ADBBF4 /* FAKFontAwesomeBrands.m in Sources */,
 				AD6F20511D68970600DEF1F0 /* FAKIonIcons.m in Sources */,
 				AD6F20531D68970600DEF1F0 /* FAKMaterialIcons.m in Sources */,
+				4C86A4E927F0F5BB00ADBBF4 /* NSDictionary+keyForObject.m in Sources */,
 				AD6F20571D68970600DEF1F0 /* FAKZocial.m in Sources */,
 				AD6F20551D68970600DEF1F0 /* FAKOcticons.m in Sources */,
 				AD6F204D1D68970600DEF1F0 /* FAKFoundationIcons.m in Sources */,

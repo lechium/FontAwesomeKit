@@ -2,8 +2,38 @@
 
 @implementation AppDelegate
 
+- (void)processTestFile {
+    NSArray *badEggs = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"brandBadEggs" ofType:@"plist"]];
+    //NSLog(@"bad eggs %@", badEggs);
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"brands" ofType:@"scss"];
+    NSString *testFile = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    NSMutableArray *newArray = [NSMutableArray new];
+    NSMutableArray *badEggArray = [NSMutableArray new];
+    NSArray *lineArray = [testFile componentsSeparatedByString:@"\n"];
+    [lineArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSString *first = [[obj componentsSeparatedByString:@" "] firstObject];
+        first = [first stringByReplacingOccurrencesOfString:@":" withString:@""];
+        NSLog(@"first: %@", first);
+        if ([badEggs containsObject:first]){
+            //NSLog(@"bad eggs contains: %@", first);
+            [badEggArray addObject:obj];
+        } else {
+            [newArray addObject:obj];
+        }
+    }];
+    NSString *newString = [newArray componentsJoinedByString:@"\n"];
+    NSString *badEggString = [badEggArray componentsJoinedByString:@"\n"];
+    NSString *outputFile = [NSHomeDirectory() stringByAppendingPathComponent:@"trimmedTBrandFile.txt"];
+    NSString *outputFile2 = [NSHomeDirectory() stringByAppendingPathComponent:@"trimmedBrandFile2.txt"];
+    [newString writeToFile:outputFile atomically:true encoding:NSUTF8StringEncoding error:nil];
+    [badEggString writeToFile:outputFile2 atomically:true encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"wrote to file: %@", outputFile);
+    NSLog(@"wrote to file: %@", outputFile2);
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //[self processTestFile];
     // Override point for customization after application launch.
     return YES;
 }

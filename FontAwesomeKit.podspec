@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'FontAwesome' do |ss|
     ss.dependency 'FontAwesomeKit/Core'
-    ss.source_files = 'FontAwesomeKit/FAKFontAwesome.{h,m}'
-    ss.resource  = 'FontAwesomeKit/FontAwesome.otf'
+    ss.source_files = 'FontAwesomeKit/FAKFontAwesome.{h,m}', 'FontAwesomeKit/FAKFontAwesomeBrands.{h,m}'
+    ss.resource  = 'FontAwesomeKit/FontAwesome.otf', 'FontAwesomeKit/FontAwesomeBrands.otf'
   end
 
   s.subspec 'FoundationIcons' do |ss|

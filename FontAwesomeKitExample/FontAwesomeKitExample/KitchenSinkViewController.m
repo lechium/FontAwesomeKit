@@ -1,5 +1,5 @@
 #import "KitchenSinkViewController.h"
-#import "FontAwesomeKit.h"
+#import <FontAwesomeKit/FontAwesomeKit.h>
 
 @interface KitchenSinkViewController ()
 
@@ -14,6 +14,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     self.tabBarItem.image = [[FAKFoundationIcons filterIconWithSize:30] imageWithSize:CGSizeMake(30, 30)];
     self.tabBarItem.title = @"Kitchen Sink";
 }
@@ -34,7 +35,7 @@
                                                                             target:nil
                                                                             action:nil];
     
-    FAKFontAwesome *refreshIcon = [FAKFontAwesome refreshIconWithSize:18];
+    FAKFontAwesome *refreshIcon = [FAKFontAwesome syncIconWithSize:18];
     [refreshIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
     UIImage *rightImage = [refreshIcon imageWithSize:CGSizeMake(18, 18)];
     refreshIcon.iconFontSize = 15;

@@ -37,6 +37,7 @@
 
 - (void)registerName:(NSString *)fontName forClass:(Class)cls {
     if (fontName) {
+        DLog(@"registering name: %@ for class: %@", fontName, cls);
         NSString *classString = NSStringFromClass(cls);
         _registry[classString] = fontName;
     } else {

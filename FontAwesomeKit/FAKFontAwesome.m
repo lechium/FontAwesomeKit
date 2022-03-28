@@ -4,29 +4,6 @@
 
 @implementation FAKFontAwesome
 
-+ (NSString *)fontName {
-    
-    NSString *returnObject = [super fontName];
-    if (returnObject) {
-        return returnObject;
-    }
-    NSPredicate *proPredicate = [NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, NSDictionary<NSString *,id> * _Nullable bindings) {
-        return ([evaluatedObject containsString:@"Pro"]);
-    }];
-    
-    NSPredicate *namePredicate = [NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, NSDictionary<NSString *,id> * _Nullable bindings) {
-        return ([evaluatedObject containsString:@"Font Awesome"] || [evaluatedObject containsString:@"FontAwesome"]);
-    }];
-    
-    NSArray *awesomeArray = [[UIFont familyNames] filteredArrayUsingPredicate:namePredicate];
-    if (awesomeArray.count > 1){
-        returnObject = [[awesomeArray filteredArrayUsingPredicate:proPredicate] firstObject];
-        if (returnObject) return returnObject;
-    }
-    returnObject = [awesomeArray firstObject];
-    return returnObject;
-}
-
 + (UIFont *)iconFontWithSize:(CGFloat)size
 {
 #ifndef DISABLE_FONTAWESOME_AUTO_REGISTRATION
@@ -40,7 +17,9 @@
             proName = [self registerIconFontWithURL:fontAwesomePro];
         } else {
             fontAwesomePro = [[NSBundle mainBundle] URLForResource:@"FontAwesomePro" withExtension:@"otf"];
-            proName =  [self registerIconFontWithURL:fontAwesomePro];
+            if([man fileExistsAtPath:fontAwesomePro.path]){
+                proName =  [self registerIconFontWithURL:fontAwesomePro];
+            }
         }
         freeName = [self registerIconFontWithURL:[[NSBundle bundleForClass:[FAKFontAwesome class]] URLForResource:@"FontAwesome" withExtension:@"otf"]];
         if (proName){
@@ -50,7 +29,7 @@
         }
     });
 #endif
-    NSString *fontAwesomeName = [FAKFontAwesome fontName];
+    NSString *fontAwesomeName = [self fontName];
     //DLog(@"font awesome name: %@", fontAwesomeName);
     UIFont *font = [UIFont fontWithName:fontAwesomeName size:size];
     if (!font) {

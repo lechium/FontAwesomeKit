@@ -1,5 +1,6 @@
 #import "IconMapCell.h"
-#import "FontAwesomeKit.h"
+#import <FontAwesomeKit/FontAwesomeKit.h>
+
 
 @interface IconMapCell ()
 

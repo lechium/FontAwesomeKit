@@ -1,6 +1,6 @@
 #import "StackIconsViewController.h"
 #import "StackIconCell.h"
-#import "FAKFontAwesome.h"
+#import <FontAwesomeKit/FontAwesomeKit.h>
 
 @interface StackIconsViewController ()
 
@@ -13,7 +13,7 @@
 - (void)awakeFromNib
 {
     UIImage *circledFlag =
-    [UIImage imageWithStackedIcons:@[[FAKFontAwesome squareOIconWithSize:35], [FAKFontAwesome flagIconWithSize:18]]
+    [UIImage imageWithStackedIcons:@[[FAKFontAwesome squareIconWithSize:35], [FAKFontAwesome flagIconWithSize:18]]
                          imageSize:CGSizeMake(35, 35)];
     
     self.tabBarItem.image = circledFlag;
@@ -29,7 +29,7 @@
 {
     if (!_stackedIcons) {
         
-        FAKIcon *squareOIcon = [FAKFontAwesome squareOIconWithSize:70];
+        FAKIcon *squareOIcon = [FAKFontAwesome squareIconWithSize:70];
         
         FAKIcon *banIcon = [FAKFontAwesome banIconWithSize:75];
         [banIcon addAttribute:NSForegroundColorAttributeName value:[UIColor redColor]];

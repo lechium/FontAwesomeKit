@@ -60,6 +60,17 @@
 + (instancetype)iconWithCode:(NSString *)code size:(CGFloat)size;
 
 /**
+ *  Creates and returns a FAKIcon object for the specified glyph name and size.
+ *
+ *  @param code A NSSTring representing the name of the glyph, e.g. @"fa-"
+ *  @param size The desired size (in points) of the icon font that will be used for the icon. This value must be greater than 0.0.
+ *
+ *  @return Returns a FAKIcon object or nil, if the name is not known or the font does not support lookup by name
+ */
+
++ (instancetype)iconWithName:(NSString *)iconName size:(CGFloat)size;
+
+/**
  *  Creates and returns a FAKIcon object for the specified identifier and size
  *
  *  @param identifier A string that represents the icon.
@@ -74,6 +85,7 @@
  *
  *  @return Returns a FAKIcon object if lookup strings exists, returns nil otherwise.
  */
+
 + (instancetype)iconWithIdentifier:(NSString *)identifier size:(CGFloat)size error:(NSError **)error;
 
 /**

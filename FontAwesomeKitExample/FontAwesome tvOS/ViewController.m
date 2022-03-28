@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "FontAwesomeKit.h"
+#import <FontAwesomeKit/FontAwesomeKit.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView;

@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
-#import "FAKIcon.h"
+#import <FontAwesomeKit/FontAwesomeKit.h>
 
 @interface AppIconCell : UICollectionViewCell
 

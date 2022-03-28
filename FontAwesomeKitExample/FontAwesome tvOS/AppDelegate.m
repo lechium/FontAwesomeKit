@@ -14,9 +14,31 @@
 
 @implementation AppDelegate
 
+- (void)processTestFile {
+    NSArray *badEggs = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"badEggs" ofType:@"plist"]];
+    NSLog(@"bad eggs %@", badEggs);
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"testFile" ofType:@"txt"];
+    NSString *testFile = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    NSMutableArray *newArray = [NSMutableArray new];
+    NSArray *lineArray = [testFile componentsSeparatedByString:@"\n"];
+    [lineArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSString *first = [[obj componentsSeparatedByString:@" "] firstObject];
+        if ([badEggs containsObject:first]){
+            NSLog(@"bad eggs contains: %@", first);
+        } else {
+            [newArray addObject:obj];
+        }
+    }];
+    NSString *newString = [newArray componentsJoinedByString:@"\n"];
+    NSString *outputFile = [NSHomeDirectory() stringByAppendingPathComponent:@"trimmedTestFile.txt"];
+    [newString writeToFile:outputFile atomically:true encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"wrote to file: %@", outputFile);
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"did finish launching??");
     // Override point for customization after application launch.
+    [self processTestFile];
     return YES;
 }
 
