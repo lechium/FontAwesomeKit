@@ -24,6 +24,10 @@
 		<data>
 		9QnBf8IFTMvddYQsLOvbRgiRuMg=
 		</data>
+		<key>Headers/FAKFontAwesome6Pro.h</key>
+		<data>
+		gQmsRD1g1xdEMsxExWgZJ2cx/P8=
+		</data>
 		<key>Headers/FAKFontAwesomeBrands.h</key>
 		<data>
 		rHfd558SRpSCulU/NOUnymGvKIs=
@@ -70,7 +74,7 @@
 		</data>
 		<key>Headers/FontAwesomeKit.h</key>
 		<data>
-		9JQq0W0N4IXPjwjflb+m42Iu0SY=
+		KQNRkn517UlykXsMhujKmIT/9Iw=
 		</data>
 		<key>Headers/NSDictionary+keyForObject.h</key>
 		<data>
@@ -160,6 +164,17 @@
 			<key>hash2</key>
 			<data>
 			s73qM7JCxwnxUTB10bZydTRJeckiNyFEj25h0f/2Bc8=
+			</data>
+		</dict>
+		<key>Headers/FAKFontAwesome6Pro.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gQmsRD1g1xdEMsxExWgZJ2cx/P8=
+			</data>
+			<key>hash2</key>
+			<data>
+			LVY8QDwkwYq6Ou6/F2EvA/IQk3hBBAwr5m2pj+NIF3U=
 			</data>
 		</dict>
 		<key>Headers/FAKFontAwesomeBrands.h</key>
@@ -287,11 +302,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9JQq0W0N4IXPjwjflb+m42Iu0SY=
+			KQNRkn517UlykXsMhujKmIT/9Iw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ww1X6YQPnp1T7aCm1T+OmfCV8Lz9R8vhFZhf+mZXKmI=
+			gdYfLiquCwb3rH+HPUXzZzCIXHMAwhtD4iiElewWBnc=
 			</data>
 		</dict>
 		<key>Headers/NSDictionary+keyForObject.h</key>

@@ -7,6 +7,7 @@
 #import "FAKFontAwesomeBrands.h"
 #import "FAKFontAwesomeFree.h"
 #import "FAKFontAwesomeSix.h"
+#import "FAKFontAwesome6Pro.h"
 #import "FAKFontAwesomeBrands6.h"
 #import "FAKFoundationIcons.h"
 #import "FAKZocial.h"
