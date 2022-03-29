@@ -292,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC44A87816CD9B3F0039E101 /* Build configuration list for PBXNativeTarget "FontAwesomeKitExample" */;
 			buildPhases = (
+				4CAD480F27F3668000B25549 /* ShellScript */,
 				CC44A85116CD9B3F0039E101 /* Sources */,
 				CC44A85216CD9B3F0039E101 /* Frameworks */,
 				CC44A85316CD9B3F0039E101 /* Resources */,
@@ -368,6 +369,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CAD480F27F3668000B25549 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63C94B2B1BD6DDB400C5EFE5 /* Sources */ = {

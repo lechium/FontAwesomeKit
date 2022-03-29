@@ -60,7 +60,7 @@
                 SEL selector = NSSelectorFromString(testAwesomeFunction);
                 if ([FAKFontAwesome respondsToSelector:selector]){
                     FAKFontAwesome *fa = [FAKFontAwesome performSelector:selector withObject:@35.0];
-                    [fa setImageColor:[UIColor whiteColor]];
+                    //[fa setImageColor:[UIColor whiteColor]];
                     [newArray addObject:fa];
                 }
              
@@ -74,7 +74,7 @@
                 SEL selector = NSSelectorFromString(testAwesomeFunction);
                 if ([FAKFontAwesome6Pro respondsToSelector:selector]){
                     FAKFontAwesome6Pro *fa = [FAKFontAwesome6Pro performSelector:selector withObject:@35.0];
-                    [fa setImageColor:[UIColor whiteColor]];
+                    //[fa setImageColor:[UIColor whiteColor]];
                     [newArray addObject:fa];
                 }
              
