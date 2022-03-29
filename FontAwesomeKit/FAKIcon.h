@@ -183,6 +183,8 @@
 
 - (UIImage *)easyImageRepWithColor:(UIColor *)color;
 
++ (NSDictionary *)allNames;
+
 @end
 
 @interface UIImage (FAKAddon)

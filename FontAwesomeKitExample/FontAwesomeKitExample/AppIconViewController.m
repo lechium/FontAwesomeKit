@@ -12,6 +12,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     self.tabBarItem.image = [[FAKFontAwesome thLargeIconWithSize:30] imageWithSize:CGSizeMake(30, 30)];
     self.tabBarItem.title = @"App Icons";
 }
@@ -49,8 +50,40 @@
         appstoreIcon.drawingPositionAdjustment = UIOffsetMake(0, -2);
         appstoreIcon.drawingBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"appstore-gradient"]];
         [appstoreIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
-
-        _appIcons = @[mailIcon, musicIcon, phoneIcon, facetimeIcon, messageIcon, cameraIcon, appstoreIcon];
+       
+        __block NSMutableArray *newArray = [NSMutableArray new];
+       NSArray *dealies = @[@"chartLine", @"burgerSoda", @"heartbeat",@"university", @"umbrellaBeach", @"books", @"function", @"music", @"bookReader", @"hiking", @"school", @"atomAlt", @"plane"];
+        
+        [dealies enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            
+             NSString *testAwesomeFunction = [NSString stringWithFormat:@"%@IconWithSize:", obj];
+                SEL selector = NSSelectorFromString(testAwesomeFunction);
+                if ([FAKFontAwesome respondsToSelector:selector]){
+                    FAKFontAwesome *fa = [FAKFontAwesome performSelector:selector withObject:@35.0];
+                    [fa setImageColor:[UIColor whiteColor]];
+                    [newArray addObject:fa];
+                }
+             
+        }];
+        
+        NSArray *sixEquiv = @[@"chartLineUp", @"burgerGlass", @"heartPulse", @"university", @"umbrellaBeach", @"books", @"function", @"violin", @"bookOpenReader", @"personHiking", @"school", @"atomSimple", @"plane"];
+        
+        [sixEquiv enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            
+             NSString *testAwesomeFunction = [NSString stringWithFormat:@"%@IconWithSize:", obj];
+                SEL selector = NSSelectorFromString(testAwesomeFunction);
+                if ([FAKFontAwesome6Pro respondsToSelector:selector]){
+                    FAKFontAwesome6Pro *fa = [FAKFontAwesome6Pro performSelector:selector withObject:@35.0];
+                    [fa setImageColor:[UIColor whiteColor]];
+                    [newArray addObject:fa];
+                }
+             
+        }];
+        
+        
+        _appIcons = newArray;
+        
+        //_appIcons = @[mailIcon, musicIcon, phoneIcon, facetimeIcon, messageIcon, cameraIcon, appstoreIcon];
     }
     return _appIcons;
 }

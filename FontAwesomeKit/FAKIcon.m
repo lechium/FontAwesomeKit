@@ -54,6 +54,10 @@
     return icon;
 }
 
++ (NSDictionary *)allNames {
+    @throw @"You need to implement this method in subclass.";
+}
+
 + (instancetype)iconWithName:(NSString *)iconName size:(CGFloat)size
 {
     FAKIcon *icon = [[self alloc] init];

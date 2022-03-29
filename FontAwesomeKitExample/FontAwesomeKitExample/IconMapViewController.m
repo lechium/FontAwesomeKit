@@ -133,7 +133,7 @@
     LOG_SELF;
     DLog(@"sender: %@", sender);
     [self.icons removeAllObjects];
-    NSArray *groups = @[@"FAKFontAwesome", @"FAKFontAwesomeBrands", @"FAKFoundationIcons",@"FAKZocial",@"FAKIonIcons", @"FAKOcticons"];
+    NSArray *groups = @[@"FAKFontAwesome", @"FAKFontAwesomeBrands", @"FAKFoundationIcons",@"FAKZocial",@"FAKIonIcons", @"FAKOcticons", @"FAKFontAwesome6Pro"];
     if (sender.selectedSegmentIndex == 0) {
         [self loadFontAwesome];
     } else if (sender.selectedSegmentIndex == 1) {
@@ -147,6 +147,9 @@
         [self loadIonIcons];
     } else if (sender.selectedSegmentIndex == 5) {
         [self loadOcticons];
+    } else if (sender.selectedSegmentIndex == 6) {
+        [self loadFontForClass:FAKFontAwesome6Pro.class];
+        //[self loadFontAwesome6];
     }
     self.iconGroup = groups[sender.selectedSegmentIndex];
     self.originIcons = [self.icons mutableCopy];
@@ -165,16 +168,24 @@
 
 //#define BAD_EGGS
 
+- (void)loadFontForClass:(Class)class {
+    NSArray *keys = [[[class allNames] allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    for (NSString *key in keys) {
+        FAKIcon *icon = [class iconWithName:key size:50];
+        [self.icons addObject:icon];
+    }
+}
+
 - (void)loadFontAwesome
 {
     LOG_SELF;
-    NSArray *keys = [[[FAKFontAwesome6Pro allNames] allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    NSArray *keys = [[[FAKFontAwesome allNames] allKeys] sortedArrayUsingSelector:@selector(compare:)];
 #ifdef BAD_EGGS
     NSMutableArray *badEggs = [NSMutableArray new];
 #endif
     for (NSString *key in keys) {
         //FAKFontAwesome *icon = [FAKFontAwesome iconWithIdentifier:key size:50 error:nil];
-        FAKFontAwesome6Pro *icon = [FAKFontAwesome6Pro iconWithName:key size:50];
+        FAKFontAwesome *icon = [FAKFontAwesome iconWithName:key size:50];
 #ifdef BAD_EGGS
         NSData *imageData = UIImagePNGRepresentation([icon easyImageRepWithColor:[UIColor blackColor]]);
         NSString *md5 = [imageData MD5];

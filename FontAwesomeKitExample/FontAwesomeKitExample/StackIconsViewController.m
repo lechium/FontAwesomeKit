@@ -12,6 +12,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     UIImage *circledFlag =
     [UIImage imageWithStackedIcons:@[[FAKFontAwesome squareIconWithSize:35], [FAKFontAwesome flagIconWithSize:18]]
                          imageSize:CGSizeMake(35, 35)];
@@ -29,18 +30,25 @@
 {
     if (!_stackedIcons) {
         
-        FAKIcon *squareOIcon = [FAKFontAwesome squareIconWithSize:70];
+        FAKFontAwesome6Pro *squareOIcon = [FAKFontAwesome6Pro squareIconWithSize:70];
+        //[squareOIcon setImageColor:[UIColor whiteColor]];
         
         FAKIcon *banIcon = [FAKFontAwesome banIconWithSize:75];
         [banIcon addAttribute:NSForegroundColorAttributeName value:[UIColor redColor]];
-
+        
+        FAKFontAwesome6Pro *paintBrush = [FAKFontAwesome6Pro paletteIconWithSize:35];
+        paintBrush.drawingPositionAdjustment = UIOffsetMake(10, 10);
+        //[paintBrush addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
+        FAKFontAwesome6Pro *music = [FAKFontAwesome6Pro musicNoteIconWithSize:35];
+        music.drawingPositionAdjustment = UIOffsetMake(-10, -10);
+        //[music setImageColor:[UIColor whiteColor]];
         _stackedIcons = @[
             @[[FAKFontAwesomeBrands twitterIconWithSize:35], squareOIcon],
             @[[FAKFontAwesomeBrands weiboIconWithSize:35], squareOIcon],
             @[[FAKFontAwesomeBrands tumblrIconWithSize:35], squareOIcon],
             
             @[[FAKFontAwesome cameraIconWithSize:35], banIcon],
-            @[[FAKFontAwesome phoneIconWithSize:35], banIcon],
+            @[paintBrush, music, banIcon],
             @[[FAKFontAwesome bullhornIconWithSize:35], banIcon],
         ];
     }
